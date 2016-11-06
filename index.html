@@ -1,17 +1,35 @@
 <html>
   <head>
-  <link rel="stylesheet" type="text/css" href="css/estilos.css">
-  <script type="text/javascript">
+	  <link rel="stylesheet" type="text/css" href="css/estilos.css">
+	  <script language="JavaScript" type="text/javascript" src="js/home.js"></script>
+
+  	</head>
+
+<body>
+	<div class="pantallahome">
+		<img id="imagenmapa" title="Mapa de Mosquera", name="mapa", alt="Mapa de imágenes. Pulsa en cada una de los círculos." >
+		
+	</div>
+ 
+	<p>
+		<button onclick="myMove()">Click Me</button>
+	</p> 
+
+	<div id ="container">
+		<div id ="animate"></div>
+	</div>
+
+ <div id="Container2">
+      <img alt="Click to zoom" onclick="resizeImg(this)" 
+        src="img/imagen.png" />
+    </div>
+
+</body>
+</html>
+
+<script type="text/javascript">
+document.getElementById("imagenmapa").src = "img/mapamosquera.svg";
+</script>
 
 
-  </script>
-  </head>
-  <body>
-<div class="pantallahome">
-	<img src="img/mapamosquera.svg">
 
-</div>
-  	
-
-  </body>
-  </html>
