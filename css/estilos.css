@@ -200,3 +200,7 @@ nav ul li a {
     background-color: #FFF;
     z-index: 2;
 }
+
+#contenido{
+    font-size: 3em;
+}
