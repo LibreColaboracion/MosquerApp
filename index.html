@@ -26,7 +26,8 @@
 
 <!-- fin del menu    -->
 	
-	<div class="mapa"><img onclick="mostrar('')"src="img/mapamosquera.svg">
+	<div id="map" style="width:100%;height:63%; background:yellow"></div>
+
 		<div class="lugares">
 			<div> <a href="#">1</a>	</div>
 			<div> <a href="#">2</a>	</div>
@@ -61,3 +62,7 @@
 <script type="text/javascript">
 	document.getElementById("imagenmapa").src = "img/mapamosquera.svg";
 </script>
+
+
+
+<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
