@@ -24,3 +24,5 @@ function zoom(){
   document.getElementById ("zoom").className = "lugareszoom";
 
 }
+
+
