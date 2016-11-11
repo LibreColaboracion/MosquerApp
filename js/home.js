@@ -10,12 +10,17 @@ function menuc(){
 }
 
 
+/* Mostrar y ocultar detalles del lugar*/
 function mostrar(){
   document.getElementById ("detalles").className = "detallesvisto";
-
 }
-
 function nomostrar(){
   document.getElementById ("detalles").className = "detalles";
+}
+
+
+/* zoom foto lugar*/
+function zoom(){
+  document.getElementById ("zoom").className = "lugareszoom";
 
 }
