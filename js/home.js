@@ -19,11 +19,13 @@ function nomostrar(){
 }
 
 
-/* zoom foto lugar*/
+/* zoom foto */
 function zoom(){
   document.getElementById ("zoom").className = "lugareszoom";
-
 }
 
-
+/* zoom zona */
+function zoomzona(){
+  document.getElementById ("sanjose").className = "zonazomm";
+}
 
