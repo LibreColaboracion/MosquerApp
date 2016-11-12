@@ -1,6 +1,20 @@
-#sanjose {
-    background-color: red;
-    fill: red;
-
-
+.pequeno {
+       fill: red;
+        transition: fill .3s ease-out;
+        transition: 1.5s ease;
+        -moz-transition: 1.5s ease; /* Firefox */
+        -webkit-transition: 1.5s ease; /* Chrome - Safari */
+        -o-transition: 1.5s ease; /* Opera */
+        z-index: 98;
 }
+
+.pequeno:hover {
+    fill: #009966;
+        transform : scale(2);
+        -moz-transform : scale(2); /* Firefox */
+        -webkit-transform : scale(2); /* Chrome - Safari */
+        -o-transform : scale(2); /* Opera */
+        -ms-transform : scale(2); /* IE9 */
+        z-index: 99;
+}
+

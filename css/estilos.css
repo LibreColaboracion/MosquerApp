@@ -96,22 +96,15 @@ nav ul li a {
 /* Marco de ventana con detalles de la seleecion */
 
 
-.marcomapa{
+.mapa{
 	width: 100%;
 	height: 108%;
 	z-index: 1;
-    background-color: #8B97A3;
+    background-color: green;
     
-
-
 }
 
-.marcomapa svg{
-	width: 100%;
-	height: 100%;
-	z-index: -1;
-    zoom: 150%;
-}
+
 
 
 /* css para cada punto a ubicar en el mapa*/
@@ -120,6 +113,23 @@ nav ul li a {
     height: auto;	
     position: relative;
 	background: black;
+    transition: fill .3s ease-out;
+        transition: 1.5s ease;
+        -moz-transition: 1.5s ease; /* Firefox */
+        -webkit-transition: 1.5s ease; /* Chrome - Safari */
+        -o-transition: 1.5s ease; /* Opera */
+        z-index: 98;
+}
+
+
+.lugares:hover{
+
+    transform : scale(2);
+        -moz-transform : scale(2); /* Firefox */
+        -webkit-transform : scale(2); /* Chrome - Safari */
+        -o-transform : scale(2); /* Opera */
+        -ms-transform : scale(2); /* IE9 */
+        z-index: 99;
 }
 
 .lugares img{
@@ -130,18 +140,12 @@ nav ul li a {
 }
 
 
-
+/*
 .lugareszoom img{
     width: 100%;
     height: auto;
     margin-top: -136%;
     margin-left: 1%;
-}
-
-.zonazomm {
-    width: 100%;
-    height: auto;
-   top: -50%;
 }
 
 
@@ -213,9 +217,3 @@ nav ul li a {
 }
 
 
-
-
-#object path1363{
-
-    background-color: red;
-}

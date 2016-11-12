@@ -23,9 +23,3 @@ function nomostrar(){
 function zoom(){
   document.getElementById ("zoom").className = "lugareszoom";
 }
-
-/* zoom zona */
-function zoomzona(){
-  document.getElementById ("sanjose").className = "zonazomm";
-}
-
