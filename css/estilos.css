@@ -101,6 +101,7 @@ nav ul li a {
 	height: 108%;
 	z-index: 1;
     background-color: green;
+    position: relative;
     
 }
 
@@ -176,22 +177,20 @@ nav ul li a {
 
 .galeria img{
     width: 100%;
-
+    position: absolute;
 
 }
 
 .cerrar{
 	width: 15%;
 	height: 15%;
-	margin-top:-56%;
-    /*margin-right: -42%;*/
-	float: right;
 	z-index: 2;
 	position: relative;
 }
 
 .audio{
 	z-index: 3;
+    position: relative;
 }
 
 .audio img {
@@ -213,7 +212,7 @@ nav ul li a {
 }
 
 #contenido{
-    font-size: 3em;
+    font-size: 1em;
 }
 
 
