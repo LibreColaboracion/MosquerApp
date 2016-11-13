@@ -17,9 +17,3 @@ function mostrar(){
 function nomostrar(){
   document.getElementById ("detalles").className = "detalles";
 }
-
-
-/* zoom foto */
-function zoom(){
-  document.getElementById ("zoom").className = "lugares zoom";
-}

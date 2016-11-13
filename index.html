@@ -2,16 +2,12 @@
   <head>
   	<title>MosquerApp</title>
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
-    
-	<script language="JavaScript" type="text/javascript" src="js/contenidos.js"></script>
+
 
     <script language="JavaScript" type="text/javascript" src="js/home.js"></script>
 
-    
-
 	<?xml-stylesheet type="text/css" href="css/svg.css" ?>
     <meta charset="utf-8">
-
 
 </head>
 
@@ -32,64 +28,35 @@
             <img class="logo" onclick="menu('black')" src="img/menu.svg">
             <p class = "titulo">Conoce Mosquera</p>
         </div>
-
 <!-- fin del menu    -->
+
 	 <div class="marcomapa">
+
 <!-- lugar para trabajar el mapa  -->
         <object type="image/svg+xml" data="img/xmapamosquera.svg" class="mapa">
         Mapa de Mosquera <!-- fallback image in CSS -->
         </object>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             
-		</div>
-        
+		        
 
 
-        <div class="lugares">
-				<div id = "zoom" onclick="zoom()"><img  src="lugares/lugar1/img/iglesia.png"> <a href="#"></a></div>
-			
-		</div>
-
-
-
-<!-- lugar para ventana de detalles de ugares   -->
+<!-- lugar para ventana de detalles de lugares   -->
 
 		<div id="detalles">
-        
-        	<div class="galeria">
-                <img class="cerrar" onclick="nomostrar()"src="img/error.svg">
-        		<img src="lugares/lugar1/img/iglesia.png"> 
-        		
+            <img class="cerrar" onclick="nomostrar()"src="img/error.svg">
+        	
+            <div class="galeria">
+                <img src="lugares/lugar1/img/iglesia.png"> 
         	</div>
-        
-              	<div class="audio">
-        		<img src="img/sonido.gif">
-        		<img id="play" src="img/play.svg">
-        	</div>
-    
 
+           	<div class="audio">
+       		<img src="img/sonido.gif">
+       		<img id="play" src="img/play.svg">
+       	</div>
 	        <div class="texto">
 		       <div id="contenido"></div>
-               <div id="prueba"></div>
-		        
+        
                 </div>   
 		</div>
 	    
@@ -98,4 +65,4 @@
 </body>
 </html>
 
-
+<script language="JavaScript" type="text/javascript" src="js/contenidos.js"></script>

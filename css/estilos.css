@@ -109,45 +109,7 @@ nav ul li a {
 
 
 /* css para cada punto a ubicar en el mapa*/
-.lugares{
-    width: 100%;
-    height: auto;	
-    position: relative;
-	background: black;
-    transition: fill .3s ease-out;
-        transition: 1.5s ease;
-        -moz-transition: 1.5s ease; /* Firefox */
-        -webkit-transition: 1.5s ease; /* Chrome - Safari */
-        -o-transition: 1.5s ease; /* Opera */
-        z-index: 98;
-}
 
-
-.lugares:hover{
-
-    transform : scale(2);
-        -moz-transform : scale(2); /* Firefox */
-        -webkit-transform : scale(2); /* Chrome - Safari */
-        -o-transform : scale(2); /* Opera */
-        -ms-transform : scale(2); /* IE9 */
-        z-index: 99;
-}
-
-.lugares img{
-    width: 10%;
-    height: auto;
-    margin-top: -90%;
-    margin-left: 50%;
-}
-
-
-/*
-.lugareszoom img{
-    width: 100%;
-    height: auto;
-    margin-top: -136%;
-    margin-left: 1%;
-}
 
 
 
