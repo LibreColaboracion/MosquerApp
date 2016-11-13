@@ -1,5 +1,4 @@
 /*Codigo para marco general */
-
 .body{
     background-color: #FDDD04;
 }
@@ -213,7 +212,6 @@ nav ul li a {
 
 #contenido{
     font-size: 1em;
-    text-align : justify;
 }
 
 
