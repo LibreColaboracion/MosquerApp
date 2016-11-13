@@ -21,5 +21,5 @@ function nomostrar(){
 
 /* zoom foto */
 function zoom(){
-  document.getElementById ("zoom").className = "lugareszoom";
+  document.getElementById ("zoom").className = "lugares zoom";
 }
