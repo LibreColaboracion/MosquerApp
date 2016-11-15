@@ -2,6 +2,7 @@
   <head>
   	<title>MosquerApp</title>
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+<<<<<<< HEAD
 
 
     <script language="JavaScript" type="text/javascript" src="js/home.js"></script>
@@ -14,6 +15,10 @@
 
 
 
+=======
+	
+    <script language="JavaScript" type="text/javascript" src="js/home.js"></script>
+>>>>>>> 79a2444e03fad6be96e101c744cb3ea3fd403b54
 	<?xml-stylesheet type="text/css" href="css/svg.css" ?>
     <meta charset="utf-8">
 
@@ -42,9 +47,8 @@
 
 <!-- lugar para trabajar el mapa  -->
         <object type="image/svg+xml" data="img/xmapamosquera.svg" class="mapa">
-        Mapa de Mosquera 
         </object>
-
+<!-- Usando este DIV para probar api de google maps-->
         <div id="map"></div>
 
 <!-- Lista probivional de lugares   -->        
@@ -72,6 +76,8 @@
 		       <div id="tituloh1"></div>
                <div id="texto"></div>
                 </div>   
+
+
 		</div>
 	    
  
@@ -88,8 +94,6 @@
       lng: -74.23010099999999
     });
 
-
-
   map.addMarker({
   lat: 4.7,
   lng: -74.23,
@@ -98,10 +102,34 @@
     content: "<p>HTML Content</p>"
         },
   click: function(e) {
+
+		<div id="detalles">
+        
+        	<div class="galeria">
+                <img class="cerrar" onclick="nomostrar()" src="img/error.svg">
+        		<img src="lugares/lugar1/img/iglesia.png"> 
+        		
+        	</div>
+        
+              	<div class="audio">
+        		<img src="img/sonido.gif">
+        		<img id="play" src="img/play.svg">
+        	</div>
+
     
   }
 });
 
   </script>
+	        <div class="texto">
+		       <div id="contenido"></div>
+               <div id="prueba"></div>
+		        
+                </div>   
+		</div>
+	    
 
+<script language="JavaScript" type="text/javascript" src="js/contenidos.js"></script>
+</body>
+</html>
 

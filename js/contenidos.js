@@ -16,3 +16,24 @@ var capa = document.getElementById("tituloh1");
 var h1 = document.createElement("h1");
 h1.innerHTML = objetoJSON.titulo;
 capa.appendChild(h1);
+
+
+
+
+
+/* dejo el codigo de Carlos R, sin borrar para analisar las diferentes logicas de resolver el problema,
+aun que la de Carlos R es mas estilizada por su experiencia quiero que las vea el tambien.*/
+
+var objetoJSON = {
+		"titulo":"Iglesia Principal de Mosquera",
+		"parrafo":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas Letraset, las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum."
+                };
+var d = document.getElementById ("contenido");
+console.log (objetoJSON.titulo);
+console.log (objetoJSON.parrafo);
+	d.innerHTML = "objetoJSON.titulo";
+    d.innerHTML =  objetoJSON.parrafo;
+
+
+    
+
