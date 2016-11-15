@@ -1,20 +1,16 @@
 .pequeno {
-       fill: red;
-        transition: fill 3s ease-out;
         transition: 1.5s ease;
-        /*-moz-transition: 1.5s ease; /* Firefox */
-        /*-webkit-transition: 1.5s ease; /* Chrome - Safari */
-       /* -o-transition: 1.5s ease; /* Opera */
-       z-index: 98;*/
+        -moz-transition: 1.5s ease; /* Firefox */
+        -webkit-transition: 1.5s ease; /* Chrome - Safari */
+        -o-transition: 1.5s ease; /* Opera */
 }
 
 .pequeno:hover {
-    fill: #009966;
-        transform : scale(1.3);
-        -moz-transform : scale(2); /* Firefox */
-        -webkit-transform : scale(1.3); /* Chrome - Safari */
-        -o-transform : scale(2); /* Opera */
-        -ms-transform : scale(2); /* IE9 */
-        z-index: 99;*/
+        transform:scale(2,2);
+        -moz-transform : scale(2,2); /* Firefox */
+        -webkit-transform : scale(2,2); /* Chrome - Safari */
+        -o-transform : scale(2,2); /* Opera */
+        -ms-transform : scale(2,2); /* IE9 */
+        
 }
 

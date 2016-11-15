@@ -110,7 +110,15 @@ nav ul li a {
 
 /* css para cada punto a ubicar en el mapa*/
 
+#map {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
 
+#map {
+    background: #58B;
+}
 
 
 

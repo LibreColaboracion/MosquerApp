@@ -17,3 +17,7 @@ function mostrar(){
 function nomostrar(){
   document.getElementById ("detalles").className = "detalles";
 }
+
+
+
+
