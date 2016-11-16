@@ -1,9 +1,8 @@
 <html>
   <head>
   	<title>MosquerApp</title>
-	<link rel="stylesheet" type="text/css" href="css/estilos.css">
-<<<<<<< HEAD
 
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 
     <script language="JavaScript" type="text/javascript" src="js/home.js"></script>
 
@@ -11,15 +10,9 @@
 
 
     <script src="js/gmaps.js"></script>
-
-
-
-
-=======
 	
-    <script language="JavaScript" type="text/javascript" src="js/home.js"></script>
->>>>>>> 79a2444e03fad6be96e101c744cb3ea3fd403b54
 	<?xml-stylesheet type="text/css" href="css/svg.css" ?>
+
     <meta charset="utf-8">
 
 </head>
@@ -43,48 +36,47 @@
         </div>
 <!-- fin del menu    -->
 
-	 <div class="marcomapa">
-
 <!-- lugar para trabajar el mapa  -->
+	<div class="marcomapa">
         <object type="image/svg+xml" data="img/xmapamosquera.svg" class="mapa">
         </object>
+    </div>
 <!-- Usando este DIV para probar api de google maps-->
         <div id="map"></div>
 
-<!-- Lista probivional de lugares   -->        
-<div>
-    <p><a href="#" onclick="1">Iglesia</a></p>
-    <p><a href="#" onclick="2">Alcaldia</a></p>
-    <p><a href="#" onclick="3">Parque</a></p>
-
-</div>
+<!-- Lista provional de lugares   -->        
+    <div>
+        <p><a href="#" id="iglesia">Mas..</a></p>
+        
+        <p><a href="#" onclick="lugar2()" id="alcaldia">alcaldia</a></p>
+        
+        <p><a href="#" onclick="lugar3()" id="parque">parque</a></p>
+    </div>
 
 <!-- lugar para ventana de detalles de lugares   -->
 
-		<div id="detalles">
-            <img class="cerrar" onclick="nomostrar()"src="img/error.svg">
+	<div id="detalles">
+        <img class="cerrar" onclick="nomostrar()"src="img/error.svg">
         	
-            <div class="galeria">
-                <img src="lugares/lugar1/img/iglesia.png"> 
-        	</div>
+        <div class="galeria">
+            <img src="lugares/lugar1/img/iglesia.png"> 
+       	</div>
 
-           	<div class="audio">
-       		<img src="img/sonido.gif">
+        <div class="audio">
+      		<img src="img/sonido.gif">
        		<img id="play" src="img/play.svg">
        	</div>
-	        <div class="texto">
-		       <div id="tituloh1"></div>
-               <div id="texto"></div>
-                </div>   
-
-
-		</div>
-	    
+	
+        <div class="texto">
+	       <div id="tituloh1"></div>
+           <div id="parrafo"></div>
+        </div>   
+	</div>
+	  
  
 </body>
 </html>
 
-<script language="JavaScript" type="text/javascript" src="js/contenidos.js"></script>
 
 
 <script>
@@ -99,37 +91,14 @@
   lng: -74.23,
   title: 'Mosquera',
   infoWindow: {
-    content: "<p>HTML Content</p>"
+    content: "<p >Ojala aqui pueda poner mis puntos </p>"
         },
   click: function(e) {
-
-		<div id="detalles">
-        
-        	<div class="galeria">
-                <img class="cerrar" onclick="nomostrar()" src="img/error.svg">
-        		<img src="lugares/lugar1/img/iglesia.png"> 
-        		
-        	</div>
-        
-              	<div class="audio">
-        		<img src="img/sonido.gif">
-        		<img id="play" src="img/play.svg">
-        	</div>
-
-    
+	    
   }
 });
 
   </script>
-	        <div class="texto">
-		       <div id="contenido"></div>
-               <div id="prueba"></div>
-		        
-                </div>   
-		</div>
-	    
+ 
 
 <script language="JavaScript" type="text/javascript" src="js/contenidos.js"></script>
-</body>
-</html>
-
