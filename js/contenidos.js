@@ -1,80 +1,44 @@
-/* Con este JSON cargaremos el contenido, pero llamadolo desde .TXT donde el titulo sera el 
-nombre del archivo y el parrafo sera su mismo  contenido*/
-
-
-document.getElementById("iglesia").addEventListener("click", myFunction);
-
-function myFunction() {
-	var lugar = document.getElementById("iglesia");
-    document.getElementById("iglesia").innerHTML = (lugar.id);
-    }
-
- var traerdoc = require("traerdoc");
-					traerdoc.readFile('./file.txt', 'utf8', function(err, data) {
-    				if( err ){
-     			   console.log(err)
-   					 }
-    				else{
-      			  console.log(data);
-   					 }
-					});
-
-
-}	
-
-/*
-
-var objetoJSON = {"titulo":"Iglesia Principal de Mosquera",
-                  "parrafo":"aaaaa  aaa  aaaaaaaaaa   aaaaaaakjhfdkjshfk sjh"
-                };
-               
-
-con esta variable cargaremos los TITULOS en el html
-var capa = document.getElementById("tituloh1");
-var h1 = document.createElement("h1");
-h1.innerHTML = objetoJSON.titulo;
-capa.appendChild(h1)
-
-
+// esta seccion tendra los textos, considero parcialmente que
+//todo lo que sea Json este en un solo archivo.
+var iglesia = {
+    'titulo':'Catedral de Mosquera',
+    'Categorias':['cultura','turismo','religion'],
+    'historia':'<img class="galeria" src="lugares/lugar1/img/iglesia.png"> Bla bla blalblalblablabla bla bla blasvla'
     
-/*con esta variable cargaremos los parrafos en el html
-
-no logro modificar loos estilos de id parrafos
-document.getElementById("parrafo").style.color = "red";
-document.getElementById("parrafo").style.fontFamily = "Arial";
-document.getElementById("parrafo").style.fontSize = "larger";
-
-var parrafo = document.getElementById("parrafo");
-var capa2 = document.createTextNode(objetoJSON.parrafo);
-	 document.body.appendChild(capa2)
-
-
-/*leyendo archivo txt para insertar en html
-
-
-*/
-
-
-
-
-
-
-/* dejo el codigo de Carlos R, sin borrar para analisar las diferentes logicas de resolver el problema,
-aun que la de Carlos R es mas estilizada por su experiencia quiero que las vea el tambien.*/
-
-/* Dejo comentado el codigo de carlos ya que a la hora de trabajar los estilos css dle titulo por separado
-no lo permite pueto que esta insertyandolo todo en el id contenido.
-
-var objetoJSON = {
-		"titulo":"Iglesia Principal de Mosquera",
-		"parrafo":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas Letraset, las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum."
-                };
-var d = document.getElementById ("contenido");
-console.log (objetoJSON.titulo);
-console.log (objetoJSON.parrafo);
-	d.innerHTML = "objetoJSON.titulo";
-    d.innerHTML =  objetoJSON.parrafo;
-
-*/
+    };
     
+var parque = {"titulo":'Parque principal',
+    'Categorias':['cultura','turismo'],
+    'historia': '<img class="galeria" src="lugares/lugar2/img/parque.png"> ble ble ble ble  djfhjksdhfjkdshfkjhsdkfjhsdjfhsjk'
+};
+var piscina = {"titulo":'Piscina Munisipal',
+    'Categorias':['cultura','turismo','deporte'],
+    'historia':'<img class="galeria" src="lugares/lugar3/img/pisina.png">aguaagua agua agua agua agua agua agua'
+};
 
+var lugares = ['iglesia','piscina','parque','casa de la cultura','alcaldia','Personeria','casa de la juventud'];
+
+//esta funcion carga los textos en el html segun sea el click 
+function vercontenido(lugartexto){ 
+    console.log('hola')
+    var contenedor = document.getElementById("titulotex");
+        parrafo = document.getElementById("parrafo");
+        contenedor.innerHTML = "<h1 id='titulotex'>" + lugartexto.titulo +"</h1>";
+    	parrafo.innerHTML = lugartexto.historia;
+    	
+    
+};
+
+
+//esta funcion se usara para cargar automaticamente los nuevos lugares
+function verNuevaLista(){
+     for (i=0; i<= -1+ lugares.length; i++) {
+        console.log (lugares[i]);
+        var lista = document.getElementById("lista"); 
+        lista.innerHTML += lugares[i] + '<br>';
+     };
+                 
+};
+window.addEventListener('load', function(){
+    verNuevaLista(lugares)
+});

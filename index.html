@@ -1,21 +1,14 @@
 <html>
   <head>
   	<title>MosquerApp</title>
-
-	<link rel="stylesheet" type="text/css" href="css/estilos.css">
-
-    <script language="JavaScript" type="text/javascript" src="js/home.js"></script>
-
-    <script src="http://maps.google.com/maps/api/js"></script>
-
-
-    <script src="js/gmaps.js"></script>
-	
-	<?xml-stylesheet type="text/css" href="css/svg.css" ?>
-
+    	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+        <script language="JavaScript" type="text/javascript" src="js/home.js"></script>
+        <script src="http://maps.google.com/maps/api/js"></script>
+        <script language="JavaScript" type="text/javascript" src="js/contenidos.js"></script>
+        <script src="js/gmaps.js"></script>
+		<?xml-stylesheet type="text/css" href="css/svg.css" ?>
     <meta charset="utf-8">
-
-</head>
+ </head>
 
 <body>
 <!--  menu    -->
@@ -36,41 +29,38 @@
         </div>
 <!-- fin del menu    -->
 
-<!-- lugar para trabajar el mapa  -->
+<!-- lugar para trabajar el mapa  
 	<div class="marcomapa">
         <object type="image/svg+xml" data="img/xmapamosquera.svg" class="mapa">
         </object>
     </div>
+-->
+
 <!-- Usando este DIV para probar api de google maps-->
-        <div id="map"></div>
+     <div id="map"></div>
 
 <!-- Lista provional de lugares   -->        
-    <div>
-        <p><a href="#" id="iglesia">Mas..</a></p>
-        
-        <p><a href="#" onclick="lugar2()" id="alcaldia">alcaldia</a></p>
-        
-        <p><a href="#" onclick="lugar3()" id="parque">parque</a></p>
-    </div>
-
+  <div class="temp">
+    <p id="iglesia" onclick="vercontenido(iglesia)">iglesia</p>
+    <p id="parque" onclick="vercontenido(parque)">parque</p>
+    <p id="piscina" onclick="vercontenido(piscina)">piscina</p>
+  </div>
 <!-- lugar para ventana de detalles de lugares   -->
 
-	<div id="detalles">
+    <div id="detalles">
         <img class="cerrar" onclick="nomostrar()"src="img/error.svg">
-        	
-        <div class="galeria">
-            <img src="lugares/lugar1/img/iglesia.png"> 
+        <div class="galeria" id = "galeria">
+            
        	</div>
 
         <div class="audio">
       		<img src="img/sonido.gif">
        		<img id="play" src="img/play.svg">
        	</div>
-	
-        <div class="texto">
-	       <div id="tituloh1"></div>
-           <div id="parrafo"></div>
-        </div>   
+	         
+        <div id = "titulotex"></div>
+        <div id = "parrafo"></div>
+        <div id = "lista" ></div>
 	</div>
 	  
  
@@ -100,5 +90,3 @@
 
   </script>
  
-
-<script language="JavaScript" type="text/javascript" src="js/contenidos.js"></script>

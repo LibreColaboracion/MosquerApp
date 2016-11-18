@@ -135,16 +135,19 @@ nav ul li a {
        
 }
 
-
 .galeria{
+    width: 100%;
+
+}
+#galeria{
 	/*width: 100%;*/
-	height: 40%;
+	/*height: 40%;
 	/*background-color: red;*/
 	z-index: 2;
     position: relative;
 }
 
-.galeria img{
+#galeria img{
     width: 100%;
     position: absolute;
 
@@ -175,12 +178,37 @@ nav ul li a {
 
 
 
-.texto {
+#titulotex {
     background-color: #FFF;
+    font-size: 2.5em;
     z-index: 2;
 }
 
 #parrafo{
+    font-size: 1.5em;
+}
+
+.temp{
+    font-size: 2.5em;
 }
 
 
+
+/* este es el css que maneja los globos de los lugares
+
+/*esto es una bombita peque;a del mapa, que "crece" al tocarla*/
+#parque, #iglesia{
+    font-size: 5vw;
+    position: absolute;
+    
+}
+#iglesia{
+    color: #E91E63 ;
+    left: 25%;
+    right: 25%;
+}
+#parque{
+    color: #3F51B5;
+    left: 45%;
+    right: 35%;
+}
