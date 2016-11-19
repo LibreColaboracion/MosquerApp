@@ -1,0 +1,42 @@
+{
+  "name": "gmap3",
+  "version": "7.1.0",
+  "date": "2016-04-17",
+  "description": "jQuery plugin to generate Google Maps",
+  "author": {
+    "name": "Jean-Baptiste DEMONTE",
+    "email": "jbdemonte@gmail.com",
+    "url": "http://jb.demonte.fr"
+  },
+  "license": "GPL-3.0+",
+  "main": "./dist/gmap3.min.js",
+  "keywords": [
+    "google",
+    "maps",
+    "googlemaps",
+    "jquery"
+  ],
+  "ignore": [
+    "*.json",
+    "dist/examples",
+    "src",
+    "tests",
+    ".gitignore",
+    ".jshintrc",
+    ".npmignore",
+    ".travis.yml",
+    "gulpfile.js",
+    "README.md"
+  ],
+  "homepage": "https://github.com/jbdemonte/gmap3",
+  "_release": "7.1.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v7.1.0",
+    "commit": "0f715fdecbc49556cbbda8f080cd340c425e9bbd"
+  },
+  "_source": "https://github.com/jbdemonte/gmap3.git",
+  "_target": "^7.1.0",
+  "_originalSource": "gmap3",
+  "_direct": true
+}

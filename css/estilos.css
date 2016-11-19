@@ -21,7 +21,7 @@
 }
 
 .titulo{
-    font-size: 1em;
+    font-size: 3em;
 }
     
 
@@ -47,13 +47,13 @@
 }
 .titulomenu{
     font-weight: bold;
-    font-size:1.5em;
+    font-size:2.5em;
     display:block;
     padding:10px;
     border-bottom:0.3em solid rgba(255,255,255, 0.2);
 }
 .menuli {
-    font-size:1.5em;
+    font-size:2em;
     padding:15px 31px;
     border-bottom:0.2em solid rgba(255,255,255, 0.2);
 }
@@ -91,23 +91,7 @@ nav ul li a {
 
 /*  Final menu lateral */
 
-
-/* Marco de ventana con detalles de la seleecion */
-
-
-.mapa{
-	width: 100%;
-	height: 108%;
-	z-index: 1;
-    background-color: green;
-    position: relative;
-    
-}
-
-
-
-
-/* css para cada punto a ubicar en el mapa*/
+/* mapa*/
 
 #map {
     display: block;
@@ -119,49 +103,60 @@ nav ul li a {
     background: #58B;
 }
 
+/* para el mapa svg o pruebas  */
 
-
-/* css para el div que contiene los detalles de cada lugar */
-
-#detalles{
-	 z-index: 2;
-     position:relative;
-     background-color: #222222;
+.map{
+    display: block;
+    width: 100%;
+    height: 100%;
+    
 }
 
-.detallesvisto{ 
-	margin-top: -125%;
+
+/* Marco de ventana con detalles de la seleecion */
+
+#detalles{
+     z-index: 2;
+     position:relative;
+     background-color: #DBDBDB;
+}
+
+#detallesvisto{ 
+    margin-top: -125%;
     z-index: 2;
        
+}
+
+.cerrar{
+    width: 15%;
+    height: 15%;
+    z-index: 2;
+    position: relative;
 }
 
 .galeria{
     width: 100%;
 
 }
+
 #galeria{
-	/*width: 100%;*/
-	/*height: 40%;
-	/*background-color: red;*/
-	z-index: 2;
+    width: 100%;
+    /*height: 40%;
+    /*background-color: red;*/
+    z-index: 2;
     position: relative;
 }
 
+/* solo si se deja manejar el img de las imagenes galeria*/
 #galeria img{
     width: 100%;
     position: absolute;
 
 }
 
-.cerrar{
-	width: 15%;
-	height: 15%;
-	z-index: 2;
-	position: relative;
-}
 
 .audio{
-	z-index: 3;
+    z-index: 3;
     position: relative;
 }
 
@@ -176,11 +171,9 @@ nav ul li a {
     }
 
 
-
-
 #titulotex {
     background-color: #FFF;
-    font-size: 2.5em;
+    font-size: 2em;
     z-index: 2;
 }
 
@@ -189,26 +182,10 @@ nav ul li a {
 }
 
 .temp{
-    font-size: 2.5em;
+    font-size: 3em;
 }
 
 
+/* css para cada punto a ubicar en el mapa*/
 
-/* este es el css que maneja los globos de los lugares
 
-/*esto es una bombita peque;a del mapa, que "crece" al tocarla*/
-#parque, #iglesia{
-    font-size: 5vw;
-    position: absolute;
-    
-}
-#iglesia{
-    color: #E91E63 ;
-    left: 25%;
-    right: 25%;
-}
-#parque{
-    color: #3F51B5;
-    left: 45%;
-    right: 35%;
-}
