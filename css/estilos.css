@@ -115,8 +115,7 @@ nav ul li a {
 	height: auto;
 	margin:auto;
 	position: relative;
-	z-index: -1;
-	filter: blur();
+	
 }
 
 .punto{
