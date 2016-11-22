@@ -91,60 +91,58 @@ nav ul li a {
 
 /*  Final menu lateral */
 
-.ancho{
-	width: 100%;
-	height: 100%;
-}
-
-
-#zoom{
-	width:320px;
-	height:300px;
-	overflow:auto;
-	text-align:center;
-	border:2px;
-	background-color: black;
+.mapa{
+	width: 87%;
+    height: 44%;
+    background-color: white;
+    overflow: scroll;
+    position: absolute;
+    margin-left: 6%;
+    margin-right: 10%;
+    margin-top: 29%;
 	
 }
 
+.mapa img{
+	width:300%;
+	height:180%;
+	
+	
+}
 
-
-.mapa {
+.cundimapa {
 	width: 100%;
 	height: auto;
 	margin:auto;
 	position: relative;
 	z-index: -1;
-	filter: blur(2px);
-}
-
-.mapa:hover{
-	filter: blur(6px);	
+	filter: blur();
 }
 
 .punto{
 	width: 50px;
     height: 50px;
+    position: relative;
     /*background: red;*/
     	
 }
 .punto img{
-     width: 50px;
-     height: 50px;
+     width: 25px;
+     height: 25px;
      border: 2px solid grey;
      border-radius: 50%;
-     position: absolute;
+     
         
 }
 
 #iglesia{
-	margin-top: -103%;
-    margin-left: 39%;
+	margin-top: -50%;
+    margin-left: 100%;
 }
 
 #alcaldia{
-	margin-top: -10%;
-    margin-left: 46%;
+	margin-top: -50%;
+    margin-left: 100%;
 }
 
 
