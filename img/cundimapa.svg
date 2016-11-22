@@ -16,7 +16,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="mapa.svg">
+   sodipodi:docname="cundimapa.svg">
   <defs
      id="defs4">
     <marker
@@ -4554,7 +4554,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.37726733"
-     inkscape:cx="275.27954"
+     inkscape:cx="-302.56005"
      inkscape:cy="739.78949"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -4650,7 +4650,7 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
-       style="opacity:1;fill:#ff7f2a;fill-opacity:0.40740739;fill-rule:nonzero;stroke:#010000;stroke-width:6.39300013;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:none;fill-opacity:0.40740739;fill-rule:nonzero;stroke:#010000;stroke-width:2.00000012;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:2.00000012,8.00000048;stroke-dashoffset:0;stroke-opacity:1"
        id="rect14533-5"
        width="744.33282"
        height="574.82428"

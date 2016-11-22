@@ -1,14 +1,12 @@
 body {
 	background-image: url("../img/fondo.png");
-    min-height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     margin: 0; 
     padding: 0; 
-    height: 100%; 
-
+    
 
 }
 .cabecera {
@@ -100,6 +98,7 @@ nav ul li a {
     margin-left: 6%;
     margin-right: 10%;
     margin-top: 29%;
+    z-index: 1;
 	
 }
 
@@ -135,8 +134,8 @@ nav ul li a {
 }
 
 #iglesia{
-	margin-top: -50%;
-    margin-left: 100%;
+	margin-top: -100%;
+    margin-left: 10%;
 }
 
 #alcaldia{
@@ -148,24 +147,26 @@ nav ul li a {
 
 #detalles{
 	width: 40%;
-	height: 30%;
-	margin-top: 80%;
+	height: 10%;
+	margin-top: -11%;
 	background-color: black;
 	position: absolute;
 	z-index: 10;
-	transition: width 1s, height 1s, margin 1s;
+	transition: width 1s, height 2s, margin 2s;
 	color: white;
-	font-size: 2.5em;
+	font-size: 1.5em;
+	float: left;
 }
 
 #detalles:hover{
 	width: 100%;
-	height: 100%;
+	height: 148%;
 	background-color: yellow;
 	margin: 0 auto;
-	margin-top: -600;
+	margin-top: -148%;
 	color: black;
-	font-size: 2.5em;
+	font-size: 2em;
+	position: absolute;
 
 }
 
