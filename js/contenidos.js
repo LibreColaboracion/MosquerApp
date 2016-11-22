@@ -18,12 +18,8 @@ var lugares = ['iglesia','piscina','parque','casa de la cultura','alcaldia','Per
 function vercontenido(argumento){ // argumentopodria ser cualquier palabra como lo hizo con iglesia
     console.log('hola')
     var contenedor = document.getElementById('titulo');
-        contenedor.className = ("");
-        contenedor.className = ("detallesvisto");
         contenedor.innerHTML = argumento.titulo;
         parrafo = document.getElementById("parrafo");
-        parrafo.className = ("");
-        parrafo.className = ("detallesvisto");
         parrafo.innerHTML = argumento.historia;
 };
 
