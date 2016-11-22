@@ -1,6 +1,15 @@
-/*Codigo para marco general */
-.body{
-    background-color: #FDDD04;
+body {
+	background-image: url("../img/fondo.png");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0; 
+    padding: 0; 
+    height: 100%; 
+
+
 }
 .cabecera {
     width: 100%;
@@ -11,26 +20,17 @@
     top:0;
     z-index:99;
     color: white;
-    
-
 }
+
+.cabecera p {
+	font-size: 1.5em;
+}
+
 .logo{
     width:10%;
     float: left;
     margin:1.5%;
 }
-
-.titulo{
-    font-size: 3em;
-}
-    
-
-.cuerpo {
-    width: 100%;
- }
-
-/*FIN Codigo para marco general */
-
 
 
 /* menu lateral */
@@ -91,112 +91,84 @@ nav ul li a {
 
 /*  Final menu lateral */
 
-/* mapa*/
-.myScrollbarV {
-    position:absolute;
-    z-index:100;
-    width:8px;bottom:7px;top:2px;right:1px
+.ancho{
+	width: 100%;
+	height: 100%;
+}
+
+
+#zoom{
+	width:320px;
+	height:300px;
+	overflow:auto;
+	text-align:center;
+	border:2px;
+	background-color: black;
+	
 }
 
 
 
-
-#map {
-    display: block;
-    width: 100%;
-    height: 100%;
+.mapa {
+	width: 100%;
+	height: auto;
+	margin:auto;
+	position: relative;
+	z-index: -1;
+	filter: blur(2px);
 }
 
-#map {
-    background: #58B;
+.mapa:hover{
+	filter: blur(6px);	
 }
 
-/* para el mapa svg o pruebas  */
-.cuadro{
-    width: 100%;
-    height: 100%;
-    }
-.map{
-    display: block;
-    width: 100%;
-    height: 100%;
-    
+.punto{
+	width: 50px;
+    height: 50px;
+    /*background: red;*/
+    	
+}
+.punto img{
+     width: 50px;
+     height: 50px;
+     border: 2px solid grey;
+     border-radius: 50%;
+     position: absolute;
+        
+}
+
+#iglesia{
+	margin-top: -103%;
+    margin-left: 39%;
+}
+
+#alcaldia{
+	margin-top: -10%;
+    margin-left: 46%;
 }
 
 
-/* Marco de ventana con detalles de la seleecion */
 
 #detalles{
-     z-index: 2;
-     position:relative;
-     background-color: #DBDBDB;
+	width: 40%;
+	height: 30%;
+	margin-top: 80%;
+	background-color: black;
+	position: absolute;
+	z-index: 10;
+	transition: width 1s, height 1s, margin 1s;
+	color: white;
+	font-size: 2.5em;
 }
 
-#detallesvisto{ 
-    margin-top: -125%;
-    z-index: 2;
-       
-}
-
-.cerrar{
-    width: 15%;
-    height: 15%;
-    z-index: 2;
-    position: relative;
-}
-
-.galeria{
-    width: 100%;
+#detalles:hover{
+	width: 100%;
+	height: 100%;
+	background-color: yellow;
+	margin: 0 auto;
+	margin-top: -600;
+	color: black;
+	font-size: 2.5em;
 
 }
-
-#galeria{
-    width: 100%;
-    /*height: 40%;
-    /*background-color: red;*/
-    z-index: 2;
-    position: relative;
-}
-
-/* solo si se deja manejar el img de las imagenes galeria*/
-#galeria img{
-    width: 100%;
-    position: absolute;
-
-}
-
-
-.audio{
-    z-index: 3;
-    position: relative;
-}
-
-.audio img {
-    height: 10%;
-    width: 49%;
-    background-color: #000000;
-}
-
-#play{ 
-    float: right;
-    }
-
-
-#titulotex {
-    background-color: #FFF;
-    font-size: 2em;
-    z-index: 2;
-}
-
-#parrafo{
-    font-size: 1.5em;
-}
-
-.temp{
-    font-size: 3em;
-}
-
-
-/* css para cada punto a ubicar en el mapa*/
-
 
