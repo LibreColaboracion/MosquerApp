@@ -9,3 +9,9 @@ function menuc(){
     a.className = ("invisible");
 }
 
+
+
+var hammer = new Hammer(document.getElementById("mapazoom"));
+hammer.pinch = function(e){
+  alert("Doble Tap");
+};
