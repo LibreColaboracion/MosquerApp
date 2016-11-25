@@ -97,11 +97,14 @@ nav ul li a {
 	margin-top: 13%;
 	z-index: 1;
 	/*background-color: yellow;*/
+
 }
 
 .general img{
 	width: 150%;
 	height: 150%;
+	z-index: 1;
+
 }
 
 
@@ -131,13 +134,13 @@ nav ul li a {
 
 #detalles{
 	background-color: red;
-    display: none;
     width: 0.5%;
     height: 0.5%;
     position: absolute;
     left: 49.5%;
     top: 49.5%;
-    transition: 0.5s;
+    
+    z-index: -100;
 
 }
 
@@ -154,7 +157,7 @@ nav ul li a {
 #play {
 	width: 10%;
     height: 10%;
-    background-color: red;
+    background-color: orange;
     float: left;
     position: absolute;
     
@@ -194,7 +197,9 @@ nav ul li a {
 
 
 
-
+svg{
+	width: 50%;
+}
 
 
 

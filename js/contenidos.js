@@ -15,17 +15,27 @@ var piscina = {"titulo":'Piscina Munisipal',
 
 var lugares = ['iglesia','piscina','parque','casa de la cultura','alcaldia','Personeria','casa de la juventud'];
 
+
+
+
 function vercontenido(argumento){ // argumentopodria ser cualquier palabra como lo hizo con iglesia
     console.log('hola');
      for (j=0; j <= 2; j++){
         switch(j){
                 case 0:
+                                   
                     var contenedor = document.getElementById('detalles');
                     contenedor.style.left = "0";
                     contenedor.style.top = "0";
                     contenedor.style.width = '100%';
                     contenedor.style.height = '100%';
+                    contenedor.style.display = "flex";
+                    contenedor.style.WebkitTransition = "all 2s";
+                    contenedor.style.transition = "all 2s"; 
                     console.log('case 0');
+
+                    
+
                 break;
                 case 1:
                      console.log('hola')
@@ -38,3 +48,5 @@ function vercontenido(argumento){ // argumentopodria ser cualquier palabra como 
     
     };
 };
+
+
