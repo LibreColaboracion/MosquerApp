@@ -105,8 +105,6 @@ nav ul li a {
 }
 
 
-
-
 .punto{
 	width: 5%;
 	height: 5%;
@@ -131,71 +129,21 @@ nav ul li a {
 	margin-left: 70%
 }
 
-.marcopresentador{
-	width: 100%;
-	height: 30%;
-	background-color: blue;
-}
-
-#texpresentador{
-	width: 60%;
-	height: 30%
-	background-color black;
-	float: left;
-	background-color: white;
-	border-style: solid;
-	border-radius: 2%;
-	border-color: black;
-	padding: 3%;
-	text-align: center;
-
-}
-
-#imgpresentador{
-	width: 35%;
-    height: 30%;
-    float: right;
-    margin-top: -48%;
-    position: relative;
-    z-index: 10;
-
-}
-#imgpresentador img{
-	width: 74%;
-	margin:auto;
-	float: right;
-}
-
-.detalles {
-	width: 5%;
-	height: 5%;
-	background-color: orange;
-	z-index: 40;
-	position: relative;
-	margin-left: 50%;
-	margin-top: -80%;
-	transition-property: width;
-    transition-duration: 2s;
-    transition-timing-function: linear;
-    transition-delay: 1s;
-}
-
-.detalles:hover{
-	width: 100%;
-    height: 116%;
-    background-color: orange;
-    z-index: 40;
-    position: relative;
-    margin-left: 0%;
-    margin-top: -121%;
-    transition: white 3s, height 3s;
+#detalles{
+	background-color: red;
+    display: none;
+    width: 0.5%;
+    height: 0.5%;
     position: absolute;
+    left: 49.5%;
+    top: 49.5%;
+    transition: 0.5s;
+
 }
 
 #galeria{
 	width: 100%;
     height: 60%;
-   /* background-color: blue;*/
     float: right;
 }
 #galeria img{
@@ -220,3 +168,34 @@ nav ul li a {
     position: absolute;
     margin-left: 85%;
 }
+
+
+
+#marcopresentador{
+	width: 88%;
+    height: auto;
+    border-radius: 3%;
+    border-style: solid;
+    background-color: white;
+    display: inline-block;
+    margin: auto;
+    padding: 3%;
+    margin-left: 2%;
+
+}
+
+
+#marcopresentador img{
+	float: right;
+	width: 30%;
+	height: auto;
+}
+
+
+
+
+
+
+
+
+
