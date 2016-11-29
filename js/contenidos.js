@@ -18,7 +18,7 @@ var lugares = ['iglesia','piscina','parque','casa de la cultura','alcaldia','Per
 
 
 
-function vercontenido(argumento){ // argumentopodria ser cualquier palabra como lo hizo con iglesia
+function vercontenido (argumento){ // argumentopodria ser cualquier palabra como lo hizo con iglesia
     console.log('hola');
      for (j=0; j <= 2; j++){
         switch(j){
@@ -31,7 +31,7 @@ function vercontenido(argumento){ // argumentopodria ser cualquier palabra como 
                     contenedor.style.height = '100%';
                     contenedor.style.display = "flex";
                     contenedor.style.WebkitTransition = "all 2s";
-                    contenedor.style.transition = "all 2s"; 
+                    contenedor.style.transition = "all 1s"; 
                     console.log('case 0');
 
                     
@@ -44,9 +44,35 @@ function vercontenido(argumento){ // argumentopodria ser cualquier palabra como 
                     contenedor.innerHTML = "<h1 id=titulo'>"+ argumento.titulo + "</h1>";
                     parrafo.innerHTML = argumento.historia
                 break;
+
+                            
+
             };
     
     };
 };
 
+function noVercontenido (argumento){ // argumentopodria ser cualquier palabra como lo hizo con iglesia
+    console.log('cerrar');
+     for (j=0; j <= 2; j++){
+        switch(j){
+                case 0:
+                                   
+                    var contenedor = document.getElementById('detalles');
+                    contenedor.style.left = "50%";
+                    contenedor.style.top = "50%";
+                    contenedor.style.width = '0%';
+                    contenedor.style.height = '0%';
+                    contenedor.style.display = "flex";
+                    contenedor.style.WebkitTransition = "all 2s";
+                    contenedor.style.transition = "all 1s"; 
+                    console.log('case 0');
+
+                break;
+                                           
+
+            };
+    
+    };
+};
 

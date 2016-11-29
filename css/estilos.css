@@ -89,19 +89,23 @@ nav ul li a {
 
 /*  CSS para el marco general del mapa */
 
+.pantalla{
+	width: 100%;
+	height: 100%;
+}
 .general{
 	width: 100%;
 	height: 100%;
 	position: relative;
 	overflow: scroll;
-	margin-top: 13%;
+	margin-top: 18%;
 	z-index: 1;
 	/*background-color: yellow;*/
 
 }
 
 .general img{
-	width: 150%;
+	width: 100%;
 	height: 150%;
 	z-index: 1;
 
@@ -139,8 +143,7 @@ nav ul li a {
     position: absolute;
     left: 49.5%;
     top: 49.5%;
-    
-    z-index: -100;
+    z-index: 6;
 
 }
 
@@ -170,6 +173,8 @@ nav ul li a {
     float: right;
     position: absolute;
     margin-left: 85%;
+    left: 0%;
+	top: 0%;
 }
 
 
@@ -190,15 +195,17 @@ nav ul li a {
 
 #marcopresentador img{
 	float: right;
-	width: 30%;
+	width: 20%;
 	height: auto;
 }
 
+#iglesia{
+	fill: red;
+}
 
-
-
-svg{
-	width: 50%;
+#iglesia:hover{
+	fill: blue;
+	
 }
 
 

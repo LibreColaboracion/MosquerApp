@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
-
+<?xml-stylesheet type="text/css" href="../css/estilos.css"?>
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -27,8 +27,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="120.10889"
-     inkscape:cy="236.18479"
+     inkscape:cx="279.10685"
+     inkscape:cy="163.38328"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -207,25 +207,19 @@
          x="510.12704"
          y="415.96609">Fontibon</tspan></text>
     <circle
-       style="opacity:1;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:#010000;stroke-width:0.85539907;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;image-rendering:auto"
-       id="Prueba1"
-       cx="326.50974"
-       cy="423.26065"
+       style="opacity:1;fill-opacity:1;fill-rule:nonzero;stroke:#010000;stroke-width:0.85539907;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;image-rendering:auto"
+       id="iglesia"
+       cx="175.79546"
+       cy="493.26065"
        r="4.5723004"
-       inkscape:label="Prueba1"
-       onclick="Prueba1"
-       onmouseover="Prueba1"
-       onmouseout="Prueba1"
-       onmousedown="Prueba1"
-       onmouseup="Prueba1"
-       onmousemove="Prueba1"
-       onfocusin="Prueba1"
-       onfocusout="Prueba1"
-       onload="Prueba1">
+       inkscape:label="iglesia"
+       onclick="vercontenido"
+       
+       >
       <desc
-         id="desc4164">Prueba1</desc>
+         id="desc4164">iglesia</desc>
       <title
-         id="title4162">Prueba1</title>
+         id="title4162">iglesia</title>
     </circle>
     <circle
        style="opacity:1;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:#010000;stroke-width:1.52013493;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -248,5 +242,28 @@
       <title
          id="title4168">prueba2</title>
     </circle>
+    <circle
+       style="opacity:1;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:#010000;stroke-width:0.85539907;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;image-rendering:auto"
+       id="Prueba2"
+       cx="364.15259"
+       cy="424.18921"
+       r="4.5723004"
+       inkscape:label="Prueba2"
+       onclick="Prueba1"
+       onmouseover="Prueba1"
+       onmouseout="Prueba1"
+       onmousedown="Prueba1"
+       onmouseup="Prueba1"
+       onmousemove="Prueba1"
+       onfocusin="Prueba1"
+       onfocusout="Prueba1"
+       onload="Prueba1">
+      <desc
+         id="desc4164-6">Prueba2</desc>
+      <title
+         id="title4162-7">Prueba2</title>
+    </circle>
   </g>
 </svg>
+
+

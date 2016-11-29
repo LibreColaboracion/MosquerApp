@@ -3,6 +3,7 @@
 <head>
 	<title>Somos Mosquera</title>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	
 	<meta name="viewport" content="width=device-width, user-scalable=yes">
 
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
@@ -34,24 +35,29 @@
 
 
 <!-- Ventana solo mapa-->
-
+<div class="pantalla">
 <div class = "general"> 
 
-	<img id="mapazoom" src="img/mapa.svg">
+<script defer type="text/javascript" src="svg.js"></script>
+<object id="mapaex" width="100%" height="100%" type="image/svg+xml" data="img/mapa.svg"></object>
+
+
+<!--	<img id="mapazoom" src="img/mapa.svg">
+	
+
+
 	<div class = "punto" id="punto1" onclick="vercontenido(iglesia)" > </div>
 	<div class = "punto" id="punto2" onclick="vercontenido(parque)"> </div>
 	<div class = "punto" id="punto3" onclick="vercontenido(piscina)"> </div>
+-->
 
-
-<div id="detalles">
-		<div id="play">PLAY</div>
-		<div id="cerrar">CERRAR</div>
+	<div id="detalles">
+		<div id="play">P</div>
+		<div id="cerrar" onclick="noVercontenido(cerrar)">X</div>
 		<div id="galeria"> <img src="lugares/lugar1/img/iglesia.png"></div>
-</div>
+	</div>
 
 </div>
-
-
 
 <div id="marcopresentador">
 	<p> 
@@ -63,6 +69,10 @@
 
 </div>
 
-
+</div>
 </body>
 </html>
+
+
+
+
