@@ -95,37 +95,17 @@ nav ul li a {
 }
 .general{
 	width: 100%;
-	height: 20em;
-	position: relative;
+	height: 55%;
+	position: absolute;
 	overflow: auto;
 	margin-top: 18%;
 	z-index: 1;
     text-align:center;
 	/*background-color: yellow;*/
 
-
-
-}
-
-.general img{
-	width: 100%;
-	height: 150%;
-	z-index: 1;
-
 }
 
 
-
-.punto{
-	width: 5%;
-	height: 5%;
-	border-size:1px;
-	border-radius: 50%;
-	background-color: red;
-	z-index: 3;
-	position: absolute;
-
-}
 
 
 #detalles{
@@ -189,6 +169,7 @@ nav ul li a {
     margin-left: 2%;
     bottom: 2%;
     position: fixed;
+    text-align: center;
 
 }
 

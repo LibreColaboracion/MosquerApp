@@ -40,47 +40,37 @@
 
 <!-- Ventana solo mapa-->
 <div class="pantalla">
-<div class = "general"> 
-
-<object id= "mapaex" width="200%"  type="image/svg+xml" data="img/mapa.svg"></object>
-
-</div>
-
+	<div class = "general"> 
+		<object id= "mapaex" width="200%"  type="image/svg+xml" data="img/mapa.svg"></object>
+	</div>
 	
 
-<div>
-<button id="Mas" class="zoom-button">Zoom +</button>
-<button id="Menos" class="zoom-button">Zoom -</button>
-</div>
-
-<div id="detalles">
-		<div id="play">
-			<img src="img/play.svg">
-		</div>
-		<div id="cerrar" onclick="noVercontenido(cerrar)">
-			<img src="img/cerrar.svg">
-		</div>
-		<div id="galeria"> 
-			<img src="lugares/lugar1/img/iglesia.png" width="100%" id = "foto">
-			<input type="button" value="<<" onclick="adelante()">
-			<input type="button" value=">>" onclick="atras()">
-		</div>
-		
-		<div id = "titulo"> <h1>...</h1></div>
-		<div id = "parrafo"><p>..</p></div>
+	<div id="marcopresentador">
+		<button id="Mas" class="zoom-button">Zoom +</button>
+		<button id="Menos" class="zoom-button">Zoom -</button>
+		<p> 
+		<img id="imgpresentador" src="img/personaje.svg">
+		Bienvenidos puedes   acercar el mapa con los botones (+)(-).
+		</p>
+	</div>
+	<div id="detalles">
+			<div id="play">
+				<img src="img/play.svg">
+			</div>
+			<div id="cerrar" onclick="noVercontenido(cerrar)">
+				<img src="img/cerrar.svg">
+			</div>
+			<div id="galeria"> 
+				<img src="lugares/lugar1/img/iglesia.png" width="100%" id = "foto">
+				<input type="button" value="<<" onclick="adelante()">
+				<input type="button" value=">>" onclick="atras()">
+			</div>
+			<div id = "titulo"> <h1>...</h1></div>
+			<div id = "parrafo"><p>..</p></div>
 	</div>
 
 
 
-
-<div id="marcopresentador">
-	<p> 
-	<img id="imgpresentador" src="img/personaje.svg">
-	Bienvenidos a la mejor experiencia virtual para conocer la historia de Mosquera, todo lo que necesitas esta aqui 
-	
-	</p>
-
-</div>
 
 </div>
 
