@@ -95,12 +95,15 @@ nav ul li a {
 }
 .general{
 	width: 100%;
-	height: 100%;
+	height: 20em;
 	position: relative;
-	overflow: scroll;
+	overflow: auto;
 	margin-top: 18%;
 	z-index: 1;
+    text-align:center;
 	/*background-color: yellow;*/
+
+
 
 }
 
@@ -110,6 +113,7 @@ nav ul li a {
 	z-index: 1;
 
 }
+
 
 
 .punto{
@@ -122,28 +126,16 @@ nav ul li a {
 	position: absolute;
 
 }
-#punto1{
-	margin-top: -91%;
-	margin-left: 12%
-}
 
-#punto2{
-	margin-top: -40%;
-	margin-left: 40%
-}
-#punto3{
-	margin-top: -70%;
-	margin-left: 70%
-}
 
 #detalles{
-	background-color: red;
+	background-color: #FFFFFF;
     width: 0.5%;
     height: 0.5%;
     position: absolute;
     left: 49.5%;
     top: 49.5%;
-    z-index: 6;
+    z-index: 101;
 
 }
 
@@ -160,24 +152,30 @@ nav ul li a {
 #play {
 	width: 10%;
     height: 10%;
-    background-color: orange;
     float: left;
+    margin-left: 2%;
+    margin-top: 2%;
     position: absolute;
+    display: flex; 
     
     
 }
 #cerrar {
 	width: 10%;
     height: 10%;
-    background-color: red;
     float: right;
     position: absolute;
-    margin-left: 85%;
+    margin-left: 80%;
     left: 0%;
-	top: 0%;
+	top: 1%;
+    display: flex;
 }
 
+#titulo {
+    width: 100%;
 
+    
+}
 
 #marcopresentador{
 	width: 88%;
@@ -189,6 +187,8 @@ nav ul li a {
     margin: auto;
     padding: 3%;
     margin-left: 2%;
+    bottom: 2%;
+    position: fixed;
 
 }
 

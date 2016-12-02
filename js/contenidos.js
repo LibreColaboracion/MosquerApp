@@ -29,7 +29,7 @@ function vercontenido (argumento){ // argumentopodria ser cualquier palabra como
                     contenedor.style.top = "0";
                     contenedor.style.width = '100%';
                     contenedor.style.height = '100%';
-                    contenedor.style.display = "flex";
+                    contenedor.style.display = "";
                     contenedor.style.WebkitTransition = "all 2s";
                     contenedor.style.transition = "all 1s"; 
                     console.log('case 0');
@@ -38,17 +38,14 @@ function vercontenido (argumento){ // argumentopodria ser cualquier palabra como
 
                 break;
                 case 1:
-                     console.log('hola')
+                    console.log('hola')
                     var contenedor = document.getElementById('titulo'),
                     parrafo = document.getElementById("parrafo");
                     contenedor.innerHTML = "<h1 id=titulo'>"+ argumento.titulo + "</h1>";
                     parrafo.innerHTML = argumento.historia
+                    
                 break;
-
-                            
-
             };
-    
     };
 };
 
@@ -57,7 +54,6 @@ function noVercontenido (argumento){ // argumentopodria ser cualquier palabra co
      for (j=0; j <= 2; j++){
         switch(j){
                 case 0:
-                                   
                     var contenedor = document.getElementById('detalles');
                     contenedor.style.left = "50%";
                     contenedor.style.top = "50%";
@@ -67,12 +63,36 @@ function noVercontenido (argumento){ // argumentopodria ser cualquier palabra co
                     contenedor.style.WebkitTransition = "all 2s";
                     contenedor.style.transition = "all 1s"; 
                     console.log('case 0');
-
+                    
+                    
                 break;
-                                           
-
             };
-    
     };
 };
+
+
+/* galeria*/
+var  num = 1;
+function adelante(){
+    num ++;
+    if (num>1){
+        num =3;
+    var foto = document.getElementById("foto");
+    foto.src = "foto"+num+".jpg";
+    };
+
+function atras(){
+    num--;
+    if (num<1)
+        num =3;
+    var foto = document.getElementById("foto");
+    foto.src = "foto"+num+".jpg";
+    };
+
+};
+
+
+
+
+
 

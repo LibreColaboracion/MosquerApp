@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	
 	<title>Somos Mosquera</title>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	
@@ -12,13 +13,16 @@
 
     <script language="JavaScript" type="text/javascript" src="js/contenidos.js"></script>
 
-    
+    <script defer type="text/javascript" src="js/puntos.js"></script> 
+
+
+        
 </head>
 <body>
 <!--  menu    -->
 <nav id="menu" class="invisible">
         <ul>
-            <li class="titulomenu">MosquerApp<br>Buscar por<img onclick="menuc()" class="menuatras" src="img/atrasmenu.svg"/></li>
+            <li class="titulomenu">Somos Mosquera<br>Buscar por<img onclick="menuc()" class="menuatras" src="img/atrasmenu.svg"/></li>
             <li class="menuli"><a href="#"> MAPA</a></li>
             <li class="menuli"><a href="#"> TURISMO</a></li>
             <li class="menuli"><a href="#"> CULTURA</a></li>
@@ -38,38 +42,48 @@
 <div class="pantalla">
 <div class = "general"> 
 
-<script defer type="text/javascript" src="svg.js"></script>
-<object id="mapaex" width="100%" height="100%" type="image/svg+xml" data="img/mapa.svg"></object>
-
-
-<!--	<img id="mapazoom" src="img/mapa.svg">
-	
-
-
-	<div class = "punto" id="punto1" onclick="vercontenido(iglesia)" > </div>
-	<div class = "punto" id="punto2" onclick="vercontenido(parque)"> </div>
-	<div class = "punto" id="punto3" onclick="vercontenido(piscina)"> </div>
--->
-
-	<div id="detalles">
-		<div id="play">P</div>
-		<div id="cerrar" onclick="noVercontenido(cerrar)">X</div>
-		<div id="galeria"> <img src="lugares/lugar1/img/iglesia.png"></div>
-	</div>
+<object id= "mapaex" width="200%"  type="image/svg+xml" data="img/mapa.svg"></object>
 
 </div>
+
+	
+
+<div>
+<button id="Mas" class="zoom-button">Zoom +</button>
+<button id="Menos" class="zoom-button">Zoom -</button>
+</div>
+
+<div id="detalles">
+		<div id="play">
+			<img src="img/play.svg">
+		</div>
+		<div id="cerrar" onclick="noVercontenido(cerrar)">
+			<img src="img/cerrar.svg">
+		</div>
+		<div id="galeria"> 
+			<img src="lugares/lugar1/img/iglesia.png" width="100%" id = "foto">
+			<input type="button" value="<<" onclick="adelante()">
+			<input type="button" value=">>" onclick="atras()">
+		</div>
+		
+		<div id = "titulo"> <h1>...</h1></div>
+		<div id = "parrafo"><p>..</p></div>
+	</div>
+
+
+
 
 <div id="marcopresentador">
 	<p> 
 	<img id="imgpresentador" src="img/personaje.svg">
 	Bienvenidos a la mejor experiencia virtual para conocer la historia de Mosquera, todo lo que necesitas esta aqui 
-	<div id = "titulo"> <h1>TITULO</h1></div>
-	<div id = "parrafo"><p>TEXTO</p></div>
+	
 	</p>
 
 </div>
 
 </div>
+
 </body>
 </html>
 
