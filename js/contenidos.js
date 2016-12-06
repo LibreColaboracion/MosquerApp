@@ -29,7 +29,6 @@ function vercontenido (argumento){ // argumentopodria ser cualquier palabra como
                     contenedor.style.top = "0";
                     contenedor.style.width = '100%';
                     contenedor.style.height = '100%';
-                    contenedor.style.display = "";
                     contenedor.style.WebkitTransition = "all 2s";
                     contenedor.style.transition = "all 1s"; 
                     console.log('case 0');
@@ -40,14 +39,17 @@ function vercontenido (argumento){ // argumentopodria ser cualquier palabra como
                 case 1:
                     console.log('hola')
                     var contenedor = document.getElementById('titulo'),
+                    
                     parrafo = document.getElementById("parrafo");
                     contenedor.innerHTML = "<h1 id=titulo'>"+ argumento.titulo + "</h1>";
                     parrafo.innerHTML = argumento.historia
+                    
                     
                 break;
             };
     };
 };
+
 
 function noVercontenido (argumento){ // argumentopodria ser cualquier palabra como lo hizo con iglesia
     console.log('cerrar');
@@ -75,11 +77,11 @@ function noVercontenido (argumento){ // argumentopodria ser cualquier palabra co
 var  num = 1;
 function adelante(){
     num ++;
-    if (num>1){
-        num =3;
+    if (num>3){
+        num =1;
     var foto = document.getElementById("foto");
     foto.src = "foto"+num+".jpg";
-    };
+    }
 
 function atras(){
     num--;
@@ -94,5 +96,24 @@ function atras(){
 
 
 
+/*zoom mapa*/
 
-
+function noVercontenido (argumento){ // argumentopodria ser cualquier palabra como lo hizo con iglesia
+    console.log('cerrar');
+     for (j=0; j <= 2; j++){
+        switch(j){
+                case 0:
+                   var zoom = document.getElementById('mapaex');
+                    zoom.style.left = "50%";
+                    zoom.style.top = "50%";
+                    zoom.style.width = '250%';
+                    zoom.style.height = '250%';
+                    zoom.style.WebkitTransition = "all 2s";
+                    zoom.style.transition = "all 1s"; 
+                    console.log('case 0');
+                    
+                    
+                break;
+            };
+    };
+};                    

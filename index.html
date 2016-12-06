@@ -1,22 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	
 	<title>Somos Mosquera</title>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	
-	<meta name="viewport" content="width=device-width, user-scalable=yes">
-
+	<meta name="viewport" content="width=device-width, user-scalable=no">
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
-
     <script language="JavaScript" type="text/javascript" src="js/menu.js"></script>
-
     <script language="JavaScript" type="text/javascript" src="js/contenidos.js"></script>
-
     <script defer type="text/javascript" src="js/puntos.js"></script> 
-
-
-        
 </head>
 <body>
 <!--  menu    -->
@@ -32,7 +23,7 @@
 </nav>
 
         <div  class= "cabecera">
-            <img class="logo" onclick="menu('black')" src="img/menu.svg">
+            <img class="logo" onclick="menu('chocolate')" src="img/menu.svg">
             <p class = "titulo">Conoce Mosquera</p>
         </div>
 <!-- fin del menu    -->
@@ -40,14 +31,12 @@
 
 <!-- Ventana solo mapa-->
 <div class="pantalla">
-	<div class = "general"> 
-		<object id= "mapaex" width="200%"  type="image/svg+xml" data="img/mapa.svg"></object>
+	<div id = "lupa" onclick="zoommapa()">
+		<img src="img/lupamas.svg">
 	</div>
+		<object id= "mapaex" width="100%" height= "auto" type="image/svg+xml" data="img/mapa.svg"></object>
 	
-
 	<div id="marcopresentador">
-		<button id="Mas" class="zoom-button">Zoom +</button>
-		<button id="Menos" class="zoom-button">Zoom -</button>
 		<p> 
 		<img id="imgpresentador" src="img/personaje.svg">
 		Bienvenidos puedes   acercar el mapa con los botones (+)(-).
@@ -62,18 +51,15 @@
 			</div>
 			<div id="galeria"> 
 				<img src="lugares/lugar1/img/iglesia.png" width="100%" id = "foto">
+				<div id="botones">
 				<input type="button" value="<<" onclick="adelante()">
 				<input type="button" value=">>" onclick="atras()">
+				</div>
 			</div>
 			<div id = "titulo"> <h1>...</h1></div>
 			<div id = "parrafo"><p>..</p></div>
 	</div>
-
-
-
-
 </div>
-
 </body>
 </html>
 
