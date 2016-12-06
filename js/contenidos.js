@@ -61,7 +61,6 @@ function noVercontenido (argumento){ // argumentopodria ser cualquier palabra co
                     contenedor.style.top = "50%";
                     contenedor.style.width = '0%';
                     contenedor.style.height = '0%';
-                    contenedor.style.display = "flex";
                     contenedor.style.WebkitTransition = "all 2s";
                     contenedor.style.transition = "all 1s"; 
                     console.log('case 0');
@@ -94,26 +93,3 @@ function atras(){
 };
 
 
-
-
-/*zoom mapa*/
-
-function noVercontenido (argumento){ // argumentopodria ser cualquier palabra como lo hizo con iglesia
-    console.log('cerrar');
-     for (j=0; j <= 2; j++){
-        switch(j){
-                case 0:
-                   var zoom = document.getElementById('mapaex');
-                    zoom.style.left = "50%";
-                    zoom.style.top = "50%";
-                    zoom.style.width = '250%';
-                    zoom.style.height = '250%';
-                    zoom.style.WebkitTransition = "all 2s";
-                    zoom.style.transition = "all 1s"; 
-                    console.log('case 0');
-                    
-                    
-                break;
-            };
-    };
-};                    

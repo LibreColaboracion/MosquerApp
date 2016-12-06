@@ -143,22 +143,27 @@ nav ul li a {
 
 }
 
-#botones{
-    
+.botones{
+    display: flex;
+    float: left;
+    height: 60%;
     position: absolute;
-    
+    width: 100%;
+ }
+
+#der {
+     float: right;
+    margin-left: 70%;
 }
 
 
 #play {
-	width: 10%;
-    height: 10%;
-    float: left;
-    margin-left: 2%;
-    margin-top: 2%;
+	bottom: 45%;
+    display: flex;
+    left: 0;
+    margin-left: 80%;
     position: absolute;
-    display: flex; 
-    
+      
     
 }
 
