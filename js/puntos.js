@@ -1,4 +1,4 @@
-/*
+
 window.addEventListener('load', function(){
     var a = document.getElementById('mapaex').getSVGDocument();// se selecciona la etiqueta objet
     var punto = a.getElementById('punto'); // se seleciona el id dentro del codigo del svg
@@ -9,8 +9,8 @@ window.addEventListener('load', function(){
         vercontenido (iglesia)},false); // le asigno un evento 
 });
 
-*/
 
+/*
 var contadorId = 0;
 
 window.addEventListener("load", function(){
@@ -32,3 +32,4 @@ function crearPunto {
   });
 
 }
+*/
