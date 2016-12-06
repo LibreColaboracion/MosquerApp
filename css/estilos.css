@@ -120,7 +120,7 @@ nav ul li a {
 
 
 #detalles{
-	background-color: red;
+	background-color: white;
     width: 0.5%;
     height: 0.5%;
     position: absolute;
@@ -160,9 +160,13 @@ nav ul li a {
 #play {
 	bottom: 45%;
     display: flex;
+    float: right;
+    height: 10%;
     left: 0;
     margin-left: 80%;
     position: absolute;
+    width: 10%;
+    z-index: 99;
       
     
 }
@@ -176,12 +180,15 @@ nav ul li a {
     left: 0%;
 	top: 1%;
     display: flex;
+    z-index: 99;
+
 }
 
 #titulo {
     width: 100%;
     
 }
+
 
 #marcopresentador{
 	width: 90%;

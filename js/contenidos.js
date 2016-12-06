@@ -1,5 +1,6 @@
 var iglesia = {
     'titulo':'Catedral de Mosquera',
+    'subtitulo':'Centro religiosco de mosquera',
     'Categorias':['cultura','turismo','religion'],
     'historia':'Bla bla blalblalblablabla bla bla blasvla'
     };
@@ -16,14 +17,24 @@ var piscina = {"titulo":'Piscina Munisipal',
 var lugares = ['iglesia','piscina','parque','casa de la cultura','alcaldia','Personeria','casa de la juventud'];
 
 
+function tituloSubtitulo (primertoque){ // argumentopodria ser cualquier palabra como lo hizo con iglesia
+    var presentador = document.getElementById("titulo");
+        subtitulo = document.getElementById("subtitulo");
+        presentador.innerHTML = "<h1 id=titulo'>"+ primertoque.titulo + "</h1>";
+        subtitulo.innerHTML = primertoque.subtitulo;
+
+};
+
+
+
+
 
 
 function vercontenido (argumento){ // argumentopodria ser cualquier palabra como lo hizo con iglesia
-    console.log('hola');
+    console.log('ok click');
      for (j=0; j <= 2; j++){
         switch(j){
                 case 0:
-                                   
                     var contenedor = document.getElementById('detalles');
                     contenedor.style.left = "0";
                     contenedor.style.top = "0";
@@ -32,19 +43,13 @@ function vercontenido (argumento){ // argumentopodria ser cualquier palabra como
                     contenedor.style.WebkitTransition = "all 2s";
                     contenedor.style.transition = "all 1s"; 
                     console.log('case 0');
-
-                    
-
                 break;
                 case 1:
-                    console.log('hola')
+                    console.log('texto')
                     var contenedor = document.getElementById('titulo'),
-                    
                     parrafo = document.getElementById("parrafo");
                     contenedor.innerHTML = "<h1 id=titulo'>"+ argumento.titulo + "</h1>";
                     parrafo.innerHTML = argumento.historia
-                    
-                    
                 break;
             };
     };
