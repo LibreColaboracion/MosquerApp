@@ -35,9 +35,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="69.609262"
-     inkscape:cy="155.64009"
+     inkscape:zoom="3.959798"
+     inkscape:cx="136.37817"
+     inkscape:cy="186.91865"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -226,7 +226,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="puntos">
-     <circle
-     id="punto" />
+    <circle
+       id="circle37" />
   </g>
 </svg>
