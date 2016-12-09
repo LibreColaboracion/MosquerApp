@@ -26,10 +26,6 @@ function tituloSubtitulo (primertoque){ // argumentopodria ser cualquier palabra
 };
 
 
-
-
-
-
 function vercontenido (argumento){ // argumentopodria ser cualquier palabra como lo hizo con iglesia
     console.log('ok click');
      for (j=0; j <= 2; j++){
@@ -98,3 +94,17 @@ function atras(){
 };
 
 
+
+
+function zoom(){
+      if (document.object) {
+        document.object.mapaex.width="623%";
+        document.object.mapaex.marginTop="-103%";
+        document.object.mapaex.marginLeft="-259%";
+      } else {
+        logo = document.getElementById("mapaex");
+        logo.width = "623%";
+        logo.style.marginTop ="-103%" ; 
+        logo.style.marginLeft ="-259%" ; 
+      };
+    };

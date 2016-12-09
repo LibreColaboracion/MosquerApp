@@ -1,10 +1,13 @@
+
 function hola(arg){
     var f = document.getElementById('titulo');
-    f.innerHTML = "<h1>"+ arg +"</h1>" ;
+    f.innerHTML = "<div onclick='vercontenido();''>" + "<h1>"+ arg +"</h1>"+"</div>" ;
     f.style.borderRadius = "10px";
     f.style.backgroundColor = "white";
-    console.log(arg);
+     console.log(arg);
 };
+
+
 var cordenadas = {
     'Laguna la herrera':[58,142],
     'Humedal Meandro del say':[391,193],
@@ -33,3 +36,8 @@ window.addEventListener('load', function(){
     puntos(cordenadas);
 
 });
+
+
+
+
+   

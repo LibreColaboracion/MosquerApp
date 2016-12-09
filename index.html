@@ -31,16 +31,19 @@
 
 <!-- Ventana solo mapa-->
 <div class="pantalla">
-	<div id = "lupa" onclick="zoommapa()">
-		<img src="img/lupamas.svg">
-	</div>
-		<object id= "mapaex" width="100%" height= "auto" type="image/svg+xml" data="img/mapa.svg"></object>
 	
+		<div id="marcozoom">
+				<div id = "lupa" onclick="zoom()">
+				<img src="img/lupamas.svg">
+		</div>
+
+			<object id= "mapaex" type="image/svg+xml" data="img/mapa.svg" ></object>
+		</div>
+
 	<div id="marcopresentador">
 		<p> 
 		<img id="imgpresentador" src="img/personaje.svg">
-		<p>Bienvenidos puedes usar la lupa para acercar.</p>
-		<p>Toca los puntos verdes para saber mas del lugar</p>
+		
 		<div id = "titulo"> <h1></h1></div>
 		<div id = "subtitulo"> <h1></h1></div>
 		
