@@ -1,5 +1,5 @@
 var cordenadas = {
-    'Laguna la herrera':[58,142],
+    'Laguna_la_herrera':[58,142],
     'Humedal Meandro del say':[391,193],
     'Desierto De Sabrinsky':[84,199],
     'Hacienda El Novillero':[170,122],

@@ -5,6 +5,12 @@ var iglesia = {
     'historia':'Bla bla blalblalblablabla bla bla blasvla'
     };
 
+var Laguna_la_herrera = {
+    'titulo':'Laguna la herrera',
+    'subtitulo':'acologia',
+    'Categorias':['cultura','turismo','religion'],
+    'historia':'qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq'
+    };
 
 
 var lugares = ['iglesia','piscina','parque','casa de la cultura','alcaldia','Personeria','casa de la juventud'];
@@ -77,7 +83,17 @@ function zoom (){
             console.log('zoom++');
             
             };
-   
+function mzoom (){ 
+    console.log('lupamenos');
+            var aumento = document.getElementById("mapaex");
+            aumento.style.width = "100%";
+            aumento.style.marginLeft = "0%";
+            aumento.style.marginTop = "0%";
+            aumento.style.WebkitTransition = "all 4s";
+            aumento.style.transition = "all 4s"; 
+            console.log('zoom--');
+            
+            };
 
 
 
