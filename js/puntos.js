@@ -1,13 +1,3 @@
-
-function hola(arg){
-    var f = document.getElementById('titulo');
-    f.innerHTML = "<div onclick='vercontenido();''>" + "<h1>"+ arg +"</h1>"+"</div>" ;
-    f.style.borderRadius = "10px";
-    f.style.backgroundColor = "white";
-     console.log(arg);
-};
-
-
 var cordenadas = {
     'Laguna la herrera':[58,142],
     'Humedal Meandro del say':[391,193],
@@ -15,9 +5,20 @@ var cordenadas = {
     'Hacienda El Novillero':[170,122],
     'Humedal guali':[285, 104],
     'Piedras de Usca':[85, 173],
-    'Parque Principal Mosquera':[208, 110]
+    'Parque Principal Mosquera':[208, 110],
+    'iglesia':[150, 150],
+
     
 };
+
+function hola(arg){
+    var f = document.getElementById('titulo');
+    f.innerHTML = "<div onclick='vercontenido("+arg+");''>" + "<h1>"+ arg +"</h1>"+"</div>" ;
+    f.style.borderRadius = "10px";
+    f.style.backgroundColor = "white";
+     console.log(cordenadas);
+};
+
 
 function puntos(arg){
     var corlugares = Object.keys(arg);
@@ -31,6 +32,13 @@ function puntos(arg){
             a.getElementById(e).addEventListener('click',function(){hola(e)});
         });
 };
+
+
+
+
+
+
+
 
 window.addEventListener('load', function(){
     puntos(cordenadas);
