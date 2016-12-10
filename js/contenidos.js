@@ -70,7 +70,7 @@ function noVercontenido (argumento){ // argumentopodria ser cualquier palabra co
     };
 };
 
-
+/*lupa*/
 
 function zoom (){ 
     console.log('lupa');
@@ -116,11 +116,6 @@ function adelante(){
     var foto = document.getElementById("foto");
     foto.src = "foto"+num+".jpg";
     };
-
-
-
-
-
 
 window.addEventListener('load', function(){
     adelante(num);
