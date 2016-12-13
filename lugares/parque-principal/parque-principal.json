@@ -7,8 +7,8 @@ var parque1 =
         "tel":484545245,
         "dir":"calle 23 # 12 - 34"},
      "contenido":[
-                    {"subtitulo": "Arte", "imagenes":4, "audio":"arte.ogg", "texto":"Texto de arte PARQUE"},
-                    {"subtitulo": "Cultura", "imagenes":3, "audio":"cultura.ogg", "texto":"Texto de Cultura PARQUE"},
+                    {"subtitulo": "SUB-Arte", "imagenes":4, "audio":"arte.ogg", "texto":"Texto de arte PARQUE"},
+                    {"subtitulo": "SUB-Cultura", "imagenes":3, "audio":"cultura.ogg", "texto":"Texto de Cultura PARQUE"},
                     
                 ]
 };

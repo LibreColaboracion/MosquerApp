@@ -7,11 +7,11 @@ var laguna_la_herrera = {
         "tel":11111111111111,
         "dir":"ddddddddddddddddddddddd"},
     "contenido":[
-                    {"subtitulo": "Arte", "imagenes":4, "audio":"arte.ogg", 
+                    {"subtitulo": "SUB-Arte", "imagenes":4, "audio":"arte.ogg", 
                     "texto":"Texto de artefdkshfkjdfhfghgfhfhgfhfghgfhshfjdshfkhdjdfhsdhfkjdshfkjhdskfj"},
-                    {"subtitulo": "Cultura", "imagenes":3, "audio":"cultura.ogg", 
+                    {"subtitulo": "SUB - Cultura", "imagenes":3, "audio":"cultura.ogg", 
                     "texto":"Texto de Culturafghfghgfhffhghfghfghfghfghkjfgfgjlkfgjhlfkjhlkfglhkjfghkljlfgj"},
-                    {"subtitulo": "Danza", "imagenes":2, "audio":"danza.ogg", 
+                    {"subtitulo": "SUb -Danza", "imagenes":2, "audio":"danza.ogg", 
                     "texto":"Texto de danza hfghfgjkkljghfjgkrieuyteriuyteruiytiuerytieruytuyerutyi"},
                 ]
 };

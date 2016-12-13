@@ -1,5 +1,5 @@
 function vercontenido (argumento){ 
-     for (j=0; j <= 2; j++){
+     for (j=0; j <= 4; j++){
         switch(j){
                 case 0:
                     var contenedor = document.getElementById('detalles');
@@ -11,43 +11,18 @@ function vercontenido (argumento){
                     console.log('case 0');
                 break;
                 case 1:
-                    var contenedor = document.getElementById('titulox');
-                        tel = document.getElementById("tel");
-                        dir = document.getElementById("dir");
-                        contenido = document.getElementById("contenido");
-                        imagenes = document.getElementById("imagenes");
-                        audio = document.getElementById("audio");
-                        texto = document.getElementById("texto");
-                        contenidocat = document.getElementById("contenidocat");
-                        
+                    var contenedor = document.getElementById('categoria1');
                         
                         contenidocat.innerHTML = (argumento.contenido[0].subtitulo);
-                        
                         contenedor.innerHTML = (argumento.titulo);
-                        tel.innerHTML = (argumento.datos.tel);
-                        dir.innerHTML = (argumento.datos.dir);
-                        contenido.innerHTML = ("<p>"+ (argumento.contenido[0].subtitulo)+"</p>" + 
+                        contenedor.innerHTML = ("<p>"+ (argumento.contenido[0].subtitulo)+"</p>" + 
                                                "<p>"+ (argumento.contenido[0].imagenes)+"</p>"+
                                                "<p>"+ (argumento.contenido[0].audio)+"</p>"+
                                                "<p>"+ (argumento.contenido[0].texto)+"</p>"
-                                               
                                                );
-                        
-                        
-                    
-                    contenedor.style.display = "inherit";
-                    tel.style.display = "inherit";
-                    dir.style.display = "inherit";
-                    
-                    contenido.style.display = "inherit";
-                    imagenes.style.display = "inherit";
-                    audio.style.display="inherit";
-                    texto.style.display = "inherit";
-                    contenidocat.style.display = "inherit";
-                    
-                   
-                    
-                break;
+                        contenedor.style.display = "inherit";
+                        contenidocat.style.display = "inherit";
+                    break;
             };
     };
 };
@@ -68,19 +43,10 @@ function noVercontenido (argumento){ // argumentopodria ser cualquier palabra co
                     console.log('case 0');
                 break;
                 case 1:
-                    console.log('texto')
-                    var contenedor = document.getElementById('titulox'),
-                    texto = document.getElementById("texto");
-                    contenedor.style.display = "none";
-                    tel.style.display = "none";
-                    dir.style.display = "none";
-                    
-                    contenido.style.display = "none";
-                    imagenes.style.display = "none";
-                    audio.style.display="none";
-                    texto.style.display = "none";
-                    contenidocat.style.display = "none";
-                   
+                    var contenedor = document.getElementById('categoria1');
+                        contenedor.style.display = "none";
+                        contenidocat.style.display = "none";
+                        
                 break;
             };
     };
