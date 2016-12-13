@@ -6,16 +6,9 @@ var parque1 =
     "datos":{
         "tel":484545245,
         "dir":"calle 23 # 12 - 34"},
-    "contenido":{
-        "arte":{
-            "imagenes":4,
-            "audios":"arte.ogg",
-            "texto":"<p>texto uno de parque </p>"
-        },
-        "cultura":{
-            "imagenes":3,
-            "audios":"cultura.ogg",
-			"texto":"</p>texto 2 de parque</p>"
-        }
-    }
+     "contenido":[
+                    {"subtitulo": "Arte", "imagenes":4, "audio":"arte.ogg", "texto":"Texto de arte PARQUE"},
+                    {"subtitulo": "Cultura", "imagenes":3, "audio":"cultura.ogg", "texto":"Texto de Cultura PARQUE"},
+                    
+                ]
 };

@@ -32,7 +32,7 @@ function hola(arg){
     f.innerHTML = "<div onclick='vercontenido("+arg+");''>" + "<h3>"+ lugares[arg]['titulo'] +"</h3>"+"</div>" ;
     f.innerHTML += ("<p>"+lugares[arg]["datos"]["tel"])+"</p>" ;
     f.innerHTML += ("<p>"+lugares[arg]["datos"]["dir"])+"</p>";
-    //f.innerHTML += ("<p>"+Object.keys(lugares[arg]["contenido"]))+"</p>";
+    
     f.style.borderRadius = "10px";
     f.style.borderStyle = "solid";
     f.style.backgroundColor = "white";

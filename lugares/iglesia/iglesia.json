@@ -6,13 +6,8 @@ var iglesia =
     "datos":{
         "tel":555555555555,
         "dir":"carrer 16 a 22 20"},
-    "contenido":{
-        "arte":{
-            "imagenes":4,
-            "audios":"arteaaaa.ogg",
-            "texto":"<p>texto iglesia</p>"
-        },
-        
-        
-    }
-}
+     "contenido":[
+                    {"subtitulo": "Arte", "imagenes":4, "audio":"arte.ogg", "texto":"Texto IGLESIA de arte"},
+                   
+                ]
+};

@@ -168,6 +168,17 @@ nav ul li a {
 
 }
 
+#contenidocat{
+    width: 100%;
+    height: 10%;
+    background-color: red;
+    display: flex;
+    float: left;
+    position: absolute;
+    z-index: 99;
+    
+    
+}
 
 
 #galeria{

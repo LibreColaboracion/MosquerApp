@@ -18,17 +18,22 @@ function vercontenido (argumento){
                         imagenes = document.getElementById("imagenes");
                         audio = document.getElementById("audio");
                         texto = document.getElementById("texto");
+                        contenidocat = document.getElementById("contenidocat");
+                        
+                        
+                        contenidocat.innerHTML = (argumento.contenido[0].subtitulo);
                         
                         contenedor.innerHTML = (argumento.titulo);
                         tel.innerHTML = (argumento.datos.tel);
                         dir.innerHTML = (argumento.datos.dir);
+                        contenido.innerHTML = ("<p>"+ (argumento.contenido[0].subtitulo)+"</p>" + 
+                                               "<p>"+ (argumento.contenido[0].imagenes)+"</p>"+
+                                               "<p>"+ (argumento.contenido[0].audio)+"</p>"+
+                                               "<p>"+ (argumento.contenido[0].texto)+"</p>"
+                                               
+                                               );
                         
-                        contenido.innerHTML = Object.keys(argumento.contenido);
-                        imagenes.innerHTML = (argumento.contenido.arte.imagenes);
-                        audio.innerHTML = (argumento.contenido.arte.audio);
-                        texto.innerHTML = (argumento.contenido.arte.texto);
                         
-                       
                     
                     contenedor.style.display = "inherit";
                     tel.style.display = "inherit";
@@ -38,6 +43,7 @@ function vercontenido (argumento){
                     imagenes.style.display = "inherit";
                     audio.style.display="inherit";
                     texto.style.display = "inherit";
+                    contenidocat.style.display = "inherit";
                     
                    
                     
@@ -73,7 +79,7 @@ function noVercontenido (argumento){ // argumentopodria ser cualquier palabra co
                     imagenes.style.display = "none";
                     audio.style.display="none";
                     texto.style.display = "none";
-                    
+                    contenidocat.style.display = "none";
                    
                 break;
             };
@@ -116,7 +122,7 @@ function atras(){
     if (num<1)
         num =3;
     var foto = document.getElementById("foto");
-    foto.src = "foto"+num+".jpg";
+    foto.src = "img/foto"+num+".jpg";
     };
 
 function adelante(){
