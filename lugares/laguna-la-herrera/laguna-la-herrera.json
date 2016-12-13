@@ -7,11 +7,11 @@ var laguna_la_herrera = {
         "tel":11111111111111,
         "dir":"ddddddddddddddddddddddd"},
     "contenido":[
-                    {"subtitulo": "SUB-Arte", "imagenes":4, "audio":"arte.ogg", 
-                    "texto":"Texto de artefdkshfkjdfhfghgfhfhgfhfghgfhshfjdshfkhdjdfhsdhfkjdshfkjhdskfj"},
-                    {"subtitulo": "SUB - Cultura", "imagenes":3, "audio":"cultura.ogg", 
-                    "texto":"Texto de Culturafghfghgfhffhghfghfghfghfghkjfgfgjlkfgjhlfkjhlkfglhkjfghkljlfgj"},
-                    {"subtitulo": "SUb -Danza", "imagenes":2, "audio":"danza.ogg", 
-                    "texto":"Texto de danza hfghfgjkkljghfjgkrieuyteriuyteruiytiuerytieruytuyerutyi"},
+                    {"subtitulo": "SUB-Arte laguan herrea", "imagenes":4, "audio":"arte.ogg", 
+                    "texto":"Texto de arte LAGUNA HERRERAfdkshfkjdfhfghgfhfhgfhfghgfhshfjdshfkhdjdfhsdhfkjdshfkjhdskfj"},
+                    {"subtitulo": "SUB - Cultura HERRERA ", "imagenes":3, "audio":"cultura.ogg", 
+                    "texto":"Texto de Cultura HERRERA fghfghgfhffhghfghfghfghfghkjfgfgjlkfgjhlfkjhlkfglhkjfghkljlfgj"},
+                    {"subtitulo": "SUb -Danza HERRERA ", "imagenes":2, "audio":"danza.ogg", 
+                    "texto":"Texto de danza HERRERA hfghfgjkkljghfjgkrieuyteriuyteruiytiuerytieruytuyerutyi"},
                 ]
 };
