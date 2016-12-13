@@ -1,24 +1,4 @@
-var iglesia = {
-    'titulo':'Catedral de Mosquera',
-    'subtitulo':'Centro religiosco de mosquera',
-    'Categorias':['cultura','turismo','religion'],
-    'historia':'Bla bla blalblalblablabla bla bla blasvla'
-    };
-
-var Laguna_la_herrera = {
-    'titulo':'Laguna la herrera',
-    'subtitulo':'acologia',
-    'Categorias':['cultura','turismo','religion'],
-    'historia':'qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq'
-    };
-
-
-var lugares = ['iglesia','piscina','parque','casa de la cultura','alcaldia','Personeria','casa de la juventud'];
-
-
-
-function vercontenido (argumento){ // argumentopodria ser cualquier palabra como lo hizo con iglesia
-    console.log('ok click');
+function vercontenido (argumento){ 
      for (j=0; j <= 2; j++){
         switch(j){
                 case 0:
@@ -27,18 +7,40 @@ function vercontenido (argumento){ // argumentopodria ser cualquier palabra como
                     contenedor.style.top = "0";
                     contenedor.style.width = '100%';
                     contenedor.style.height = '100%';
-                    contenedor.style.WebkitTransition = "all 2s";
                     contenedor.style.transition = "all 1s"; 
                     console.log('case 0');
                 break;
                 case 1:
-                    console.log('texto')
-                    var contenedor = document.getElementById('titulox'),
-                    parrafo = document.getElementById("parrafo");
-                    contenedor.innerHTML = argumento.titulo;
-                    parrafo.innerHTML = argumento.historia;
+                    var contenedor = document.getElementById('titulox');
+                        tel = document.getElementById("tel");
+                        dir = document.getElementById("dir");
+                        contenido = document.getElementById("contenido");
+                        imagenes = document.getElementById("imagenes");
+                        audio = document.getElementById("audio");
+                        texto = document.getElementById("texto");
+                        
+                        contenedor.innerHTML = (argumento.titulo);
+                        tel.innerHTML = (argumento.datos.tel);
+                        dir.innerHTML = (argumento.datos.dir);
+                        
+                        contenido.innerHTML = Object.keys(argumento.contenido);
+                        imagenes.innerHTML = (argumento.contenido.arte.imagenes);
+                        audio.innerHTML = (argumento.contenido.arte.audio);
+                        texto.innerHTML = (argumento.contenido.arte.texto);
+                        
+                       
+                    
                     contenedor.style.display = "inherit";
-                    parrafo.style.display = "inherit";
+                    tel.style.display = "inherit";
+                    dir.style.display = "inherit";
+                    
+                    contenido.style.display = "inherit";
+                    imagenes.style.display = "inherit";
+                    audio.style.display="inherit";
+                    texto.style.display = "inherit";
+                    
+                   
+                    
                 break;
             };
     };
@@ -62,9 +64,17 @@ function noVercontenido (argumento){ // argumentopodria ser cualquier palabra co
                 case 1:
                     console.log('texto')
                     var contenedor = document.getElementById('titulox'),
-                    parrafo = document.getElementById("parrafo");
+                    texto = document.getElementById("texto");
                     contenedor.style.display = "none";
-                    parrafo.style.display = "none";
+                    tel.style.display = "none";
+                    dir.style.display = "none";
+                    
+                    contenido.style.display = "none";
+                    imagenes.style.display = "none";
+                    audio.style.display="none";
+                    texto.style.display = "none";
+                    
+                   
                 break;
             };
     };
@@ -120,5 +130,5 @@ function adelante(){
 window.addEventListener('load', function(){
     adelante(num);
     atras(num);
-
+    
 });

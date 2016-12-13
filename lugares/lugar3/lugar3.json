@@ -1,0 +1,26 @@
+var laguna_la_herrera = {
+    
+    "titulo":"Laguna la Herrea",
+    "cordenadas":[58,142],
+	"categorias":["cultura","turismo"],
+    "datos":{
+        "tel":11111111111111,
+        "dir":"ddddddddddddddddddddddd"},
+    "contenido":{
+        "arte":{
+            "imagenes":4,
+            "audios":"arte.ogg",
+            "texto":"<p>laguna_la_herrera  Okuribito (en japonés: おくりびと, El que despide) es una película dramática dirigida por el cineasta japonés Yōjirō Takita, protagonizada por Masahiro Motoki, Ryōko Hirosue y Tsutomu Yamazaki, y estrenada en 2008. Su trama describe la historia de un joven llamado Daigo y su trabajo como preparador de cadáveres en una funeraria.</p><p>Kundō Koyama redactó el guion basándose en el libro Coffinman de Aoki Shinmon. La producción tuvo dificultades para obtener financiamiento y debió cumplir ciertas restricciones para rodar la película debido a los prejuicios de la sociedad japonesa respecto a la muerte, considerada como una fuente de contaminación espiritual. No fue exhibida en salas de cine de Japón sino hasta después de su estreno en el Festival Internacional de Cine de Montreal en agosto de 2008, donde recibió el «Gran premio del jurado». Más tarde se estrenó en otros países y recaudó 69,9 MUSD en total.</p>"
+        },
+        "cultura":{
+            "imagenes":3,
+            "audios":"cultura.ogg",
+			"texto":"</p> laguna_la_herrera Catalina Gómez Sánchez es una periodista y presentadora colombiana, nacida en Armenia. Actualmente se desempeña como presentadora la primera edición del informativo, al lado de Juan Diego Alvira y Tito Puccetti.</p><p>Es egresada en Comunicación Social de la Universidad Pontificia Bolivariana de Medellín,2 en la cual se graduó en 2007. Antes de terminar sus estudios, ya estaba vinculada a los medios, como productora de RCN Radio en la capital antioqueña, posición que ostentó hasta 2008. Durante los cuatro años siguientes presentó espacios informativos del Canal NTN 24, y luego fue jefe de prensa del Programa Presidencial Colombia Joven, en 2012. Posteriormente tuvo a su cargo la producción y presentación del noticiero de MundoFox, en Miami, y a su regreso a Colombia, condujo el programa País Posible, del Departamento para la Prosperidad Social (DPS). Su llegada al Canal Caracol tuvo lugar en marzo de 2013.</p>"
+        },
+        "danza":{
+            "imagenes":8,
+            "audios":"danza.ogg",
+			"texto":"</p> Danza laguna_la_herrera esto es danza .</p>"
+        }
+    }
+};

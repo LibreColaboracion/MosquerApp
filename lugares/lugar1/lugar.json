@@ -1,0 +1,21 @@
+var parque1 =
+{
+    "titulo":"Parque Principal De Mosquera",
+    "cordenadas":[208, 110],
+	"categorias":["cultura","turismo"],
+    "datos":{
+        "tel":484545245,
+        "dir":"calle 23 # 12 - 34"},
+    "contenido":{
+        "arte":{
+            "imagenes":4,
+            "audios":"arte.ogg",
+            "texto":"<p>texto uno de parque </p>"
+        },
+        "cultura":{
+            "imagenes":3,
+            "audios":"cultura.ogg",
+			"texto":"</p>texto 2 de parque</p>"
+        }
+    }
+};
