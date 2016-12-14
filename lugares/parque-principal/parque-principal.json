@@ -1,6 +1,7 @@
 var parque1 =
 {
     "titulo":"Parque Principal De Mosquera",
+    "nombreDeLaCarpeta":"parque-principal",
     "cordenadas":[208, 110],
 	"categorias":["cultura","turismo"],
     "datos":{
@@ -9,6 +10,5 @@ var parque1 =
      "contenido":[
                     {"subtitulo": "SUB-Arte PARQUE", "imagenes":4, "audio":"arte.ogg", "texto":"Texto de arte PARQUE"},
                     {"subtitulo": "SUB-CulturaPARQUE", "imagenes":3, "audio":"cultura.ogg", "texto":"Texto de Cultura PARQUE"},
-                    
-                ]
+                 ]
 };

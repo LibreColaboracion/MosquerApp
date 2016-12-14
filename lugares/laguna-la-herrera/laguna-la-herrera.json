@@ -1,6 +1,7 @@
 var laguna_la_herrera = {
     
     "titulo":"Laguna la Herrea",
+    "nombreDeLaCarpeta":"laguna-la-herrera",
     "cordenadas":[58,142],
 	"categorias":["cultura","turismo"],
     "datos":{

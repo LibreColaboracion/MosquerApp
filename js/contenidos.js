@@ -17,35 +17,39 @@ function vercontenido (argumento){
                         contenedor.innerHTML = ("<p>"+ (argumento.titulo)+"</p>" + 
                                                 "<p>"+ (argumento.contenido[0].subtitulo)+"</p>" + 
                                                "<p>"+ (argumento.contenido[0].imagenes)+"</p>"+
-                                               "<p>"+ (argumento.contenido[0].rel)+"</p>"+
+                                               "<p><audio controls  src='lugares/"+(argumento.nombreDeLaCarpeta)+"/audio"+"/"+(argumento.contenido[0].audio)+"'preload='auto' type='audio/ogg'></audio></p>"+
                                                "<p>"+ (argumento.contenido[0].texto)+"</p>"
                                                );
+                                             
                         contenedor.style.display = "inherit";
                         contenidocat.style.display = "inherit";
                         console.log('ok contenidos cargados');
+                        console.log (argumento.nombreDeLaCarpeta);
+                        console.log (argumento.contenido[0].audio);
+                        
                     break;
                 case 2:
                     var contenedor = document.getElementById('categoria2');
                         contenidocat.innerHTML = (argumento.contenido[1].subtitulo);
                         
-                        contenedor.innerHTML = ("<p>"+ (argumento.titulo)+"</p>" + 
-                                                "<p>"+ (argumento.contenido[1].subtitulo)+"</p>" + 
+                        contenedor.innerHTML = ("<p>"+ (argumento.contenido[1].subtitulo)+"</p>" + 
                                                "<p>"+ (argumento.contenido[1].imagenes)+"</p>"+
-                                               "<p>"+ (argumento.contenido[1].audio)+"</p>"+
+                                              "<p><audio controls src='lugares/"+(argumento.nombreDeLaCarpeta)+"/audio"+"/"+(argumento.contenido[0].audio)+"'preload='auto' type='audio/ogg'></audio></p>"+
                                                "<p>"+ (argumento.contenido[1].texto)+"</p>"
                                                );
                         contenedor.style.display = "inherit";
                         contenidocat.style.display = "inherit";
                         console.log('ok contenidos cargados 1');
+                        console.log (argumento.nombreDeLaCarpeta);
+                        console.log (argumento.contenido[0].audio);
                     break;
                 case 3:
                     var contenedor = document.getElementById('categoria3');
                         contenidocat.innerHTML = (argumento.contenido[2].subtitulo);
                         
-                        contenedor.innerHTML = ("<p>"+ (argumento.titulo)+"</p>" + 
-                                                "<p>"+ (argumento.contenido[2].subtitulo)+"</p>" + 
+                        contenedor.innerHTML = ("<p>"+ (argumento.contenido[2].subtitulo)+"</p>" + 
                                                "<p>"+ (argumento.contenido[2].imagenes)+"</p>"+
-                                               "<p>"+ (argumento.contenido[2].audio)+"</p>"+
+                                               "<p><audio controls  src='lugares/"+(argumento.nombreDeLaCarpeta)+"/audio"+"/"+(argumento.contenido[0].audio)+"'preload='auto' type='audio/ogg'></audio></p>"+
                                                "<p>"+ (argumento.contenido[2].texto)+"</p>"
                                                );
                         contenedor.style.display = "inherit";
@@ -56,10 +60,9 @@ function vercontenido (argumento){
                     var contenedor = document.getElementById('categoria4');
                         contenidocat.innerHTML = (argumento.contenido[3].subtitulo);
                         
-                        contenedor.innerHTML = ("<p>"+ (argumento.titulo)+"</p>" + 
-                                                "<p>"+ (argumento.contenido[3].subtitulo)+"</p>" + 
+                        contenedor.innerHTML = ("<p>"+ (argumento.contenido[3].subtitulo)+"</p>" + 
                                                "<p>"+ (argumento.contenido[3].imagenes)+"</p>"+
-                                               "<p>"+ (argumento.contenido[3].audio)+"</p>"+
+                                               "<p><audio controls  src='lugares/"+(argumento.nombreDeLaCarpeta)+"/audio"+"/"+(argumento.contenido[0].audio)+"'preload='auto' type='audio/ogg'></audio></p>"+
                                                "<p>"+ (argumento.contenido[3].texto)+"</p>"
                                                );
                         contenedor.style.display = "inherit";
@@ -142,27 +145,43 @@ function mzoom (){
 
 
 /* galeria*/
-
-
 var  num = 1;
+
+function eligiendoGaleria (argumento){
+    console.log (argumento.nombreDeLaCarpeta);
+    console.log (argumento.contenido[0].imagenes);
+ 
+};
+eligiendoGaleria(iglesia);
+
+argumento = (argumento);
+console.log (argumento);
+
 function atras(){
-    num--;
-    if (num<1)
-        num =3;
-    var foto = document.getElementById("foto");
-    foto.src = "img/foto"+num+".jpg";
-    };
-
-function adelante(){
-    num ++;
-    if (num>3)
-        num =1;
-    var foto = document.getElementById("foto");
-    foto.src = "foto"+num+".jpg";
-    };
-
-window.addEventListener('load', function(){
-    adelante(num);
-    atras(num);
     
+     console.log (argumento.nombreDeLaCarpeta);
+    console.log (argumento.contenido[0].imagenes);
+                    num--;
+                    if (num<1)
+                        num =3;
+                    var foto = document.getElementById("foto");
+                    foto.src = "img/foto"+num+".jpg";
+                    
+                };
+                
+            
+function adelante(){
+                    num ++;
+                    if (num>3)
+                        num =1;
+                    var foto = document.getElementById("foto");
+                    foto.src = "foto"+num+".jpg";
+                       
+                    };
+                    
+window.addEventListener('load', function(){
+               atras();
+               adelante();
+              
 });
+    
