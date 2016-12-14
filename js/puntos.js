@@ -48,7 +48,7 @@ function puntos(arg){
     // Me adelante un poco con esta sentencia que usted no sabe manejar pero es casi un for no por eso dice foreach = para cada uno
     Object.keys(arg).forEach(function(e){
             console.log(arg[e]["cordenadas"]);
-            c.innerHTML += '<circle id="'+e+'" cx="'+arg[e]['cordenadas'][0]+'" cy="'+arg[e]["cordenadas"][1]+'" r="1" style="opacity:1;fill:#00ff00;fill-opacity:1;fill-rule:nonzero;stroke:#800000;stroke-width:1.37062943;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"> </circle>';
+            c.innerHTML += '<circle id="'+e+'" cx="'+arg[e]['cordenadas'][0]+'" cy="'+arg[e]["cordenadas"][1]+'" r="2" style="opacity:1;fill:#00ff00;fill-opacity:1;fill-rule:nonzero;stroke:#800000;stroke-width:1.37062943;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"> </circle>';
             
         });
     Object.keys(arg).forEach(function(e){

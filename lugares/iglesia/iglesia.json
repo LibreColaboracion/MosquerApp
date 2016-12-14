@@ -7,7 +7,7 @@ var iglesia =
         "tel":555555555555,
         "dir":"carrer 16 a 22 20"},
      "contenido":[
-                    {"subtitulo": "SUB-Arte iglesia", "imagenes":4, "audio":"arte.ogg", "texto":"Texto IGLESIA de arte"},
-                   
+                    {"subtitulo": "SUB-Arte iglesia", "imagenes":4, "rel":"audio.ogg", "texto":"Texto IGLESIA de arte"},
+
                 ]
 };

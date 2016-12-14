@@ -17,7 +17,7 @@ function vercontenido (argumento){
                         contenedor.innerHTML = ("<p>"+ (argumento.titulo)+"</p>" + 
                                                 "<p>"+ (argumento.contenido[0].subtitulo)+"</p>" + 
                                                "<p>"+ (argumento.contenido[0].imagenes)+"</p>"+
-                                               "<p>"+ (argumento.contenido[0].audio)+"</p>"+
+                                               "<p>"+ (argumento.contenido[0].rel)+"</p>"+
                                                "<p>"+ (argumento.contenido[0].texto)+"</p>"
                                                );
                         contenedor.style.display = "inherit";
@@ -70,15 +70,9 @@ function vercontenido (argumento){
     };
 };
 
+//no ver contenido
 
-
-
-
-
-
-
-
-function noVercontenido (argumento){ // argumentopodria ser cualquier palabra como lo hizo con iglesia
+function noVercontenido (argumento){ 
     console.log('cerrar');
      for (j=0; j <= 4; j++){
         switch(j){
