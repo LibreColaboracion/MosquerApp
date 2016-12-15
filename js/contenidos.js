@@ -47,8 +47,6 @@ function vercontenido (argumento){
                         clickiz.addEventListener('click',function(){atras(argumento)}); 
                         clickder.addEventListener('click',function(){adelante(argumento)});
                         
-                        
-                        
                         contenidocat.innerHTML = (argumento.contenido[0].subtitulo);
                         contenedor.innerHTML = ("<p>"+ (argumento.titulo)+"</p>" + 
                                                 "<p>"+ (argumento.contenido[0].subtitulo)+"</p>" + 
