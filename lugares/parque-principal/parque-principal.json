@@ -2,7 +2,7 @@ var parque1 =
 {
     "titulo":"Parque Principal De Mosquera",
     "nombreDeLaCarpeta":"parque-principal",
-    "cordenadas":[208, 110],
+    "cordenadas":[208, 110,2],
 	"categorias":["cultura","turismo"],
     "datos":{
         "tel":484545245,

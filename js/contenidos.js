@@ -1,7 +1,4 @@
 /* galeria*/
-
-
-
 var  num = 1;
     function atras(arg){
             var cantidadFotos = (arg.contenido[0].imagenes);
@@ -19,7 +16,6 @@ var  num = 1;
                 num =1;
             var foto = document.getElementById("foto");
             foto.src = "lugares/"+(arg.nombreDeLaCarpeta)+"/imagenes/" +"foto"+num+".jpg";
-               
             };
 
 

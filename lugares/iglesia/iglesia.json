@@ -2,7 +2,7 @@ var iglesia =
 {
     "titulo":"Iglesia",
     "nombreDeLaCarpeta":"iglesia",
-    "cordenadas":[205, 108],
+    "cordenadas":[205, 108,2],
 	"categorias":["cultura","turismo"],
     "datos":{
         "tel":555555555555,
