@@ -35,11 +35,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.6"
-     inkscape:cx="233.36959"
-     inkscape:cy="296.01234"
+     inkscape:zoom="1.4"
+     inkscape:cx="192.05566"
+     inkscape:cy="209.25493"
      inkscape:document-units="px"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer1"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -106,15 +106,15 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:14.7662487px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="-805.28052"
-       y="149.34035"
+       x="-755.64563"
+       y="62.70771"
        id="text4187"
        sodipodi:linespacing="125%"
        transform="scale(0.99723178,1.0027759)"><tspan
          sodipodi:role="line"
          id="tspan4189"
-         x="-805.28052"
-         y="149.34035">Bogota</tspan></text>
+         x="-755.64563"
+         y="62.70771">Bogota</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#808000;stroke-width:1.87039149;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:7.48156603, 1.87039151;stroke-dashoffset:0;stroke-opacity:1"
        d="m -1040.0783,-227.83084 59.52017,31.5673 54.54119,48.8614 m 66.83859,45.86989 33.31888,0 54.5412,-8.97455 51.56623,17.949092 32.72471,29.91513"
@@ -200,13 +200,6 @@
          d="m 301.40427,330.60821 4.29314,-2.02031 5.17704,-3.15672 c 0,0 6.06091,-4.41942 6.69226,-4.67196 0.63134,-0.25254 6.69226,-4.54568 6.69226,-4.54568 l 4.79822,-3.91434 1.13642,-1.01016"
          style="fill:none;fill-rule:evenodd;stroke:#808000;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:6.4, 1.6;stroke-dashoffset:0;stroke-opacity:1" />
     </g>
-    <rect
-       style="opacity:1;fill:none;fill-opacity:0.40740739;fill-rule:nonzero;stroke:#d45500;stroke-width:0.88597488;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.77194985, 0.88597492;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect4245"
-       width="63.45285"
-       height="40.579483"
-       x="-931.37744"
-       y="-144.70895" />
     <rect
        id="punto" />
     <text
