@@ -1,3 +1,25 @@
+/* galeria*/
+var  num = 1;
+    function atras(arg){
+            num--;
+            if (num<1)
+                num =3;
+            var foto = document.getElementById("foto");
+            foto.src =  "lugares/"+(arg.nombreDeLaCarpeta)+"/imagenes/" +"foto"+num+".jpg";
+            };
+    function adelante(arg){
+            num ++;
+            if (num>3)
+                num =1;
+            var foto = document.getElementById("foto");
+            foto.src = "lugares/"+(arg.nombreDeLaCarpeta)+"/imagenes/" +"foto"+num+".jpg";
+               
+            };
+//window.addEventListener('load', function(){
+  //             atras();
+    //           adelante();
+              
+//});
 function vercontenido (argumento){ 
      for (j=0; j <= 4; j++){
         switch(j){
@@ -14,6 +36,18 @@ function vercontenido (argumento){
                     var contenedor = document.getElementById('categoria1');
                         galeria = document.getElementById('galeria');
                         galeria.innerHTML = (" <img src='lugares/"+(argumento.nombreDeLaCarpeta)+"/imagenes"+"/foto1.jpg 'width='100%' id = 'foto'>");
+                        atras(argumento);
+                        adelante(argumento);
+                        
+                        clickiz = document.getElementById("iz");
+                        clickder = document.getElementById("der");
+                        //clickiz.onclick = "atras("+argumento+")"; 
+                        
+                        
+                        clickiz.addEventListener('click',function(){atras(argumento)}); 
+                        clickder.addEventListener('click',function(){adelante(argumento)});
+                        
+                        
                         
                         contenidocat.innerHTML = (argumento.contenido[0].subtitulo);
                         contenedor.innerHTML = ("<p>"+ (argumento.titulo)+"</p>" + 
@@ -130,7 +164,6 @@ function zoom (){
             aumento.style.marginTop = "-97%";
             aumento.style.transition = "all 2s"; 
             console.log('acercando mapa');
-            
             };
 function mzoom (){ 
     console.log('lupamenos');
@@ -140,30 +173,4 @@ function mzoom (){
             aumento.style.marginTop = "0%";
             aumento.style.transition = "all 2s"; 
             console.log('Alejando mapa');
-            
             };
-
-/* galeria*/
-var  num = 1;
-    function atras(){
-            num--;
-            if (num<1)
-                num =3;
-            var foto = document.getElementById("foto");
-            foto.src = "foto"+num+".jpg";
-            };
-    function adelante(){
-            num ++;
-            if (num>3)
-                num =1;
-            var foto = document.getElementById("foto");
-            foto.src = "foto"+num+".jpg";
-               
-            };
-
-window.addEventListener('load', function(){
-               atras();
-               adelante();
-              
-});
-    
