@@ -12,8 +12,10 @@ function vercontenido (argumento){
                 break;
                 case 1:
                     var contenedor = document.getElementById('categoria1');
-                        contenidocat.innerHTML = (argumento.contenido[0].subtitulo);
+                        galeria = document.getElementById('galeria');
+                        galeria.innerHTML = (" <img src='lugares/"+(argumento.nombreDeLaCarpeta)+"/imagenes"+"/foto1.jpg 'width='100%' id = 'foto'>");
                         
+                        contenidocat.innerHTML = (argumento.contenido[0].subtitulo);
                         contenedor.innerHTML = ("<p>"+ (argumento.titulo)+"</p>" + 
                                                 "<p>"+ (argumento.contenido[0].subtitulo)+"</p>" + 
                                                "<p>"+ (argumento.contenido[0].imagenes)+"</p>"+
@@ -30,6 +32,7 @@ function vercontenido (argumento){
                     break;
                 case 2:
                     var contenedor = document.getElementById('categoria2');
+                    
                         contenidocat.innerHTML = (argumento.contenido[1].subtitulo);
                         
                         contenedor.innerHTML = ("<p>"+ (argumento.contenido[1].subtitulo)+"</p>" + 
@@ -125,8 +128,7 @@ function zoom (){
             aumento.style.width = "600%";
             aumento.style.marginLeft = "-248%";
             aumento.style.marginTop = "-97%";
-            aumento.style.WebkitTransition = "all 4s";
-            aumento.style.transition = "all 4s"; 
+            aumento.style.transition = "all 2s"; 
             console.log('acercando mapa');
             
             };
@@ -136,8 +138,7 @@ function mzoom (){
             aumento.style.width = "100%";
             aumento.style.marginLeft = "0%";
             aumento.style.marginTop = "0%";
-            aumento.style.WebkitTransition = "all 4s";
-            aumento.style.transition = "all 4s"; 
+            aumento.style.transition = "all 2s"; 
             console.log('Alejando mapa');
             
             };
@@ -146,39 +147,22 @@ function mzoom (){
 
 /* galeria*/
 var  num = 1;
+    function atras(){
+            num--;
+            if (num<1)
+                num =3;
+            var foto = document.getElementById("foto");
+            foto.src = "foto"+num+".jpg";
+            };
+    function adelante(){
+            num ++;
+            if (num>3)
+                num =1;
+            var foto = document.getElementById("foto");
+            foto.src = "foto"+num+".jpg";
+               
+            };
 
-function eligiendoGaleria (argumento){
-    console.log (argumento.nombreDeLaCarpeta);
-    console.log (argumento.contenido[0].imagenes);
- 
-};
-eligiendoGaleria(iglesia);
-
-argumento = (argumento);
-console.log (argumento);
-
-function atras(){
-    
-     console.log (argumento.nombreDeLaCarpeta);
-    console.log (argumento.contenido[0].imagenes);
-                    num--;
-                    if (num<1)
-                        num =3;
-                    var foto = document.getElementById("foto");
-                    foto.src = "img/foto"+num+".jpg";
-                    
-                };
-                
-            
-function adelante(){
-                    num ++;
-                    if (num>3)
-                        num =1;
-                    var foto = document.getElementById("foto");
-                    foto.src = "foto"+num+".jpg";
-                       
-                    };
-                    
 window.addEventListener('load', function(){
                atras();
                adelante();
