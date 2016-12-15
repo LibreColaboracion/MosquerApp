@@ -1,25 +1,30 @@
 /* galeria*/
+
+
+
 var  num = 1;
     function atras(arg){
+            var cantidadFotos = (arg.contenido[0].imagenes);
             num--;
             if (num<1)
-                num =3;
+                num =cantidadFotos;
             var foto = document.getElementById("foto");
             foto.src =  "lugares/"+(arg.nombreDeLaCarpeta)+"/imagenes/" +"foto"+num+".jpg";
+            console.log (cantidadFotos);
             };
     function adelante(arg){
+            var cantidadFotos = (arg.contenido[0].imagenes);
             num ++;
-            if (num>3)
+            if (num>cantidadFotos)
                 num =1;
             var foto = document.getElementById("foto");
             foto.src = "lugares/"+(arg.nombreDeLaCarpeta)+"/imagenes/" +"foto"+num+".jpg";
                
             };
-//window.addEventListener('load', function(){
-  //             atras();
-    //           adelante();
-              
-//});
+
+
+//funsion para traer los contenidos.
+
 function vercontenido (argumento){ 
      for (j=0; j <= 4; j++){
         switch(j){
@@ -68,23 +73,20 @@ function vercontenido (argumento){
                         contenidocat.innerHTML = (argumento.contenido[1].subtitulo);
                         
                         contenedor.innerHTML = ("<p>"+ (argumento.contenido[1].subtitulo)+"</p>" + 
-                                               "<p>"+ (argumento.contenido[1].imagenes)+"</p>"+
-                                              "<p><audio controls src='lugares/"+(argumento.nombreDeLaCarpeta)+"/audio"+"/"+(argumento.contenido[0].audio)+"'preload='auto' type='audio/ogg'></audio></p>"+
-                                               "<p>"+ (argumento.contenido[1].texto)+"</p>"
+                                                "<p><audio controls src='lugares/"+(argumento.nombreDeLaCarpeta)+"/audio"+"/"+(argumento.contenido[0].audio)+"'preload='auto' type='audio/ogg'></audio></p>"+
+                                                "<p>"+ (argumento.contenido[1].texto)+"</p>"
                                                );
                         contenedor.style.display = "inherit";
                         contenidocat.style.display = "inherit";
                         console.log('ok contenidos cargados 1');
-                        console.log (argumento.nombreDeLaCarpeta);
-                        console.log (argumento.contenido[0].audio);
+                        
                     break;
                 case 3:
                     var contenedor = document.getElementById('categoria3');
                         contenidocat.innerHTML = (argumento.contenido[2].subtitulo);
                         
                         contenedor.innerHTML = ("<p>"+ (argumento.contenido[2].subtitulo)+"</p>" + 
-                                               "<p>"+ (argumento.contenido[2].imagenes)+"</p>"+
-                                               "<p><audio controls  src='lugares/"+(argumento.nombreDeLaCarpeta)+"/audio"+"/"+(argumento.contenido[0].audio)+"'preload='auto' type='audio/ogg'></audio></p>"+
+                                                "<p><audio controls  src='lugares/"+(argumento.nombreDeLaCarpeta)+"/audio"+"/"+(argumento.contenido[0].audio)+"'preload='auto' type='audio/ogg'></audio></p>"+
                                                "<p>"+ (argumento.contenido[2].texto)+"</p>"
                                                );
                         contenedor.style.display = "inherit";
@@ -96,7 +98,7 @@ function vercontenido (argumento){
                         contenidocat.innerHTML = (argumento.contenido[3].subtitulo);
                         
                         contenedor.innerHTML = ("<p>"+ (argumento.contenido[3].subtitulo)+"</p>" + 
-                                               "<p>"+ (argumento.contenido[3].imagenes)+"</p>"+
+                                               
                                                "<p><audio controls  src='lugares/"+(argumento.nombreDeLaCarpeta)+"/audio"+"/"+(argumento.contenido[0].audio)+"'preload='auto' type='audio/ogg'></audio></p>"+
                                                "<p>"+ (argumento.contenido[3].texto)+"</p>"
                                                );
