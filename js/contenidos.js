@@ -143,8 +143,6 @@ function mzoom (){
             
             };
 
-
-
 /* galeria*/
 var  num = 1;
     function atras(){
