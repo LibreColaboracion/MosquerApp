@@ -2,6 +2,7 @@ var laguna-la-herrera =
 {
     "titulo":"Laguna la Herrera",
     "nombreDeLaCarpeta":"laguna-la-herrera",
+
     "cordenadas":[58,142,2],
 	"categorias":["cultura","turismo"],
     "datos":{
@@ -10,5 +11,19 @@ var laguna-la-herrera =
      "contenido":[
                     {"subtitulo": "Laguna la Herrera", "imagenes":0, "audio":"laguna-la-herrera.ogg", "texto":""},
                    
+
+    "cordenadas":[58,142,10],
+	"categorias":["cultura","turismo","deporte"],
+    "datos":{
+        "tel":11111111111111,
+        "dir":"ddddddddddddddddddddddd"},
+    "contenido":[
+                    {"subtitulo": "cultura", "imagenes":3, "audio":"arte.ogg", 
+                    "texto":"Texto de arte LAGUNA HERRERAfdkshfkjdfhfghgfhfhgfhfghgfhshfjdshfkhdjdfhsdhfkjdshfkjhdskfj"},
+                    {"subtitulo": "turismo ", "imagenes":0, "audio":"cultura.ogg", 
+                    "texto":"Texto de Cultura HERRERA fghfghgfhffhghfghfghfghfghkjfgfgjlkfgjhlfkjhlkfglhkjfghkljlfgj"},
+                    {"subtitulo": "deporte ", "imagenes":0, "audio":"danza.ogg", 
+                    "texto":"Texto de danza HERRERA hfghfgjkkljghfjgkrieuyteriuyteruiytiuerytieruytuyerutyi"},
+
                 ]
 };

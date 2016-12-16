@@ -49,10 +49,10 @@ function vercontenido (argumento){
                         clickiz.addEventListener('click',function(){atras(argumento)}); 
                         clickder.addEventListener('click',function(){adelante(argumento)});
                         
-                        contenidocat.innerHTML = (argumento.contenido[0].subtitulo);
+                        contenidocat.innerHTML = (argumento.categorias);
+                        console.log(argumento.categorias);
                         contenedor.innerHTML = ("<p>"+ (argumento.titulo)+"</p>" + 
                                                 "<p>"+ (argumento.contenido[0].subtitulo)+"</p>" + 
-                                               "<p>"+ (argumento.contenido[0].imagenes)+"</p>"+
                                                "<p><audio controls  src='lugares/"+(argumento.nombreDeLaCarpeta)+"/audio"+"/"+(argumento.contenido[0].audio)+"'preload='auto' type='audio/ogg'></audio></p>"+
                                                "<p>"+ (argumento.contenido[0].texto)+"</p>"
                                                );
@@ -156,9 +156,9 @@ function noVercontenido (argumento){
 function zoom (){ 
     console.log('lupa');
             var aumento = document.getElementById("mapaex");
-            aumento.style.width = "600%";
-            aumento.style.marginLeft = "-248%";
-            aumento.style.marginTop = "-97%";
+            aumento.style.width = "760%";
+            aumento.style.marginLeft = "-325%";
+            aumento.style.marginTop = "-136%";
             aumento.style.transition = "all 2s"; 
             console.log('acercando mapa');
             };
