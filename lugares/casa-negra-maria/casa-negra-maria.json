@@ -1,0 +1,14 @@
+var casa-negra-maria =
+{
+    "titulo":"Casa de la negra Maria",
+    "nombreDeLaCarpeta":"casa-negra-maria",
+    "cordenadas":[00, 00,2],
+	"categorias":["cultura","turismo"],
+    "datos":{
+        "tel":"555555555555",
+        "dir":"carrer 16 a 22 20"},
+     "contenido":[
+                    {"subtitulo": "Casa de la negra Maria", "imagenes":0, "audio":"casa-negra-maria.ogg", "texto":""},
+                   
+                ]
+};
