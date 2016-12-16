@@ -1,0 +1,18 @@
+var teatro_municipal = {
+    "titulo": "Teatro municipal de Mosquera",
+    "nombreDeLaCarpeta": "teatro_municipal",
+    "cordenadas": [209, 108, 2],
+    "categorias": ["cultura", "turismo"],
+    "datos": {
+        "tel": "5555555545555",
+        "dir": "carrer 16 a 22 20"
+    },
+    "contenido": [{
+            "subtitulo": "Teatro municipal de Mosquera",
+            "imagenes": 0,
+            "audio": "teatro_municipal.ogg",
+            "texto": ""
+        },
+
+    ]
+};

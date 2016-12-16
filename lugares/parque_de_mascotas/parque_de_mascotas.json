@@ -1,0 +1,18 @@
+var parque_de_mascotas = {
+    "titulo": "Parque de mascotas de Mosquera",
+    "nombreDeLaCarpeta": "parque_de_mascotas",
+    "cordenadas": [00, 00, 2],
+    "categorias": ["cultura", "turismo"],
+    "datos": {
+        "tel": "5555555545555",
+        "dir": "carrer 16 a 22 20"
+    },
+    "contenido": [{
+            "subtitulo": "Parque de mascotas de Mosquera",
+            "imagenes": 0,
+            "audio": "parque_de_mascotas.ogg",
+            "texto": ""
+        },
+
+    ]
+};

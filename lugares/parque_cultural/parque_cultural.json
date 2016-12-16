@@ -1,0 +1,18 @@
+var parque_cultural = {
+    "titulo": "Parque Cultural de Mosquera",
+    "nombreDeLaCarpeta": "parque_cultural",
+    "cordenadas": [221, 88, 2],
+    "categorias": ["cultura", "turismo"],
+    "datos": {
+        "tel": "555555555555",
+        "dir": "carrer 16 a 22 20"
+    },
+    "contenido": [{
+            "subtitulo": "Parque Cultural de Mosquera",
+            "imagenes": 0,
+            "audio": "parque_cultural.ogg",
+            "texto": ""
+        },
+
+    ]
+};

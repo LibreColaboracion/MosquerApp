@@ -38,7 +38,14 @@ var lugares ={};
     lugares["iglesia_central"]= iglesia_central;
     lugares["laguna_la_herrera"]= laguna_la_herrera;
     lugares["parque_acuatico"]= parque_acuatico;
-     lugares["parque_central"]= parque_central;
+    lugares["parque_central"]= parque_central;
+    lugares["parque_cultural"]= parque_cultural;
+    lugares["parque_de_mascotas"]= parque_de_mascotas;
+    lugares["parque_las_aguas"]= parque_las_aguas;
+    lugares["piedras_de_usca"]= piedras_de_usca;
+    lugares["primera_casa_cultura"]= primera_casa_cultura;
+    lugares["teatro_municipal"]= teatro_municipal;
+    lugares["villa_olimpica"]= villa_olimpica;
 
 
 

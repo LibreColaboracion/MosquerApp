@@ -1,0 +1,18 @@
+var parque_las_aguas = {
+    "titulo": "Parque las Aguas de Mosquera",
+    "nombreDeLaCarpeta": "parque_las_aguas",
+    "cordenadas": [200, 79, 2],
+    "categorias": ["cultura", "turismo"],
+    "datos": {
+        "tel": "5555555545555",
+        "dir": "carrer 16 a 22 20"
+    },
+    "contenido": [{
+            "subtitulo": "Parque las Aguas de Mosquera",
+            "imagenes": 0,
+            "audio": "parque_las_aguas.ogg",
+            "texto": ""
+        },
+
+    ]
+};

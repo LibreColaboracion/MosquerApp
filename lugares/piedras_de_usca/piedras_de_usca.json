@@ -1,0 +1,18 @@
+var piedras_de_usca = {
+    "titulo": "Piedras de Usca",
+    "nombreDeLaCarpeta": "piedras_de_usca",
+    "cordenadas": [85, 173, 10],
+    "categorias": ["cultura", "turismo"],
+    "datos": {
+        "tel": "5555555545555",
+        "dir": "carrer 16 a 22 20"
+    },
+    "contenido": [{
+            "subtitulo": "Piedras de Usca",
+            "imagenes": 0,
+            "audio": "piedras_de_usca.ogg",
+            "texto": ""
+        },
+
+    ]
+};
