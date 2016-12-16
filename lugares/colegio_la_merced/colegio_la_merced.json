@@ -1,0 +1,18 @@
+var colegio_la_merced = {
+    "titulo": "Colegio La Merced de Mosquera",
+    "nombreDeLaCarpeta": "colegio_la_merced",
+    "cordenadas": [212, 103, 2],
+    "categorias": ["cultura", "turismo"],
+    "datos": {
+        "tel": "555555555555",
+        "dir": "carrer 16 a 22 20"
+    },
+    "contenido": [{
+            "subtitulo": "Colegio La Merced de Mosquera",
+            "imagenes": 0,
+            "audio": "colegio_la_merced.ogg",
+            "texto": ""
+        },
+
+    ]
+};

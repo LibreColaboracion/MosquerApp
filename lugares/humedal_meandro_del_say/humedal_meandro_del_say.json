@@ -1,0 +1,18 @@
+var humedal_meandro_del_say = {
+    "titulo": "Humedal Meandro del Say",
+    "nombreDeLaCarpeta": "humedal_meandro_del_say",
+    "cordenadas": [391, 193, 10],
+    "categorias": ["cultura", "turismo"],
+    "datos": {
+        "tel": "555555555555",
+        "dir": "carrer 16 a 22 20"
+    },
+    "contenido": [{
+            "subtitulo": "Humedal Meandro del Say",
+            "imagenes": 0,
+            "audio": "humedal_meandro_del_say.ogg",
+            "texto": ""
+        },
+
+    ]
+};

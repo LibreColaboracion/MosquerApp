@@ -1,0 +1,18 @@
+var parque_acuatico = {
+    "titulo": "Parque Acúatico de Mosuqera",
+    "nombreDeLaCarpeta": "parque_acuatico",
+    "cordenadas": [204, 80, 2],
+    "categorias": ["cultura", "turismo"],
+    "datos": {
+        "tel": "555555554555",
+        "dir": "carrer 16 a 22 20"
+    },
+    "contenido": [{
+            "subtitulo": "Parque acúatico de Mosquera",
+            "imagenes": 0,
+            "audio": "parque_acuatico.ogg",
+            "texto": ""
+        },
+
+    ]
+};

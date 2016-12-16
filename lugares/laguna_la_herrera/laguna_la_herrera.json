@@ -1,0 +1,18 @@
+var laguna_la_herrera = {
+    "titulo": "Laguna la Herrera",
+    "nombreDeLaCarpeta": "laguna_la_herrera",
+    "cordenadas": [58, 142, 10],
+    "categorias": ["cultura", "turismo"],
+    "datos": {
+        "tel": "555555555555",
+        "dir": "carrer 16 a 22 20"
+    },
+    "contenido": [{
+            "subtitulo": "Laguna la Herrera",
+            "imagenes": 0,
+            "audio": "laguna_la_herrera.ogg",
+            "texto": ""
+        },
+
+    ]
+};

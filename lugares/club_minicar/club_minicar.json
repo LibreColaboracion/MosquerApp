@@ -1,0 +1,18 @@
+var club_minicar = {
+    "titulo": "Club Minicar Mosquera",
+    "nombreDeLaCarpeta": "club_minicar",
+    "cordenadas": [00, 00, 2],
+    "categorias": ["cultura", "turismo"],
+    "datos": {
+        "tel": "555555555555",
+        "dir": "carrer 16 a 22 20"
+    },
+    "contenido": [{
+            "subtitulo": "Club Minicar de Mosquera",
+            "imagenes": 3,
+            "audio": "club_minicar.ogg",
+            "texto": ""
+        },
+
+    ]
+};

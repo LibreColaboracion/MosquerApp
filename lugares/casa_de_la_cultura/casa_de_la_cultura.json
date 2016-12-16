@@ -1,0 +1,20 @@
+var casa_de_la_cultura = {
+        "titulo": "Casa de la cultura de Mosquera",
+        "nombreDeLaCarpeta": "casa_de_la_cultura",
+        "cordenadas": [208, 95, 2],
+        "categorias": ["cultura", "turismo"],
+        "datos": {
+            "tel": "555555555555",
+            "dir": "carrer 16 a 22 20"
+        },
+        "contenido": [{
+                "subtitulo": "Casa de la cultura de Mosquera",
+                "imagenes": 3,
+                "audio": "casa_de_la_cultura.ogg",
+                "texto": "La casa de la cultura empezó siendo la estación del tren, la cual fue terminda de construir en 1916, lo que en la época le otorgó un rasgo de modernismo al municipio hasta 1991 cuando se dio la liquidación del tren de la sabana, abriendo la oportunidad para que este espacio pudiera albergar una nueva actividad para los habitantes de Mosquera.\
+                Es así como desde 1997 comenzaron a verse personas reunidas mediante diferentes expreciones artisticas en este lugar.\
+                En la actualidad podemos encontrar más de 4800 personas siendo participes en los diferentes grupos y escuelas artísticas, destacandose el grupo de danza y ballet, este a logrado llevar el talento de mosquera a diferentes partes del país.\
+                Aquí también podemos encontrar la banda sinfónica municipal,creada el 29 de junio de 1995 bajo la administración del alcalde Carlos Felipe Peralta Villegas,conformada por 55 jovenes entre 14 y 27 años de edad."},
+
+            ]
+        };

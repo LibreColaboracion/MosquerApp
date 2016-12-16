@@ -8,7 +8,7 @@ var auditorio =
         "tel":"555555555555",
         "dir":"carrer 16 a 22 20"},
      "contenido":[
-                    {"subtitulo": "Auditorio De Mosquera", "imagenes":0, "audio":"auditorio.ogg", "texto":"Auditorio moderno con una capacidad de 750 personas; todo esto con un apoyo tecnológico al servicio de la población mosqueruna y foráneos. Su importancia radica en que ofrece al municipio de Mosquera  un  centro  cultural  integrado, sobresaliente por su arquitectura moderna, sus amplias y cómodas instalaciones, las cuales son ideales para eventos empresariales, académicos, lúdicos, recreativos y pedagógicos. Tomado de: Archivo recursos turisticos"},
+                    {"subtitulo": "Auditorio De Mosquera", "imagenes":3, "audio":"auditorio.ogg", "texto":"Auditorio moderno con una capacidad de 750 personas; todo esto con un apoyo tecnológico al servicio de la población mosqueruna y foráneos. Su importancia radica en que ofrece al municipio de Mosquera  un  centro  cultural  integrado, sobresaliente por su arquitectura moderna, sus amplias y cómodas instalaciones, las cuales son ideales para eventos empresariales, académicos, lúdicos, recreativos y pedagógicos. Tomado de: Archivo recursos turisticos"},
                    
                 ]
 };

@@ -1,0 +1,18 @@
+var hacienda_el_novillero = {
+    "titulo": "Hacienda el Novillero",
+    "nombreDeLaCarpeta": "hacienda_el_novillero",
+    "cordenadas": [170, 122, 10],
+    "categorias": ["cultura", "turismo"],
+    "datos": {
+        "tel": "555555555555",
+        "dir": "carrer 16 a 22 20"
+    },
+    "contenido": [{
+            "subtitulo": "Hacienda el Novillero",
+            "imagenes": 0,
+            "audio": "hacienda_el_novillero.ogg",
+            "texto": ""
+        },
+
+    ]
+};

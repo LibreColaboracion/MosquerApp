@@ -22,11 +22,28 @@ var cordenadas = {
 };
 */
 var lugares ={};
-    lugares["parque1"] = parque1; 
+
+    lugares["alcaldia"]= alcaldia;
+    lugares["auditorio"]= auditorio;
+    lugares["biblioteca_publica_tomas_cipriano"]= biblioteca_publica_tomas_cipriano;
+    lugares["biblioteca_san_juan_bosco"]= biblioteca_san_juan_bosco;
+    lugares["casa_de_la_cultura"]= casa_de_la_cultura;
+    lugares["casa_negra_maria"]= casa_negra_maria;
+    lugares["club_minicar"]= club_minicar;
+    lugares["colegio_la_merced"]= colegio_la_merced;
+    lugares["desierto_de_zabribsky"]= desierto_de_zabribsky;
+    lugares["hacienda_el_novillero"]= hacienda_el_novillero;
+    lugares["humedal_guali"]= humedal_guali;
+    lugares["humedal_meandro_del_say"]= humedal_meandro_del_say;
+    lugares["iglesia_central"]= iglesia_central;
     lugares["laguna_la_herrera"]= laguna_la_herrera;
-    lugares["iglesia"]= iglesia;
-    
-console.log(lugares.parque1.cordenadas);
+    lugares["parque_acuatico"]= parque_acuatico;
+     lugares["parque_central"]= parque_central;
+
+
+
+
+
 function hola(arg){
     var f = document.getElementById('marcopresentador');
     f.innerHTML = "<div onclick='vercontenido("+arg+");''>" + "<h3>"+ lugares[arg]['titulo'] +"</h3>"+"</div>" ;
