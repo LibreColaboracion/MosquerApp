@@ -1,7 +1,7 @@
 var biblioteca_san_juan_bosco = {
         "titulo": "Biblioteca San Juan Bosco",
         "nombreDeLaCarpeta": "biblioteca_san_juan_bosco",
-        "cordenadas": [214, 90, 2],
+        "cordenadas": [215, 88, 2],
         "categorias": ["cultura", "turismo"],
         "datos": {
             "tel": "555555555555",

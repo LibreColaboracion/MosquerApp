@@ -1,7 +1,7 @@
 var teatro_municipal = {
     "titulo": "Teatro municipal de Mosquera",
     "nombreDeLaCarpeta": "teatro_municipal",
-    "cordenadas": [209, 108, 2],
+    "cordenadas": [214, 110, 2],
     "categorias": ["cultura", "turismo"],
     "datos": {
         "tel": "5555555545555",

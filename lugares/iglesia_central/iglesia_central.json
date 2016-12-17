@@ -1,7 +1,7 @@
 var iglesia_central = {
     "titulo": "Iglesia central de Mosquera",
     "nombreDeLaCarpeta": "iglesia_central",
-    "cordenadas": [205, 108, 2],
+    "cordenadas": [204, 112, 2],
     "categorias": ["cultura", "turismo"],
     "datos": {
         "tel": "5555554555555",

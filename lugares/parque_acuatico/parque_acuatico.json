@@ -1,7 +1,7 @@
 var parque_acuatico = {
     "titulo": "Parque Acúatico de Mosuqera",
     "nombreDeLaCarpeta": "parque_acuatico",
-    "cordenadas": [204, 80, 2],
+    "cordenadas": [213, 80, 2],
     "categorias": ["cultura", "turismo"],
     "datos": {
         "tel": "555555554555",
