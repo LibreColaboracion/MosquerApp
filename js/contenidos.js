@@ -32,6 +32,7 @@ function vercontenido (argumento){
                     contenedor.style.height = '100%';
                     contenedor.style.wordWrap = "break-word"; 
                     contenedor.style.transition = "all 1s"; 
+                    contenedor.style.backgroundColor = "white";
                     console.log('ok estilos cargados');
                 break;
                 case 1:
@@ -49,9 +50,9 @@ function vercontenido (argumento){
                         clickiz.addEventListener('click',function(){atras(argumento)}); 
                         clickder.addEventListener('click',function(){adelante(argumento)});
                         
-                        contenidocat.innerHTML = ("<ul> <li><a href=#"+ argumento.categorias[0] + ">" +argumento.categorias[0]+" </a></li>"+
+                        contenidocat.innerHTML = ("<header><nav><ul> <li><a href=#"+ argumento.categorias[0] + ">" +argumento.categorias[0]+" </a></li>"+
                                                   "<li><a href=#"+ argumento.categorias[1] + ">" +argumento.categorias[1]+" </a></li>"+
-                                                  "<li><a href=#"+ argumento.categorias[2] + ">" +argumento.categorias[2]+" </a></li></ul>"
+                                                  "<li><a href=#"+ argumento.categorias[2] + ">" +argumento.categorias[2]+" </a></li></ul></nav></header>"
                         
                         );
                         console.log(argumento.categorias);

@@ -51,7 +51,7 @@ body {
 nav {
     min-width:280px;
     width:40%;
-    height:100%;
+    height:auto%;
     position: fixed;
     top:0;
     left:0;
@@ -159,8 +159,11 @@ nav ul li a {
 
 }
 
+
+
+
 #detalles{
-	background-color: white;
+	background-color: ;
     width: 0.5%;
     height: 0.5%;
     position: absolute;
@@ -168,11 +171,21 @@ nav ul li a {
     top: 49.5%;
     z-index: 0;
     height:100%;
-    
 
 }
 
+.otros{
+    background-color: white;
+    
+}
+
 /*menu detalles categosias */
+.header {
+  background: rgba(0,0,0,0.9);
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
 
 #contenidocat{
     
@@ -251,10 +264,11 @@ nav ul li a {
 
 
 #cerrar {
-    display: flex;
+     display: flex;
     float: right;
-    left: 2%;
-    width: 14%;
+    margin-right: 2%;
+    margin-top: %;
+    width: 10%;
     z-index: 500;
 
 }
