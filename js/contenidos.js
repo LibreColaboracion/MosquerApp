@@ -29,7 +29,7 @@ function vercontenido (argumento){
                     contenedor.style.left = "0";
                     contenedor.style.top = "0";
                     contenedor.style.width = '100%';
-                    contenedor.style.height = 'auto';
+                    contenedor.style.height = '100%';
                     contenedor.style.wordWrap = "break-word"; 
                     contenedor.style.transition = "all 1s"; 
                     console.log('ok estilos cargados');
@@ -117,7 +117,6 @@ function noVercontenido (argumento){
         switch(j){
                 case 0:
                     var contenedor = document.getElementById('detalles');
-                    contendedor.style.display = "none":
                     contenedor.style.left = "50%";
                     contenedor.style.top = "50%";
                     contenedor.style.width = '0%';
