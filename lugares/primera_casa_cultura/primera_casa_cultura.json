@@ -1,7 +1,7 @@
 var primera_casa_cultura = {
     "titulo": "Primera casa de la cultura de Mosquera",
     "nombreDeLaCarpeta": "primera_casa_cultura",
-    "cordenadas": [00, 00, 2],
+    "cordenadas": [200, 70, 2],
     "categorias": ["cultura", "turismo"],
     "datos": {
         "tel": "5555555545555",
@@ -10,8 +10,20 @@ var primera_casa_cultura = {
     "contenido": [{
             "subtitulo": "Primera casa de la cultura de Mosquera",
             "imagenes": 0,
-            "audio": "primera_casa_cultura.ogg",
-            "texto": ""
+            "audio": "primera_casa_cultura1.ogg",
+            "texto": "1111111111111111111111111111111"
+        },
+        {
+            "subtitulo": "La musica mejor",
+            "imagenes": 0,
+            "audio": "primera_casa_cultura1.ogg",
+            "texto": "2222222222222222222222222222222"
+        },
+        {
+            "subtitulo": "danza que danza",
+            "imagenes": 0,
+            "audio": "primera_casa_cultura1.ogg",
+            "texto": "3333333333333333333333333333"
         },
 
     ]

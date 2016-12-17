@@ -5,6 +5,7 @@
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, user-scalable=no">
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
+   
     
     <script type="text/javascript" src="lugares/alcaldia/alcaldia.json"></script>
     <script type="text/javascript" src="lugares/auditorio/auditorio.json"></script>
@@ -29,11 +30,6 @@
     <script type="text/javascript" src="lugares/primera_casa_cultura/primera_casa_cultura.json"></script>
 	<script type="text/javascript" src="lugares/teatro_municipal/teatro_municipal.json"></script>
 	<script type="text/javascript" src="lugares/villa_olimpica/villa_olimpica.json"></script>
-
-
-
-
-
 
 
 
@@ -84,19 +80,33 @@
 </div>
 <div id="detalles">
 	<div id = "contenidocat"> </div>
-	<div id="cerrar" onclick="noVercontenido(cerrar)">
-		<img src="img/cerrar.svg">
-	</div>
-	<div id="galeria" > 
+	<div id = "marcoGaleria">
+	    
+	        <div id="cerrar" onclick="noVercontenido(cerrar)">
+		        <img src="img/cerrar.svg">
+	        </div>    
+	        <div class="botones">
+		        <img id="iz" src="img/flechaiz.svg" onclick="atras()" >
+		        <img id="der" src="img/flechader.svg" onclick="adelante()" >
+	        </div> 
+	        
+	        <div id="galeria" >
+	            
+	   </div> 
+	    
+</div>
+	
+	
+	
+	
 		
-	</div>
-	<div class="botones">
-		<img id="iz" src="img/flechaiz.svg" onclick="atras()" >
-		<img id="der" src="img/flechader.svg" onclick="adelante()" >
-	</div>
-	<div id="play" onclick="play()">
+
+	
+	<!-- 
+	 <div id="play" onclick="play()">
 		<img src="img/play.svg">
 	</div>
+	-->
 		<div id = "categoria1"></div>
 		<div id = "categoria2"></div>
 		<div id = "categoria3"></div>

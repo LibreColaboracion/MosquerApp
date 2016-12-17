@@ -159,9 +159,6 @@ nav ul li a {
 
 }
 
-
-
-
 #detalles{
 	background-color: white;
     width: 0.5%;
@@ -170,27 +167,61 @@ nav ul li a {
     left: 49.5%;
     top: 49.5%;
     z-index: 0;
+    height:100%;
+    display: ;
 
 }
 
+/*menu detalles categosias */
+
 #contenidocat{
-    width: 100%;
-    height: 10%;
-    background-color: red;
-    display: flex;
-    float: left;
+    
+    height: auto;
+    /*background-color: red;*/
     position: absolute;
     z-index: 99;
-    
+    list-style-type:square;
+    text-align : center;
+}
+
+#contenidocat li {
+    margin:2px;
+	float:left;
+	width:30%;
+}
+
+#contenidocat li a {
+	display:block;
+	width:100px;
+	padding:4px 0;
+	text-decoration:none;
+	
+	color:#FFFFFF;
+	background-color:#D2691e;
+	font-size:1em;
+}
+
+#contenidocat li a:hover {
+	color:#99CC00;
+	background-color:#003366;
+}
+
+
+/*fin del menu*/
+
+
+#marcoGaleria{
+    height: 50%;
     
 }
 
 
 #galeria{
-	width: 100%;
-    height: 40%;
-    float: right;
-    margin-top: 15%;
+	float: right;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    
 }
 
 #galeria img{
@@ -202,8 +233,7 @@ nav ul li a {
 .botones{
     display: flex;
     float: left;
-    height: 7%;
-    margin-top: 42%;
+    margin-top: 35%;
     position: absolute;
     width: 100%;
  }
@@ -211,19 +241,6 @@ nav ul li a {
 #der {
      float: right;
     margin-left: 70%;
-}
-
-
-#play {
-	bottom: 45%;
-    display: flex;
-    float: right;
-    height: 10%;
-    left: 0;
-    margin-left: 80%;
-    position: absolute;
-    width: 10%;
-    z-index: 99;
 }
 
 .audio {
@@ -234,15 +251,11 @@ nav ul li a {
 
 
 #cerrar {
-	width: 10%;
-    height: 10%;
-    float: right;
-    position: absolute;
-    margin-left: 80%;
-    left: 0%;
-	top: 1%;
     display: flex;
-    z-index: 99;
+    float: right;
+    left: 2%;
+    width: 14%;
+    z-index: 500;
 
 }
 

@@ -49,9 +49,14 @@ function vercontenido (argumento){
                         clickiz.addEventListener('click',function(){atras(argumento)}); 
                         clickder.addEventListener('click',function(){adelante(argumento)});
                         
-                        contenidocat.innerHTML = (argumento.categorias);
+                        contenidocat.innerHTML = ("<ul> <li><a href=#"+ argumento.categorias[0] + ">" +argumento.categorias[0]+" </a></li>"+
+                                                  "<li><a href=#"+ argumento.categorias[1] + ">" +argumento.categorias[1]+" </a></li>"+
+                                                  "<li><a href=#"+ argumento.categorias[2] + ">" +argumento.categorias[2]+" </a></li></ul>"
+                        
+                        );
                         console.log(argumento.categorias);
-                        contenedor.innerHTML = ("<p>"+ (argumento.titulo)+"</p>" + 
+                        contenedor.innerHTML = ("<a name=" + argumento.categorias[0] + ">" + argumento.categorias[0] + "</a>" + 
+                                                "<p>"+ (argumento.titulo)+"</p>" + 
                                                 "<p>"+ (argumento.contenido[0].subtitulo)+"</p>" + 
                                                "<p><audio controls  src='lugares/"+(argumento.nombreDeLaCarpeta)+"/audio"+"/"+(argumento.contenido[0].audio)+"'preload='auto' type='audio/ogg'></audio></p>"+
                                                "<p>"+ (argumento.contenido[0].texto)+"</p>"
@@ -67,9 +72,8 @@ function vercontenido (argumento){
                 case 2:
                     var contenedor = document.getElementById('categoria2');
                     
-                        contenidocat.innerHTML = (argumento.contenido[1].subtitulo);
-                        
-                        contenedor.innerHTML = ("<p>"+ (argumento.contenido[1].subtitulo)+"</p>" + 
+                        contenedor.innerHTML = ("<a name=" + argumento.categorias[1] + ">" + argumento.categorias[1] + "</a>" + 
+                                                "<p>"+ (argumento.contenido[1].subtitulo)+"</p>" + 
                                                 "<p><audio controls src='lugares/"+(argumento.nombreDeLaCarpeta)+"/audio"+"/"+(argumento.contenido[0].audio)+"'preload='auto' type='audio/ogg'></audio></p>"+
                                                 "<p>"+ (argumento.contenido[1].texto)+"</p>"
                                                );
@@ -80,9 +84,8 @@ function vercontenido (argumento){
                     break;
                 case 3:
                     var contenedor = document.getElementById('categoria3');
-                        contenidocat.innerHTML = (argumento.contenido[2].subtitulo);
-                        
-                        contenedor.innerHTML = ("<p>"+ (argumento.contenido[2].subtitulo)+"</p>" + 
+                        contenedor.innerHTML = ("<a name="+ argumento.categorias[2] + ">" +argumento.categorias[2]+" </a>" + 
+                                                    "<p>"+ (argumento.contenido[2].subtitulo)+"</p>" + 
                                                 "<p><audio controls  src='lugares/"+(argumento.nombreDeLaCarpeta)+"/audio"+"/"+(argumento.contenido[0].audio)+"'preload='auto' type='audio/ogg'></audio></p>"+
                                                "<p>"+ (argumento.contenido[2].texto)+"</p>"
                                                );
@@ -92,11 +95,10 @@ function vercontenido (argumento){
                     break;
                 case 4:
                     var contenedor = document.getElementById('categoria4');
-                        contenidocat.innerHTML = (argumento.contenido[3].subtitulo);
                         
-                        contenedor.innerHTML = ("<p>"+ (argumento.contenido[3].subtitulo)+"</p>" + 
-                                               
-                                               "<p><audio controls  src='lugares/"+(argumento.nombreDeLaCarpeta)+"/audio"+"/"+(argumento.contenido[0].audio)+"'preload='auto' type='audio/ogg'></audio></p>"+
+                        contenedor.innerHTML = "<a name="+ argumento.categorias[3] + ">" +argumento.categorias[3]+" </a>" + 
+                                                ("<p>"+ (argumento.contenido[3].subtitulo)+"</p>" + 
+                                                "<p><audio controls  src='lugares/"+(argumento.nombreDeLaCarpeta)+"/audio"+"/"+(argumento.contenido[0].audio)+"'preload='auto' type='audio/ogg'></audio></p>"+
                                                "<p>"+ (argumento.contenido[3].texto)+"</p>"
                                                );
                         contenedor.style.display = "inherit";
@@ -115,6 +117,7 @@ function noVercontenido (argumento){
         switch(j){
                 case 0:
                     var contenedor = document.getElementById('detalles');
+                    contendedor.style.display = "none":
                     contenedor.style.left = "50%";
                     contenedor.style.top = "50%";
                     contenedor.style.width = '0%';
