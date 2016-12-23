@@ -33,6 +33,7 @@ function vercontenido (argumento){
                     contenedor.style.wordWrap = "break-word"; 
                     contenedor.style.transition = "all 1s"; 
                     contenedor.style.backgroundColor = "white";
+                    contenedor.style.display = "inherit";
                     console.log('ok estilos cargados');
                 break;
                 case 1:

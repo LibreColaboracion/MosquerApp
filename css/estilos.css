@@ -171,11 +171,13 @@ nav ul li a {
     top: 49.5%;
     z-index: 0;
     height:100%;
+    display: none;
 
 }
 
 .otros{
     background-color: white;
+    
     
 }
 
@@ -189,7 +191,7 @@ nav ul li a {
 
 #contenidocat{
     
-    height: auto;
+    height: 100%;
     /*background-color: red;*/
     position: absolute;
     z-index: 99;
