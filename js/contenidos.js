@@ -53,9 +53,15 @@ function vercontenido (argumento){
                         
                         contenidocat.innerHTML = ("<header><nav><ul> <li><a href=#"+ argumento.categorias[0] + ">" +argumento.categorias[0]+" </a></li>"+
                                                   "<li><a href=#"+ argumento.categorias[1] + ">" +argumento.categorias[1]+" </a></li>"+
-                                                  "<li><a href=#"+ argumento.categorias[2] + ">" +argumento.categorias[2]+" </a></li></ul></nav></header>"
+                                                  "<li><a href=#"+ argumento.categorias[2] + ">" +argumento.categorias[2]+" </a></li>"+
+                                                  "<li><div id='cerrar'>  <img src='img/cerrar.svg'></div></li></ul></nav></header>"
                         
                         );
+
+                        clickcerrar = document.getElementById("cerrar");
+                        clickcerrar.addEventListener('click',function(){noVercontenido(argumento)});                                   
+                                
+
                         console.log(argumento.categorias);
                         contenedor.innerHTML = ("<a name=" + argumento.categorias[0] + ">" + argumento.categorias[0] + "</a>" + 
                                                 "<p>"+ (argumento.titulo)+"</p>" + 
@@ -125,6 +131,10 @@ function noVercontenido (argumento){
                     contenedor.style.height = '0%';
                     contenedor.style.WebkitTransition = "all 2s";
                     contenedor.style.transition = "all 1s"; 
+                    
+                  
+                    
+                    
                     console.log('ok estilos cerrados');
                 break;
                 case 1:
