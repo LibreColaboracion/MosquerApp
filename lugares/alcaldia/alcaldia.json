@@ -5,10 +5,10 @@ var alcaldia =
     "cordenadas":[209, 107,2],
 	"categorias":["cultura","turismo"],
     "datos":{
-        "tel":"555555555555",
-        "dir":"carrer 16 a 22 20"},
+        "tel":"+57 1 8931114",
+        "dir":"Cra. 2 #2-68"},
      "contenido":[
-                    {"subtitulo": "Alcaldía De Mosquera", "imagenes":3, "audio":"alcaldia.ogg", "texto":"La casa de gobierno municipal o mejor conocida como alcaldia Municipal se encuentra ubicada en el centro historico de Mosquera y se caracteriza por su buen estado de conservación de diseño neo republicana que posee. A nivel de arquitectura se resalta a primera vista el balcón que sobresale encima de la entrada principal de la casa, de este salen un alero sostenido por canes rodeando todo el lugar, deabjo de este alero podemos encontrar ventanas con rejillas de madero. En su interior encontraremos un patio muy iluminado con grandes columnas de madera y una baranda que las une."},
+                    {"subtitulo": "Alcaldía De Mosquera", "imagenes":3, "audio":"alcaldia.ogg", "texto":"La casa de gobierno municipal o mejor conocida como alcaldia Municipal se encuentra ubicada en el centro histórico de Mosquera y se caracteriza por su buen estado de conservación de diseño neo republicana. A nivel de arquitectura se resalta a primera vista el balcón que sobresale encima de la entrada principal de la casa, de este salen un alero sostenido por canes rodeando todo el lugar, debajo de este alero podemos encontrar ventanas con rejillas de madero. En su interior encontraremos un patio muy iluminado con grandes columnas de madera y una baranda que las une."},
                    
                 ]
 };

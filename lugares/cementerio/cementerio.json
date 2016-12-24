@@ -1,0 +1,14 @@
+var cementerio =
+{
+    "titulo":"Cementerio de Mosquera",
+    "nombreDeLaCarpeta":"cementerio",
+    "cordenadas":[00, 00,2],
+	"categorias":["cultura","turismo"],
+    "datos":{
+        "tel":"+57 1 8931114",
+        "dir":"Cra. 2 #2-68"},
+     "contenido":[
+                    {"subtitulo": "Cementerio De Mosquera", "imagenes":0, "audio":"cementerio.ogg", "texto":""},
+                   
+                ]
+};

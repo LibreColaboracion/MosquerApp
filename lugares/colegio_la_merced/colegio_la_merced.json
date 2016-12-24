@@ -4,14 +4,19 @@ var colegio_la_merced = {
     "cordenadas": [212, 103, 2],
     "categorias": ["cultura", "turismo"],
     "datos": {
-        "tel": "555555555555",
-        "dir": "carrer 16 a 22 20"
+        "tel": "57 1 8276216",
+        "dir": "Cl. 3 #250, Mosquera, Cundinamarca, Colombia"
     },
     "contenido": [{
             "subtitulo": "Colegio La Merced de Mosquera",
             "imagenes": 0,
             "audio": "colegio_la_merced.ogg",
-            "texto": ""
+            "texto": "El colegio La Merced es una institución educativa construida en el año 1932 y\
+            ampliado en el año 1937. Su estructura arquitectónica es Neo Republicana. \
+            Antes de llegar al municipio de Mosquera, \
+            La Merced, en 1839 fue la primera institución que dirigía \
+            la educación de las mujeres, por decreto en el gobierno de la NUeva Granada y \
+            estuvó durante 134 años en el convento La Capuchina antes de llegar a Mosquera. "
         },
 
     ]
