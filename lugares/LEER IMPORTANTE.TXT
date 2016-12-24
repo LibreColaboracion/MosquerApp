@@ -1,0 +1,120 @@
+LEAME
+
+intruccion para crear nuevos modulos.
+
+1. usar soo minusculas en todos nombres de los archivos y carpetas.
+2. usar (_) guion piso solo si es necesario
+3. no usar numeros en la creacion de carpetas
+4. conservar la estructura de ejemplo.
+	carpeta modulo
+		carpeta imagenes
+		carpeta audio
+		archivo lugar.json
+5. el archvivo lugar debe llamarce igual que la carpeta modulo
+6. las imagenes dentro de las carpetas se deben llamar siempre:
+		  foto1.jgp
+		  foto2.jpg
+		  foto3.jpg
+		  ...
+		  ...
+	asi sucesivamente cuantas fotos existan para esa carpeta.  		
+
+7. los audios deben tener la extencion .ogg
+	los archivos de audio deben llamarce igual que la categoria a la que pertenezcan en el JSON
+		ejemplo.  si en el Json existe la categoria 	"cultura" el audio debe llamarse 				cultura.ogg			 
+		
+		
+CONTRUCCION DE  ARCHIVO JSON		
+Este es el contenido interno de un Json ya estan creados en los ejemplos:
+
+
+
+var laguna_la_herrera = {
+    
+   var parque_central = {
+    "titulo": "Parque Central de Mosquera",
+    "nombreDeLaCarpeta": "parque_central",
+    "cordenadas": [205, 104, 2],
+    "categorias": ["cultura", "turismo"],
+    "datos": {
+        "tel": "555555555555",
+        "dir": "carrer 16 a 22 20"
+    },
+    "contenido": [{
+            "subtitulo": "Parque central de Mosquera",
+            "imagenes": 0,
+            "audio": "parque_central.ogg",
+            "texto": ""
+        },
+
+    ]
+};
+
+
+
+descripcion de la variable:
+El nombre de la variable debe ser igual al nombre de la carpeta y asi mismo al objeto "nombreDeLaCarpeta"
+
+descripcion de los objetos dentro de de la variable:
+	se llaman objetos a todo el contenido que esta dentro de {}
+	se llaman arreglos a todo el contenido que esta dentro de []
+	
+"cordenadas" = los dos primero numeros son las coordenadas, el tercero es el tamaño del punto.
+            los datos de coordenadas estan abajo.
+            se sugiere que para puntos de zoom mapa total el tamaño sea 10
+            se sugiere que para los puntos de mapa zoom acercado el tamaño sea 2
+
+"titulo" debe ser el titulo del punto a ubicar en el mapa
+	puede tener mayusculas
+	puede tener espacios
+	
+coordenadas (lo escribio mal carlos rocha pero asi queda)
+ 	se deben alimentar de la siguiente lista:
+ 	
+ 	 'laguna_la_herrera':[58,142],
+    'Humedal Meandro del say':[391,193],
+    'Desierto De Sabrinsky':[84,199],
+    'Hacienda El Novillero':[170,122],
+    'Humedal guali':[285, 104],
+    'Piedras de Usca':[85, 173],
+    'parquep':[208, 110],
+    'iglesia':[205, 108],
+    'Auditorio':[217, 88],
+    'Bibliteca_San_Juan_Bosco':[214, 90],
+    'Casa_de_la_Cultura':[208, 95],
+    'Colegio_la_Merced':[212, 103],
+    'Parque_Acuatico':[204, 80],
+    'Parque_Central':[205, 104],
+    'Parque_Cultural':[221, 88],
+    'Parque_De_Las_Aguas':[200, 79],
+    'Teatro_Municipal':[209, 108],
+    'Villa_Olimpica':[195, 112],
+    'alcaldia':[208, 106],
+    
+las que falten favor dejar evidencia visible para completarlas
+
+
+"datos" = si es en la ciudad debe tener el telefono y la direccion
+	si es fuera de la ciudad al menos una descripcion muy sencilla de la carretera o la via en la que se encuentra.
+	
+	    
+"contenido" =  recuerdan que es un arreglo, el cual tiene nuevos objetos dentro?
+entonces,
+	subtitulo = al sub titulo de la categoria.
+	imagenes, debe contener el numero de fotos en la carpeta imagenes del respectivo modulo
+	audio, debe tener el nombre del audio incluido la extencion .ogg
+	texto debe contener un texto plano y sin formato, fruto de los textos editados.
+	
+	
+SUERTE
+
+@carlosaalf
+
+
+
+	
+
+	
+
+
+
