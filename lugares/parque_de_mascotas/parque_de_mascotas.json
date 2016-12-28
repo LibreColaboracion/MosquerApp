@@ -2,14 +2,14 @@ var parque_de_mascotas = {
     "titulo": "Parque de mascotas de Mosquera",
     "nombreDeLaCarpeta": "parque_de_mascotas",
     "cordenadas": [00, 00, 2],
-    "categorias": ["cultura", "turismo"],
+    "categorias": ["Recreativo"],
     "datos": {
-        "tel": "5555555545555",
-        "dir": "carrer 16 a 22 20"
+        "tel": "No aplica",
+        "dir": "Via principa; Carrera 3 - Villa Olimpica"
     },
     "contenido": [{
             "subtitulo": "Parque de mascotas de Mosquera",
-            "imagenes": 0,
+            "imagenes": 4,
             "audio": "parque_de_mascotas.ogg",
             "texto": ""
         },

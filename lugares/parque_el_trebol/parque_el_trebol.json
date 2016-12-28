@@ -1,0 +1,18 @@
+var parque_el_trebol = {
+    "titulo": "Parque El Trebol",
+    "nombreDeLaCarpeta": "parque_acuatico",
+    "cordenadas": [230,102, 2],
+    "categorias": ["Recreativo"],
+    "datos": {
+        "tel": "No Aplica",
+        "dir": "Calle 12 Carrera 1b Barro Trebol"
+    },
+    "contenido": [{
+            "subtitulo": "Parque el trebol",
+            "imagenes": 1,
+            "audio": "parque_el_trebol.ogg",
+            "texto": ""
+        },
+
+    ]
+};

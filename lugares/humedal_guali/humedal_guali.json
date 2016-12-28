@@ -2,14 +2,14 @@ var humedal_guali = {
     "titulo": "Humedal Guali",
     "nombreDeLaCarpeta": "humedal_guali",
     "cordenadas": [285, 104, 10],
-    "categorias": ["cultura", "turismo"],
+    "categorias": ["Ecologico"],
     "datos": {
          "tel": "No Aplica",
         "dir": "Vía Funza-Mosquera"
     },
     "contenido": [{
             "subtitulo": "Humedal Guali",
-            "imagenes": 0,
+            "imagenes": 7,
             "audio": "humedal_guali.ogg",
             "texto": "El humedal Guali, esta reserva natural hace parte del municipio de Mosquera en un 30%  y en un 70%  al municipio de Funza.  Actualmente se trabaja por su conservación, ya que ha sido afectado por la contaminación y producto de ello son los olores que emanan de este lugar. El gobierno y habitantes realizan tareas para tratar de recuperar el humedal Guali. Antes de su infortunio fue un espacio de exploración  e investigación en fauna y flora. En este humedal aún habita el cucarachero de pantano,  un ave que en peligro de extinción en el mundo y sólo allí hay una pequeña población, según una investigación de la bióloga Loreta Rosselli Sanmartín."
         },

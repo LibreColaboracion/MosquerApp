@@ -2,14 +2,14 @@ var humedal_meandro_del_say = {
     "titulo": "Humedal Meandro del Say",
     "nombreDeLaCarpeta": "humedal_meandro_del_say",
     "cordenadas": [391, 193, 10],
-    "categorias": ["cultura", "turismo"],
+    "categorias": ["Ecologico"],
     "datos": {
         "tel": "No Aplica",
         "dir": "Acceso por Zona Franca, Fontibón. Carrera 113 con la variante Mosquera – Bogotá"
     },
     "contenido": [{
             "subtitulo": "Humedal Meandro del Say",
-            "imagenes": 0,
+            "imagenes": 2,
             "audio": "humedal_meandro_del_say.ogg",
             "texto": "El humedal Meandro del Say. Recibe el nombre de Meandro, por la forma de alabeo en el trayecto que hace por el río Bogotá, por el sector de Mosquera y lleva el nombre del Say, porque, así se llamaba la Hacienda de este sector. Una de las particulariddes de este humedal es que recibe aves migratorias que llegan desde Canadá entre otras especies, como reptiles y anfibios. Uno de los grandes beneficios de este humedal, es que evita inundaciones en el sector en tiempos de lluvia. A pesar de ello este humedal enfrenta problemas como la invasión ganadera que afecta la vida de las especies que habitan en éste ya que causa daños en su suelo. "
         },

@@ -2,14 +2,14 @@ var villa_olimpica = {
     "titulo": "Villa Olímpica de Mosquera",
     "nombreDeLaCarpeta": "villa_olimpica",
     "cordenadas": [195, 112, 2],
-    "categorias": ["cultura", "turismo"],
+    "categorias": [ "Recreativo"],
     "datos": {
-        "tel": "5555555545555",
-        "dir": "carrer 16 a 22 20"
+        "tel": "No aplica",
+        "dir": "Calle 1 Carrera 3"
     },
     "contenido": [{
             "subtitulo": "Villa Olímpica de Mosquera",
-            "imagenes": 0,
+            "imagenes": 1,
             "audio": "villa_olimpica.ogg",
             "texto": ""
         },

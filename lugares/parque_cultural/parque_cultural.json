@@ -2,16 +2,16 @@ var parque_cultural = {
     "titulo": "Parque Cultural de Mosquera",
     "nombreDeLaCarpeta": "parque_cultural",
     "cordenadas": [223, 84, 2],
-    "categorias": ["cultura", "turismo"],
+    "categorias": ["Cultura"],
     "datos": {
-        "tel": "555555555555",
-        "dir": "carrer 16 a 22 20"
+        "tel": "No Aplica",
+        "dir": "Esquina sur occidental de la Carrera 3 con Calle 10 "
     },
     "contenido": [{
             "subtitulo": "Parque Cultural de Mosquera",
-            "imagenes": 0,
+            "imagenes": 3,
             "audio": "parque_cultural.ogg",
-            "texto": ""
+            "texto": "Ubicado frente a la biblioteca Juan Bosco, Auditorio y Parque acuático. Este lugar es un espacio nuevo, donde las personas pueden disfrutar de diferentes actividades como: obras de teatro, expsicioones de obbras de arte, eventos deportivos, presentaciones de danza y música, el festival más grande del año Recrearte, celebraciones como el día de la mujer, día de la madre, día del campesino, eventos empresariales, entre otros. Es un espacio para disfrutar en familia. "
         },
 
     ]

@@ -2,16 +2,16 @@ var parque_acuatico = {
     "titulo": "Parque Acúatico de Mosuqera",
     "nombreDeLaCarpeta": "parque_acuatico",
     "cordenadas": [213, 80, 2],
-    "categorias": ["cultura", "turismo"],
+    "categorias": ["Recreativo"],
     "datos": {
-        "tel": "555555554555",
-        "dir": "carrer 16 a 22 20"
+        "tel": "No Aplica",
+        "dir": " a 4-163,, Cl. 10 #41, Mosquera, Cundinamarca, Colombia"
     },
     "contenido": [{
             "subtitulo": "Parque acúatico de Mosquera",
-            "imagenes": 0,
+            "imagenes": 7,
             "audio": "parque_acuatico.ogg",
-            "texto": ""
+            "texto": "El parque acuático es una de las estructuturas nuevas en el municipio de Mosquera. Es un lugar de formación y recreación para todos los mosquetunos. Podraán disfrutar este lugar personas en condición de discapacidad, madres gestantes, adulto mayor, jóvenes y población en general. Uno de us objetivos es apoyar a la spersonas que lo requieran, con terapias que les permitan mejorar su condición física, motora y emocional. Este lugar empezó su funcionamiento el 1 de Junio del 2016, en cabeza del alcalde Emilio Casallas.  "
         },
 
     ]

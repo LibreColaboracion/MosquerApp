@@ -2,13 +2,14 @@ var piedras_de_usca = {
     "titulo": "Piedras de Usca",
     "nombreDeLaCarpeta": "piedras_de_usca",
     "cordenadas": [85, 173, 10],
-    "categorias": ["cultura", "turismo"],
+    "categorias": ["Ecologico"],
     "datos": {
+        "tel": "No aplica",
         "dir": "Colinda con la Laguna de Herrera "
     },
     "contenido": [{
             "subtitulo": "Piedras de Usca",
-            "imagenes": 0,
+            "imagenes": 1,
             "audio": "piedras_de_usca.ogg",
             "texto": "Usca, es una expresión chibcha que refiere a un templo o lugar de sacrificio. \
             Este lugar que rodea la laguna de la Herrera es considerado un patrimonio cultural del \

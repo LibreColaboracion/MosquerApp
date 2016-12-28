@@ -3,12 +3,12 @@ var cementerio =
     "titulo":"Cementerio de Mosquera",
     "nombreDeLaCarpeta":"cementerio",
     "cordenadas":[00, 00,2],
-	"categorias":["cultura","turismo"],
+	"categorias":["Historico"],
     "datos":{
-        "tel":"+57 1 8931114",
-        "dir":"Cra. 2 #2-68"},
+        "tel":"NO APLICA",
+        "dir":"Calle 13 vía Mosquera"},
      "contenido":[
-                    {"subtitulo": "Cementerio De Mosquera", "imagenes":0, "audio":"cementerio.ogg", "texto":""},
-                   
+                    {"subtitulo": "Cementerio De Mosquera", "imagenes":7, "audio":"cementerio.ogg", "texto":"El cementerio de Mosquera está ubicado cerca al barrio Quinta Mosquera. Un lugar donde los mosquetunos realizan sus actos espirituales, ritos de inhumación. Dentro de este se encuentra una capilla y un jardín a la entrada, que le da un aspecto campestre. Allí se encuentran restos de generaciones pasadas, familias que también han hecho parte de la historia del Municipio."},
+
                 ]
 };

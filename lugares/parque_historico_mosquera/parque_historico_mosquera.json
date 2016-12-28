@@ -2,14 +2,14 @@ var parque_historico_mosquera = {
     "titulo": "Parque Central de Mosquera",
     "nombreDeLaCarpeta": "parque_historico_mosquera",
     "cordenadas": [205, 104, 2],
-    "categorias": ["cultura", "turismo"],
+    "categorias": ["Historico"],
     "datos": {
-        "tel": "555555555555",
-        "dir": "carrer 16 a 22 20"
+        "tel": "No aplica",
+        "dir": "Centro de Mosquera Calle 3 Carrera 3 "
     },
     "contenido": [{
             "subtitulo": "Parque central de Mosquera",
-            "imagenes": 0,
+            "imagenes": 3,
             "audio": "parque_historico_mosquera.ogg",
             "texto": ""
         },
