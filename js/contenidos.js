@@ -26,6 +26,8 @@ function vercontenido (argumento){
         switch(j){
                 case 0:
                     var contenedor = document.getElementById('detalles');
+                        noMarco = document.getElementById('marcopresentador');
+                    noMarco.style.display = "none",   
                     contenedor.style.left = "0";
                     contenedor.style.top = "0";
                     contenedor.style.width = '100%';
@@ -125,6 +127,8 @@ function noVercontenido (argumento){
         switch(j){
                 case 0:
                     var contenedor = document.getElementById('detalles');
+                    noMarco = document.getElementById('marcopresentador');
+                    noMarco.style.display = "block",
                     contenedor.style.left = "50%";
                     contenedor.style.top = "50%";
                     contenedor.style.width = '0%';
