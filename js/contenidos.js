@@ -53,23 +53,24 @@ function vercontenido (argumento){
                         clickiz.addEventListener('click',function(){atras(argumento)}); 
                         clickder.addEventListener('click',function(){adelante(argumento)});
                         
-                        contenidocat.innerHTML = ("<header><nav><ul> <li><a href=#"+ argumento.categorias[0] + ">" +argumento.categorias[0]+" </a></li>"+
-                                                  "<li><a href=#"+ argumento.categorias[1] + ">" +argumento.categorias[1]+" </a></li>"+
-                                                  "<li><a href=#"+ argumento.categorias[2] + ">" +argumento.categorias[2]+" </a></li>"+
+                        contenidocat.innerHTML = ("<header><nav><ul> <li><a href=#"+ argumento.contenido[0].subtitulo + ">Inicio</a></li>"+
+                                                  //"<li><a href=#"+ argumento.categorias[1] + ">" +argumento.categorias[1]+" </a></li>"+
+                                                  //"<li><a href=#"+ argumento.categorias[2] + ">" +argumento.categorias[2]+" </a></li>"+
                                                   "<li><div id='cerrar'>  <img src='img/cerrar.svg'></div></li></ul></nav></header>"
                         
                         );
+                        console.log(argumento.contenido[0].subtitulo);
+
 
                         clickcerrar = document.getElementById("cerrar");
                         clickcerrar.addEventListener('click',function(){noVercontenido(argumento)});                                   
                                 
 
-                        console.log(argumento.categorias);
-                        contenedor.innerHTML = ("<a name=" + argumento.categorias[0] + ">" + argumento.categorias[0] + "</a>" + 
-                                                "<p>"+ (argumento.titulo)+"</p>" + 
-                                                "<p>"+ (argumento.contenido[0].subtitulo)+"</p>" + 
-                                               "<p><audio controls  src='lugares/"+(argumento.nombreDeLaCarpeta)+"/audio"+"/"+(argumento.contenido[0].audio)+"'preload='auto' type='audio/ogg'></audio></p>"+
-                                               "<p>"+ (argumento.contenido[0].texto)+"</p>"
+                        
+                        contenedor.innerHTML = ( "<p>"+ (argumento.titulo)+"</p>" + 
+                                                 "<a name=" + argumento.contenido[0].subtitulo + ">" + argumento.contenido[0].subtitulo + "</a>" + 
+                                                 "<p><audio controls  src='lugares/"+(argumento.nombreDeLaCarpeta)+"/audio"+"/"+(argumento.contenido[0].audio)+"'preload='auto' type='audio/ogg'></audio></p>"+
+                                                "<p>"+ (argumento.contenido[0].texto)+"</p>"
                                                );
                                              
                         contenedor.style.display = "inherit";
@@ -82,8 +83,7 @@ function vercontenido (argumento){
                 case 2:
                     var contenedor = document.getElementById('categoria2');
                     
-                        contenedor.innerHTML = ("<a name=" + argumento.categorias[1] + ">" + argumento.categorias[1] + "</a>" + 
-                                                "<p>"+ (argumento.contenido[1].subtitulo)+"</p>" + 
+                        contenedor.innerHTML = ("<a name=" + argumento.contenido[1].subtitulo + ">" + argumento.contenido[1].subtitulo + "</a>" + 
                                                 "<p><audio controls src='lugares/"+(argumento.nombreDeLaCarpeta)+"/audio"+"/"+(argumento.contenido[0].audio)+"'preload='auto' type='audio/ogg'></audio></p>"+
                                                 "<p>"+ (argumento.contenido[1].texto)+"</p>"
                                                );
@@ -94,10 +94,9 @@ function vercontenido (argumento){
                     break;
                 case 3:
                     var contenedor = document.getElementById('categoria3');
-                        contenedor.innerHTML = ("<a name="+ argumento.categorias[2] + ">" +argumento.categorias[2]+" </a>" + 
-                                                    "<p>"+ (argumento.contenido[2].subtitulo)+"</p>" + 
+                        contenedor.innerHTML = ("<a name="+ (argumento.contenido[2].subtitulo) + ">" +(argumento.contenido[2].subtitulo)+" </a>" + 
                                                 "<p><audio controls  src='lugares/"+(argumento.nombreDeLaCarpeta)+"/audio"+"/"+(argumento.contenido[0].audio)+"'preload='auto' type='audio/ogg'></audio></p>"+
-                                               "<p>"+ (argumento.contenido[2].texto)+"</p>"
+                                                "<p>"+ (argumento.contenido[2].texto)+"</p>"
                                                );
                         contenedor.style.display = "inherit";
                         contenidocat.style.display = "inherit";
@@ -106,9 +105,8 @@ function vercontenido (argumento){
                 case 4:
                     var contenedor = document.getElementById('categoria4');
                         
-                        contenedor.innerHTML = "<a name="+ argumento.categorias[3] + ">" +argumento.categorias[3]+" </a>" + 
-                                                ("<p>"+ (argumento.contenido[3].subtitulo)+"</p>" + 
-                                                "<p><audio controls  src='lugares/"+(argumento.nombreDeLaCarpeta)+"/audio"+"/"+(argumento.contenido[0].audio)+"'preload='auto' type='audio/ogg'></audio></p>"+
+                        contenedor.innerHTML = ("<a name="+ argumento.contenido[3].subtitulo + ">" +argumento.contenido[3].subtitulo+" </a>" + 
+                                               "<p><audio controls  src='lugares/"+(argumento.nombreDeLaCarpeta)+"/audio"+"/"+(argumento.contenido[0].audio)+"'preload='auto' type='audio/ogg'></audio></p>"+
                                                "<p>"+ (argumento.contenido[3].texto)+"</p>"
                                                );
                         contenedor.style.display = "inherit";
