@@ -226,7 +226,7 @@ nav ul li a {
 
 
 #marcoGaleria{
-    height: 50%;
+    height: 120%;
     display: flex;
     
 }
@@ -237,6 +237,8 @@ nav ul li a {
     position: absolute;
     width: 100%;
     z-index: -1;
+    height: 50%;
+    margin-top: 10%;
     
 }
 
@@ -246,12 +248,12 @@ nav ul li a {
 }
 
 
-.botones{
-    display: flex;
+#botones{
+    width: 100%;
     float: left;
     margin-top: 35%;
     position: absolute;
-    width: 100%;
+    display: none;
  }
 
 #der {
@@ -271,6 +273,16 @@ nav ul li a {
     float: right;
     width: 40%;
     z-index: 500;
+
+}
+
+
+.letras {
+    width: 100%;
+    overflow: scroll;
+    height: 50%;
+    margin-top: 50%;
+
 
 }
 

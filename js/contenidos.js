@@ -27,6 +27,7 @@ function vercontenido (argumento){
                 case 0:
                     var contenedor = document.getElementById('detalles');
                         noMarco = document.getElementById('marcopresentador');
+                         flechas = document.getElementById('botones');
                     noMarco.style.display = "none",   
                     contenedor.style.left = "0";
                     contenedor.style.top = "0";
@@ -36,6 +37,9 @@ function vercontenido (argumento){
                     contenedor.style.transition = "all 1s"; 
                     contenedor.style.backgroundColor = "white";
                     contenedor.style.display = "inherit";
+                    contenedor.style.display = "block";
+                    contenedor.style.position = "fixed";
+                     flechas.style.display = "flex";
                     console.log('ok estilos cargados');
                 break;
                 case 1:
@@ -133,6 +137,8 @@ function noVercontenido (argumento){
                     contenedor.style.height = '0%';
                     contenedor.style.WebkitTransition = "all 2s";
                     contenedor.style.transition = "all 1s"; 
+                    flechas = document.getElementById('botones');
+                    flechas.style.display = "none";
                     
                   
                     
