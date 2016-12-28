@@ -281,18 +281,20 @@ nav ul li a {
 
 
 #marcopresentador{
-	width: 90%;
-    height: auto;
+	background-color: white;
+    border-color: brown;
     border-radius: 13px;
     border-style: solid;
+    bottom: 5%;
     color: black;
-    padding: 1%;
-    margin-left: 0%;
-    bottom: 20%;
-    border-color: brown;
+    height: auto;
+    margin-left: 0;
     margin-top: -8%;
+    padding: 1%;
+    position: absolute;
+    width: 90%;
     z-index: 3;
-    background-color: white;
+    text-align: center;
     
 }
 
