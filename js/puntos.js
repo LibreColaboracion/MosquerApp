@@ -55,7 +55,7 @@ var lugares ={};
 function hola(arg){
     var f = document.getElementById('marcopresentador');
     f.innerHTML = "<div onclick='vercontenido("+arg+");''>" + "<h3>"+ lugares[arg]['titulo'] +"</h3>"+"</div>" ;
-    f.innerHTML += ("<p>"+lugares[arg]["datos"]["tel"])+"</p>" ;
+    //f.innerHTML += ("<p>"+lugares[arg]["datos"]["tel"])+"</p>" ;
     f.innerHTML += ("<p>"+lugares[arg]["datos"]["dir"])+"</p>";
     
     f.style.borderRadius = "10px";
