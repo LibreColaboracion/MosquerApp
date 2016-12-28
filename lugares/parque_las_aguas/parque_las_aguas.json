@@ -11,8 +11,7 @@ var parque_las_aguas = {
             "subtitulo": "Parque las Aguas de Mosquera",
             "imagenes": 9,
             "audio": "parque_las_aguas.ogg",
-            "texto": "parque Las Aguas 
-Este lugar es apropiado para el esparcimiento, el aprovechamiento del tiempo libre. Su diseño fue pensando en crear un espacio donde la naturaleza y los peces cobraran mayor importancia, de esta manera las personas aprenderán a conservar y cuidar del medio y los seres que lo habitan. El juego es también una forma de aprender en este lugar. En el acuario que está ubicado dentro del parque se pretende mantener 3.100 peces ubicados en seis habitas diferentes, también se halla una tarima para eventos culturales, senderos peatonales y un espacio para reflexionar. Además se cultivaron varias especies de árboles nativos y diversidad de plantas. aquí también se encuentra una plazoleta de comidas. Es un lugar para disfrutar en familia."
+            "texto": "Este lugar es apropiado para el esparcimiento, el aprovechamiento del tiempo libre. Su diseño fue pensando en crear un espacio donde la naturaleza y los peces cobraran mayor importancia, de esta manera las personas aprenderán a conservar y cuidar del medio y los seres que lo habitan. El juego es también una forma de aprender en este lugar. En el acuario que está ubicado dentro del parque se pretende mantener 3.100 peces ubicados en seis habitas diferentes, también se halla una tarima para eventos culturales, senderos peatonales y un espacio para reflexionar. Además se cultivaron varias especies de árboles nativos y diversidad de plantas. aquí también se encuentra una plazoleta de comidas. Es un lugar para disfrutar en familia.",
         },
 
     ]

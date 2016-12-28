@@ -11,8 +11,7 @@ var iglesia_central = {
             "subtitulo": "Iglesia Central De Mosquera",
             "imagenes": 5,
             "audio": "iglesia_central.ogg",
-            "texto": "Iglesia Central Mosquera. 
- Don Lorenzo Fonseca uno de los fundadores del municipio, donó parte de su casa, más precisamente en la esquina al padre Evasio Rbagliati, quien comenzó la construcción de un noviciado o formación espiritual, así inicio la iglesia central. Algunas partes de la iglesia fueron hechas con adobe y teja de barro, después se dibujaron unos planos por el ingeniero doctor Ruperto Ferreira; él le dio un estilo gótico romano y bizantino combinados. Hasta que la comunidad saleciana llegó en los años de 1903 y en los años de 1940 llegó el sacerdote saleciano Miguel Muller y con éste se logró la construcción de un nuevo templo, en el año de 1951 se termina de construir con ayuda del arquitecto español constantino de castro. El templo fue consagrado a María auxiliadora patrona del municipio. "
+            "texto": "Don Lorenzo Fonseca uno de los fundadores del municipio, donó parte de su casa, más precisamente en la esquina al padre Evasio Rbagliati, quien comenzó la construcción de un noviciado o formación espiritual, así inicio la iglesia central. Algunas partes de la iglesia fueron hechas con adobe y teja de barro, después se dibujaron unos planos por el ingeniero doctor Ruperto Ferreira; él le dio un estilo gótico romano y bizantino combinados. Hasta que la comunidad saleciana llegó en los años de 1903 y en los años de 1940 llegó el sacerdote saleciano Miguel Muller y con éste se logró la construcción de un nuevo templo, en el año de 1951 se termina de construir con ayuda del arquitecto español constantino de castro. El templo fue consagrado a María auxiliadora patrona del municipio.",
         },
 
     ]
