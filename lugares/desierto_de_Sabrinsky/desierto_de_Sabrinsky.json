@@ -1,0 +1,40 @@
+var desierto_de_Sabrinsky = {
+    "titulo": "Desierto de Sabrinsky",
+    "nombreDeLaCarpeta": "desierto_de_Sabrinsky",
+    "cordenadas": [84, 199, 10],
+    "categorias": ["Ecologico", "Turismo"],
+    "datos": {
+        "tel": "No Aplica",
+        "dir": "Via Mondoñedo"
+    },
+    "contenido": [{
+            "subtitulo": "Ecoturismo",
+            "imagenes": 3,
+            "audio": "desierto_de_Sabrinsky.ogg",
+            "texto": "El desierto de Sabrisnsky es tambien conocido como desierto de Mondoñedo, se caracteriza por ser un desierto árido en terreno rocoso lo cual le otorga un maginifico colorido, este paisaje entre mezcla colores vividos como el rojo intenso de la roca, pasando por el terracota y el naranja, para terminar con un colorido verde de la sabanas circundante.\
+                El desierto de Sabrisnsky hoy en día es una propiedad privada con poco acceso al público general en donde se han encontrado restos de mastodontes y enterramientos indigenas.\
+                "
+        },
+
+        {
+            "subtitulo": "  ",
+            "imagenes":" " ,
+            "audio": " ",
+            "texto": " "
+        },
+        {
+            "subtitulo": "  ",
+            "imagenes": " ",
+            "audio": " ",
+            "texto": " "
+        },
+        {
+            "subtitulo": "  ",
+            "imagenes": " ",
+            "audio": " ",
+            "texto": " "
+        },
+
+
+    ]
+};

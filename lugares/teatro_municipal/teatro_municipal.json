@@ -8,11 +8,31 @@ var teatro_municipal = {
         "dir": "Calle 3 Carrera 2"
     },
     "contenido": [{
-            "subtitulo": "Teatro municipal de Mosquera",
-            "imagenes": 1,
+            "subtitulo": "Arte en las tablas",
+            "imagenes": 12,
             "audio": "teatro_municipal.ogg",
-            "texto": ""
+            "texto": "  "
+            },
+
+        {
+            "subtitulo": "  ",
+            "imagenes":" " ,
+            "audio": " ",
+            "texto": " "
         },
+        {
+            "subtitulo": "  ",
+            "imagenes": " ",
+            "audio": " ",
+            "texto": " "
+        },
+        {
+            "subtitulo": "  ",
+            "imagenes": " ",
+            "audio": " ",
+            "texto": " "
+        },
+
 
     ]
 };

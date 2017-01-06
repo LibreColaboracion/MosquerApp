@@ -8,11 +8,32 @@ var villa_olimpica = {
         "dir": "Calle 1 Carrera 3"
     },
     "contenido": [{
-            "subtitulo": "Villa Olímpica de Mosquera",
-            "imagenes": 1,
+            "subtitulo": "Deportes y eventos",
+            "imagenes": 5,
             "audio": "villa_olimpica.ogg",
-            "texto": ""
+            "texto": "El maestro Lucio Amortegui llega Mosquera en 1957 y se integra a las actividades educativas del municipio hasta 1976 aproximadamente, como docente, logrando sacar adelante al Municipio a traves de muchas actividades deportivas.\
+Mosquera se convierte en campeón departamental de futball y basquetball en varias versiones anuales."
         },
+
+        {
+            "subtitulo": "  ",
+            "imagenes":" " ,
+            "audio": " ",
+            "texto": " "
+        },
+        {
+            "subtitulo": "  ",
+            "imagenes": " ",
+            "audio": " ",
+            "texto": " "
+        },
+        {
+            "subtitulo": "  ",
+            "imagenes": " ",
+            "audio": " ",
+            "texto": " "
+        },
+
 
     ]
 };

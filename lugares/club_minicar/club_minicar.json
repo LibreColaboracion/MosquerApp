@@ -1,18 +1,39 @@
 var club_minicar = {
     "titulo": "Club Minicar Mosquera",
     "nombreDeLaCarpeta": "club_minicar",
-    "cordenadas": [00, 00, 2],
+    "cordenadas": [227, 77, 2],
     "categorias": ["cultura", "turismo"],
     "datos": {
         "tel": "No aplica",
         "dir": "No aplica"
     },
     "contenido": [{
-            "subtitulo": "Club Minicar de Mosquera",
-            "imagenes": 6,
+            "subtitulo": "Deporte de historia",
+            "imagenes": 8,
             "audio": "club_minicar.ogg",
-            "texto": ""
+            "texto": "En un terreno ubicado cerca al parque central, se fundó el Club Minicar, en cabeza del señor Manuel Tiberio Macias, donde se fomento el deporte a traves del tejo, realizando diferentes campeonatos y donde también la cultura musical rodeaba este deporte a traves de agrupaciones como los  'Alegres de la Sabana'.\
+Pasados los años este Club queda en la memoria de muchos Mosquerunos, pues termina su organización y se vende el terrreno."
+       },
+
+        {
+            "subtitulo": "  ",
+            "imagenes":" " ,
+            "audio": " ",
+            "texto": " "
         },
+        {
+            "subtitulo": "  ",
+            "imagenes": " ",
+            "audio": " ",
+            "texto": " "
+        },
+        {
+            "subtitulo": "  ",
+            "imagenes": " ",
+            "audio": " ",
+            "texto": " "
+        },
+
 
     ]
 };

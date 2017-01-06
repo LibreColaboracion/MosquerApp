@@ -8,42 +8,43 @@ var casa_de_la_cultura = {
             "dir": "Calle 5 Carrera 3 Esquina"
         },
         "contenido": [{
-                "subtitulo": "Cultura",
-                "imagenes": 26,
-                "audio": "casa_de_la_cultura.ogg",
-                "texto": "EL arte en la casa ....La casa de la cultura empezó siendo la estación del tren, la cual fue terminda de construir en 1916, lo que en la época le otorgó un rasgo de modernismo al municipio hasta 1991 cuando se dio la liquidación del tren de la sabana, abriendo la oportunidad para que este espacio pudiera albergar una nueva actividad para los habitantes de Mosquera.\
-                Es así como desde 1997 comenzaron a verse personas reunidas mediante diferentes expresiones artisticas en este lugar.\
-                En la actualidad podemos encontrar más de 4800 personas siendo participes en los diferentes grupos y escuelas artísticas, destacandose el grupo de danza y ballet, este a logrado llevar el talento de mosquera a diferentes partes del país.\
-                Aquí también podemos encontrar la banda sinfónica municipal,creada el 29 de junio de 1995 bajo la administración del alcalde Carlos Felipe Peralta Villegas,conformada por 55 jovenes entre 14 y 27 años de edad."},
+                "subtitulo": "Estacion",
+                "imagenes": 21,
+                "audio": "estacion_tren.ogg",
+                "texto": "EL tren de la sabana presto sus servicios de transporte ferroviario desde 1889 y liquidado en 1991. Otorgó un rasgo de modernidad y de desarrollo tecnológico al servicio de la región  y permitió que por sus rieles también circularan además de personas, productos  y proyectos de desarrollo social implícitos en las labores que prestaba y facilitaba dicho transporte.\
+Su estructuración fue concebida con una arquitectura neo republicana en la cual se instalaron las primeras tejas en zinc importadas al país y que conserva actualmente en su estructura exterior, así mismo en el interior también conserva detalles como la escalera en madera forjada y pulida, los ventanales en madera y salientes tallados en recto."},
 
                 {
                 "subtitulo": "Danza",
                 "imagenes":" ",
                 "audio": "danza.ogg",
-                "texto": "la cultura en la casa ...La casa de la cultura empezó siendo la estación del tren, la cual fue terminda de construir en 1916, lo que en la época le otorgó un rasgo de modernismo al municipio hasta 1991 cuando se dio la liquidación del tren de la sabana, abriendo la oportunidad para que este espacio pudiera albergar una nueva actividad para los habitantes de Mosquera.\
-                Es así como desde 1997 comenzaron a verse personas reunidas mediante diferentes expresiones artisticas en este lugar.\
-                En la actualidad podemos encontrar más de 4800 personas siendo participes en los diferentes grupos y escuelas artísticas, destacandose el grupo de danza y ballet, este a logrado llevar el talento de mosquera a diferentes partes del país.\
-                Aquí también podemos encontrar la banda sinfónica municipal,creada el 29 de junio de 1995 bajo la administración del alcalde Carlos Felipe Peralta Villegas,conformada por 55 jovenes entre 14 y 27 años de edad."},
+                "texto": "Esta casa es un espacio dedicado a la enseñanza de diversos programas artisticos como la danza, la música y las artes plasticas, donde población como primera infancia, niños, jovenes, adultos y adulto mayor, hacen parte de estos procesos de formación, resaltando el talento Mosqueruno en las diferentes areas, y proyectando estas muestras en el Municipio y en diferentes partes del departamento y del país.\
+La casa de la cultura en el año 1997 comenzó con aproximandamente 100 personas en las escuelas de formación, actualmente (2016) cuenta  con  4800  participantes.\
+Cuenta con agrupaciones musicales como la banda sinfonica (creada el 29 de junio de 1995 drante la administracion del alcalde Carlos Felipe Peralta Villegas, conformada por 55 jovenes entre 14 y 27 años de edad), la Orquesta Sinfonica, grupos independientes como carranga, rock, clarinetes y tamboras, vallenato, son cubano, culturas urbanas, hiphop, rap, cultura festiva, entre otros.\
+Grupos de danza a nivel folclorico y ballet, iniciando el proceso con 100 bailarines, y contando actualmente con 850 bailarines en los diferentes niveles. Grupos como el juvenil, Adulto (Amankay), Adulto mayor (Renacer), nos  han representado a nivel Municipal, Departamental y Nacional.\
+La meta para la administración del Municipio,es que los procesos de formacion queden certificados para los estudiantes y las escuelas de formacion artistica queden muy bien estructuradas."},
 
 
                 {
-                "subtitulo": "Estacion",
-                "imagenes":" ",
-                "audio": "estacion_tren.ogg",
-                "texto": "Las danzas en la casa ...La casa de la cultura empezó siendo la estación del tren, la cual fue terminda de construir en 1916, lo que en la época le otorgó un rasgo de modernismo al municipio hasta 1991 cuando se dio la liquidación del tren de la sabana, abriendo la oportunidad para que este espacio pudiera albergar una nueva actividad para los habitantes de Mosquera.\
-                Es así como desde 1997 comenzaron a verse personas reunidas mediante diferentes expresiones artisticas en este lugar.\
-                En la actualidad podemos encontrar más de 4800 personas siendo participes en los diferentes grupos y escuelas artísticas, destacandose el grupo de danza y ballet, este a logrado llevar el talento de mosquera a diferentes partes del país.\
-                Aquí también podemos encontrar la banda sinfónica municipal,creada el 29 de junio de 1995 bajo la administración del alcalde Carlos Felipe Peralta Villegas,conformada por 55 jovenes entre 14 y 27 años de edad."},
-
-
-                {
-                "subtitulo": "musica",
+                "subtitulo": "Musica",
                 "imagenes":" ",
                 "audio": "musica.ogg",
-                "texto": "Las Musica en la casa ...La casa de la cultura empezó siendo la estación del tren, la cual fue terminda de construir en 1916, lo que en la época le otorgó un rasgo de modernismo al municipio hasta 1991 cuando se dio la liquidación del tren de la sabana, abriendo la oportunidad para que este espacio pudiera albergar una nueva actividad para los habitantes de Mosquera.\
-                Es así como desde 1997 comenzaron a verse personas reunidas mediante diferentes expresiones artisticas en este lugar.\
-                En la actualidad podemos encontrar más de 4800 personas siendo participes en los diferentes grupos y escuelas artísticas, destacandose el grupo de danza y ballet, este a logrado llevar el talento de mosquera a diferentes partes del país.\
-                Aquí también podemos encontrar la banda sinfónica municipal,creada el 29 de junio de 1995 bajo la administración del alcalde Carlos Felipe Peralta Villegas,conformada por 55 jovenes entre 14 y 27 años de edad."},
+                "texto": "Esta casa es un espacio dedicado a la enseñanza de diversos programas artisticos como la danza, la música y las artes plasticas, donde población como primera infancia, niños, jovenes, adultos y adulto mayor, hacen parte de estos procesos de formación, resaltando el talento Mosqueruno en las diferentes areas, y proyectando estas muestras en el Municipio y en diferentes partes del departamento y del país.\
+La casa de la cultura en el año 1997 comenzó con aproximandamente 100 personas en las escuelas de formación, actualmente (2016) cuenta  con  4800  participantes.\
+Cuenta con agrupaciones musicales como la banda sinfonica (creada el 29 de junio de 1995 drante la administracion del alcalde Carlos Felipe Peralta Villegas, conformada por 55 jovenes entre 14 y 27 años de edad), la Orquesta Sinfonica, grupos independientes como carranga, rock, clarinetes y tamboras, vallenato, son cubano, culturas urbanas, hiphop, rap, cultura festiva, entre otros.\
+Grupos de danza a nivel folclorico y ballet, iniciando el proceso con 100 bailarines, y contando actualmente con 850 bailarines en los diferentes niveles. Grupos como el juvenil, Adulto (Amankay), Adulto mayor (Renacer), nos  han representado a nivel Municipal, Departamental y Nacional.\
+La meta para la administración del Municipio,es que los procesos de formacion queden certificados para los estudiantes y las escuelas de formacion artistica queden muy bien estructuradas."},
+
+
+                {
+                "subtitulo": "Plasticas",
+                "imagenes":" ",
+                "audio": "plasticas.ogg",
+                "texto": "Esta casa es un espacio dedicado a la enseñanza de diversos programas artisticos como la danza, la música y las artes plasticas, donde población como primera infancia, niños, jovenes, adultos y adulto mayor, hacen parte de estos procesos de formación, resaltando el talento Mosqueruno en las diferentes areas, y proyectando estas muestras en el Municipio y en diferentes partes del departamento y del país.\
+La casa de la cultura en el año 1997 comenzó con aproximandamente 100 personas en las escuelas de formación, actualmente (2016) cuenta  con  4800  participantes.\
+Cuenta con agrupaciones musicales como la banda sinfonica (creada el 29 de junio de 1995 drante la administracion del alcalde Carlos Felipe Peralta Villegas, conformada por 55 jovenes entre 14 y 27 años de edad), la Orquesta Sinfonica, grupos independientes como carranga, rock, clarinetes y tamboras, vallenato, son cubano, culturas urbanas, hiphop, rap, cultura festiva, entre otros.\
+Grupos de danza a nivel folclorico y ballet, iniciando el proceso con 100 bailarines, y contando actualmente con 850 bailarines en los diferentes niveles. Grupos como el juvenil, Adulto (Amankay), Adulto mayor (Renacer), nos  han representado a nivel Municipal, Departamental y Nacional.\
+La meta para la administración del Municipio,es que los procesos de formacion queden certificados para los estudiantes y las escuelas de formacion artistica queden muy bien estructuradas."},
 
 
 

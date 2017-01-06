@@ -8,16 +8,33 @@ var colegio_la_merced = {
         "dir": "Cl. 3 Carrera 3"
     },
     "contenido": [{
-            "subtitulo": "Colegio La Merced de Mosquera",
-            "imagenes": 5,
+            "subtitulo": "Educacion",
+            "imagenes": 7,
             "audio": "colegio_la_merced.ogg",
-            "texto": "El colegio La Merced es una institución educativa construida en el año 1932 y \
-            ampliado en el año 1937. Su estructura arquitectónica es Neo Republicana. \
-            Antes de llegar al municipio de Mosquera, \
-            La Merced, en 1839 fue la primera institución que dirigía \
-            la educación de las mujeres, por decreto en el gobierno de la NUeva Granada y \
-            estuvó durante 134 años en el convento La Capuchina antes de llegar a Mosquera. "
+            "texto": "El colegio La Merced es una institución educativa construida en el año 1932 y ampliado en el año 1937. Su estructura arquitectónica es Neo Republicana.\
+            La Merced, en 1839 fue la primera institución que dirigía la educación de las mujeres por decreto en el gobierno de la Nueva Granada y estuvó durante 134 años en el convento La Capuchina antes de llegar a Mosquera.\
+Como dato historico: El 23 de agosto de 1794 pernoctó el virrey Jose de Ezpeleta, cuando afanosamente regresaba de Guaduas a Santafe por el revuelo que causo la publicación de los derechos del hombre. El 28 del mismo mes don Antonio Nariño escondió su esquipaje literario y filosofico en este lugar."
+       },
+
+        {
+            "subtitulo": "  ",
+            "imagenes":" " ,
+            "audio": " ",
+            "texto": " "
         },
+        {
+            "subtitulo": "  ",
+            "imagenes": " ",
+            "audio": " ",
+            "texto": " "
+        },
+        {
+            "subtitulo": "  ",
+            "imagenes": " ",
+            "audio": " ",
+            "texto": " "
+        },
+
 
     ]
 };

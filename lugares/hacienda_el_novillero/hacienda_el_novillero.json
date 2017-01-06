@@ -8,11 +8,31 @@ var hacienda_el_novillero = {
         "dir": "Vía La Mesa-Mosquera "
     },
     "contenido": [{
-            "subtitulo": "Hacienda el Novillero",
-            "imagenes": 1,
+            "subtitulo": "De las ultimas haciendas",
+            "imagenes": 5,
             "audio": "hacienda_el_novillero.ogg",
-            "texto": "a Hacienda perteneció a un hacendado llamado Francisco Maldonado de Mendoza, Caballero del hábito de Santiago, su esposa, doña Jerónima de Orrego, fue la única heredera  oficial del conquistador Antón de Olalla, y poseedora, por consiguiente, de la hacienda El Novillero. La historia cuenta que don Francisco acrecentó su fortuna gracias a su pericia en los negocios de ganadería. Se dice que traficaba con reses, arrendaba las tierras a otros agricultores y se favorecia del trabajo que realizaban los indígenas de todas partes. Gracias a esto Don Francisco obtuvo poder económico en la región."
+            "texto": "La Hacienda perteneció a un hacendado llamado Francisco Maldonado de Mendoza, Caballero del hábito de Santiago, su esposa, doña Jerónima de Orrego, fue la única heredera  oficial del conquistador Antón de Olalla y poseedora, por consiguiente, de la hacienda El Novillero. La historia cuenta que don Francisco acrecentó su fortuna gracias a su pericia en los negocios de ganadería. Se dice que traficaba con reses, arrendaba las tierras a otros agricultores y se favorecia del trabajo que realizaban los indígenas de todas partes. Gracias a esto Don Francisco obtuvo poder económico en la región."
+       },
+
+        {
+            "subtitulo": "  ",
+            "imagenes":" " ,
+            "audio": " ",
+            "texto": " "
         },
+        {
+            "subtitulo": "  ",
+            "imagenes": " ",
+            "audio": " ",
+            "texto": " "
+        },
+        {
+            "subtitulo": "  ",
+            "imagenes": " ",
+            "audio": " ",
+            "texto": " "
+        },
+
 
     ]
 };

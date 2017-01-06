@@ -60,21 +60,14 @@ function vercontenido (argumento){
                         contenidocat.innerHTML = ("<header><nav><ul> <li><a href=#"+ argumento.contenido[0].subtitulo + ">Inicio</a></li>"+
                                                                     "<li><a href=#"+ argumento.contenido[1].subtitulo + ">" +argumento.contenido[1].subtitulo+" </a></li>"+
                                                                     "<li><a href=#"+ argumento.contenido[2].subtitulo + ">" +argumento.contenido[2].subtitulo+" </a></li>"+
-                                                                    "<li><a href=#"+ argumento.contenido[3].subtitulo + ">" +argumento.contenido[3].subtitulo+" </a></li>"+
-                                                  "<li><div id='cerrar'>  <img src='img/cerrar.svg'></div></li></ul></nav></header>"
-                        
-                        );
+                                                                    "<li><a href=#"+ argumento.contenido[3].subtitulo + ">" +argumento.contenido[3].subtitulo+" </a></li></ul></nav></header>");
+                       
                        //console.log(argumento.contenido[3].subtitulo);
                        //console.log(argumento.contenido[2].subtitulo);
                        //console.log(argumento.contenido[1].subtitulo);
                        //console.log(argumento.contenido[0].subtitulo);
 
 
-                        clickcerrar = document.getElementById("cerrar");
-                        clickcerrar.addEventListener('click',function(){noVercontenido(argumento)});                                   
-                                
-
-                        
                         contenedor.innerHTML = ( "<p>"+ (argumento.titulo)+"</p>" + 
                                                  "<a name=" + argumento.contenido[0].subtitulo + ">" + argumento.contenido[0].subtitulo + "</a>" + 
                                                  "<p><audio controls  src='lugares/"+(argumento.nombreDeLaCarpeta)+"/audio"+"/"+(argumento.contenido[0].audio)+"'preload='auto' type='audio/ogg'></audio></p>"+

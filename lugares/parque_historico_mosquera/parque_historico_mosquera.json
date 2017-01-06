@@ -8,11 +8,31 @@ var parque_historico_mosquera = {
         "dir": "Centro de Mosquera Calle 3 Carrera 3 "
     },
     "contenido": [{
-            "subtitulo": "Parque central de Mosquera",
-            "imagenes": 3,
+            "subtitulo": "Lugar de llegada fija",
+            "imagenes": 13,
             "audio": "parque_historico_mosquera.ogg",
-            "texto": ""
+            "texto": " "
+            },
+
+        {
+            "subtitulo": "  ",
+            "imagenes":" " ,
+            "audio": " ",
+            "texto": " "
         },
+        {
+            "subtitulo": "  ",
+            "imagenes": " ",
+            "audio": " ",
+            "texto": " "
+        },
+        {
+            "subtitulo": "  ",
+            "imagenes": " ",
+            "audio": " ",
+            "texto": " "
+        },
+
 
     ]
 };

@@ -8,18 +8,32 @@ var piedras_de_usca = {
         "dir": "Colinda con la Laguna de Herrera "
     },
     "contenido": [{
-            "subtitulo": "Piedras de Usca",
-            "imagenes": 1,
+            "subtitulo": "Ecoturismo",
+            "imagenes": 9,
             "audio": "piedras_de_usca.ogg",
-            "texto": "Usca, es una expresión chibcha que refiere a un templo o lugar de sacrificio. \
-            Este lugar que rodea la laguna de la Herrera es considerado un patrimonio cultural del \
-            municipio de Mosquera, por su arte rupestre y la historia que lo rodea. \
-            Este templo fue construido en forma de cueva, la historia relata que allí era \
-            el dormitorio del jeque, quien era el encargado de los rituales religiosos. \
-            En el año 1935 el gobierno municipal, hacendados y ciudadanos tomaron medidas \
-            para preservar las piedras y su arte gráfico. En La Usca a orillas de la Herrera, \
-            vivieron muchos años unos indígenas de apellido Fontiba, originarios de Bosa. "
+            "texto": "Usca, es una expresión chibcha que refiere a un templo o lugar de sacrificio. Este lugar que rodea la laguna de la Herrera es considerado un patrimonio cultural del municipio de Mosquera, por su arte rupestre y la historia que lo rodea. Este templo fue construido en forma de cueva, la historia relata que allí era el dormitorio del jeque, quien era el encargado de los rituales religiosos.\
+En el año 1935 el gobierno municipal, hacendados y ciudadanos tomaron medidas para preservar las piedras y su arte gráfico. En La Usca a orillas de la Herrera, vivieron muchos años unos indígenas de apellido Fontiba, originarios de Bosa."
+            },
+
+        {
+            "subtitulo": "  ",
+            "imagenes":" " ,
+            "audio": " ",
+            "texto": " "
         },
+        {
+            "subtitulo": "  ",
+            "imagenes": " ",
+            "audio": " ",
+            "texto": " "
+        },
+        {
+            "subtitulo": "  ",
+            "imagenes": " ",
+            "audio": " ",
+            "texto": " "
+        },
+
 
     ]
 };

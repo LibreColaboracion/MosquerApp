@@ -8,11 +8,31 @@ var laguna_la_herrera = {
         "dir": "Via Mondoñedo, Vereda Balsillas a 7,2 kilómetros del Municipio de Mosquera"
     },
     "contenido": [{
-            "subtitulo": "Laguna la Herrera",
-            "imagenes": 1,
+            "subtitulo": "Biodiversidad",
+            "imagenes": 7,
             "audio": "laguna_la_herrera.ogg",
-            "texto": "La Laguna de la herrera es un sitio lleno de fauna y flora, ayuda a equilibrar el ecosistema de su entorno y del municipio, algunas de las plantas que se hallan en este lugar son: el sauco, arrayan, sauce, aliso, mora silvestre, holly, cerezo, tuna de la sabana, chilco, y hayuelo. ademas, aves como garzas, alcaravanes}, patos turrios, fochas, siriris, coco coro negro, monjitas bogotanas y tinguas de pico rojo tambien llamada tingua moteada. La Laguna de la Herrera es un sitio ancestral, donde los indígenas muiscas realizaban diferentes cultos religiosos. En sus dimensiones cuenta con una extensión aproximada de 4,5 Kilómetros. Fue declarada Reserva Hídrica en 2006 por la CAR (Corporación Autónoma Regional) pero durante los últimos años la laguna ha sufrido la  invación de vegetación acuática y la explotación minera, como consecuencia hoy en día esta reserva natural debe ser resguardada y cuidada para reestablecer su funcion en el ecosistema."
+            "texto": "La Laguna de la herrera es un sitio lleno de fauna y flora, ayuda a equilibrar el ecosistema de su entorno y del 	Municipio, algunas de las plantas que se hallan en este lugar son: el sauco, arrayan, sauce, aliso, mora silvestre, holly, cerezo, tuna de la sabana, chilco, y hayuelo. Ademas, aves como garzas, alcaravanes, patos turrios, fochas, siriris, coro coro negro, monjitas bogotanas y tinguas de pico rojo tambien llamada tingua moteada. La Laguna de la Herrera es un sitio ancestral, donde los indígenas muiscas realizaban diferentes cultos religiosos. En sus dimensiones cuenta con una extensión aproximada de 4,5 Kilómetros. Fue declarada Reserva Hídrica en 2006 por la CAR (Corporación Autónoma Regional) pero durante los últimos años la laguna ha sufrido la  invación de vegetación acuática y la explotación minera, como consecuencia hoy en día esta reserva natural debe ser resguardada y cuidada para reestablecer su funcion en el ecosistema."
+            },
+
+        {
+            "subtitulo": "  ",
+            "imagenes":" " ,
+            "audio": " ",
+            "texto": " "
         },
+        {
+            "subtitulo": "  ",
+            "imagenes": " ",
+            "audio": " ",
+            "texto": " "
+        },
+        {
+            "subtitulo": "  ",
+            "imagenes": " ",
+            "audio": " ",
+            "texto": " "
+        },
+
 
     ]
 };

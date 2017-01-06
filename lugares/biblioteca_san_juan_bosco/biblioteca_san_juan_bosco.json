@@ -9,34 +9,27 @@ var biblioteca_san_juan_bosco = {
         },
         "contenido": [{
                 "subtitulo": "Biblioteca San Juan Bosco",
-                "imagenes": 3,
+                "imagenes": 8,
                 "audio": "biblioteca_san_juan_bosco.ogg",
-                "texto": "En el año 2012, se construye unos nuvos edicficacion que lleva el nombre de Biioteca publica San JUan Bosco, construccion de dos plantaas, dotada de  sala de lectura, biblioteca virtual internet y multimedia, espacios lúdicos para la sala infantil, cafeteria y demás servicios. \
-                Luego fue aprobada la ley 68 de 1936 la cual apoya la obra cultural,\
-                que se refiere a la construcción de un nuevo edificio para que se estableciera como una de las bibliotecas más importantes de Cundinamarca.Debido a la necesidad de seguir fomentando la educación después de 64 años se realiza la construcción de una nueva biblioteca con un estilo moderno y su nombre a partir de allí cambia a Biblioteca Publica San Juan Bosco.La cual cuenta con una importante biblioteca virtual,\
-                espacios lúdicos,sala de lectura y ludoteca,entre otros servicios.Tomado de: Mosquera que vive "},
+                "texto": "Debido a la necesidad de seguir fomentando la educaciòn, en el año 2012, se realiza la costruccion de una nueva edicficacion que lleva el nombre de Biblioteca publica San Juan Bosco, construcciòn de dos plantas, dotada de  sala de lectura, biblioteca virtual, internet y multimedia, espacios lúdicos para la sala infantil, cafeteria y demás servicios."
+            },
+            {
+                    "subtitulo": "  ",
+                    "imagenes":" " ,
+                    "audio": " ",
+                    "texto": " "
+                },
                 {
- 	"subtitulo": " ",
- 	"imagenes": " ",
- 	"audio": " ",
- 	"texto": " "
- },
-
-
- {
- 	"subtitulo": " ",
- 	"imagenes": " ",
- 	"audio": " ",
- 	"texto": " "
- },
-
-
- {
- 	"subtitulo": " ",
- 	"imagenes": " ",
- 	"audio": " ",
- 	"texto": " "
- },
-
+                    "subtitulo": "  ",
+                    "imagenes": " ",
+                    "audio": " ",
+                    "texto": " "
+                },
+                {
+                    "subtitulo": "  ",
+                    "imagenes": " ",
+                    "audio": " ",
+                    "texto": " "
+                },
             ]
         };

@@ -1,7 +1,7 @@
 var parque_de_mascotas = {
     "titulo": "Parque de mascotas de Mosquera",
     "nombreDeLaCarpeta": "parque_de_mascotas",
-    "cordenadas": [00, 00, 2],
+    "cordenadas": [189, 113, 2],
     "categorias": ["Recreativo"],
     "datos": {
         "tel": "No aplica",
@@ -9,10 +9,32 @@ var parque_de_mascotas = {
     },
     "contenido": [{
             "subtitulo": "Parque de mascotas de Mosquera",
-            "imagenes": 4,
+            "imagenes": 5,
             "audio": "parque_de_mascotas.ogg",
-            "texto": ""
+            "texto": "'Parque Mi Mascota' así se llama para las 14.135 mascotas entre perros y gatos que han sido censadas en el Municipio Cundinamarqués.\
+Debido a la ausencia de un lugar recreativo para las mascotas, la Administración Municipal incluyó dentro de su plan de acción 'Gobierno Siempre en Marcha: Mosquera Ciudad de Oportunidades' la construcción de un espacio con la dotación necesaria para la distracción y entrenamiento de los animales domésticos. La inversión para materializar este proyecto fue de 452 millones de pesos.\
+El 19 de abril de 2015, el parque de mascotas abrio sus puertas al publico canino y felino."
+            },
+
+        {
+            "subtitulo": "  ",
+            "imagenes":" " ,
+            "audio": " ",
+            "texto": " "
         },
+        {
+            "subtitulo": "  ",
+            "imagenes": " ",
+            "audio": " ",
+            "texto": " "
+        },
+        {
+            "subtitulo": "  ",
+            "imagenes": " ",
+            "audio": " ",
+            "texto": " "
+        },
+
 
     ]
 };

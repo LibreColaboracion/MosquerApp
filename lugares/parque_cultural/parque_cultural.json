@@ -8,11 +8,31 @@ var parque_cultural = {
         "dir": "Esquina sur occidental de la Carrera 3 con Calle 10 "
     },
     "contenido": [{
-            "subtitulo": "Parque Cultural de Mosquera",
-            "imagenes": 3,
+            "subtitulo": "Punto central de encuentro",
+            "imagenes": 7,
             "audio": "parque_cultural.ogg",
-            "texto": "Ubicado frente a la biblioteca Juan Bosco, Auditorio y Parque acuático. Este lugar es un espacio nuevo, donde las personas pueden disfrutar de diferentes actividades como: obras de teatro, expsicioones de obbras de arte, eventos deportivos, presentaciones de danza y música, el festival más grande del año Recrearte, celebraciones como el día de la mujer, día de la madre, día del campesino, eventos empresariales, entre otros. Es un espacio para disfrutar en familia. "
+            "texto": "Ubicado frente a la biblioteca San Juan Bosco, Auditorio y Parque acuático. Este lugar es un espacio nuevo, donde las personas pueden disfrutar de diferentes actividades como: obras de teatro, exposiciones de obras de arte, eventos deportivos, presentaciones de danza y música, el festival más grande del año 'Recrearte', celebraciones como el día de la mujer, día de la madre, día del campesino, eventos empresariales, entre otros. Es un espacio para disfrutar en familia."
+            },
+
+        {
+            "subtitulo": "  ",
+            "imagenes":" " ,
+            "audio": " ",
+            "texto": " "
         },
+        {
+            "subtitulo": "  ",
+            "imagenes": " ",
+            "audio": " ",
+            "texto": " "
+        },
+        {
+            "subtitulo": "  ",
+            "imagenes": " ",
+            "audio": " ",
+            "texto": " "
+        },
+
 
     ]
 };

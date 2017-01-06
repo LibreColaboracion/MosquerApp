@@ -1,41 +1,45 @@
 var casa_negra_maria = {
-    "titulo": "Casa de la negra Maria",
-    "nombreDeLaCarpeta": "casa_negra_maria",
-    "cordenadas": [00, 00, 2],
-    "categorias": ["Historico"],
-    "datos": {
-        "tel": "No aplica",
-        "dir": "No aplica"
-    },
-    "contenido": [{
-            "subtitulo": "Casa de la negra Maria",
-            "imagenes": 1,
-            "audio": "casa_negra_maria.ogg",
-            "texto": ""
-        },
-        {
- 	"subtitulo": " ",
- 	"imagenes": " ",
- 	"audio": " ",
- 	"texto": " "
- },
+	"titulo": "Casa de la negra Maria",
+	"nombreDeLaCarpeta": "casa_negra_maria",
+	"cordenadas": [214, 97, 2],
+	"categorias": ["Historico"],
+	"datos": {
+		"tel": "No aplica",
+		"dir": "No aplica"
+	},
+	"contenido": [{
+			"subtitulo": "Casa de la negra Maria",
+			"imagenes": 6,
+			"audio": "casa_negra_maria.ogg",
+			"texto": "Maria Nidia Quintero llega al Municipio de Mosquera a colaborar en la parte de oficios varios a la casa de la familia Salesiana Perezon. Fue una mujer que dio uno de los mas importantes aportes al MUnicipio en el area de danzas, musica y las artes plasticas.\
+Creó la agrupacion de danzas 'Mosquetumac' (desaparecida en el año 1996, por causa del fallecimiento de su directora). su salon de danzas fue la casa donde vivio. rescatando toda sus raices culturales y ancestrales de su cuidad natal Tumaco. Igualmente creó la agrupcion de teatro llamada 'Muecsas'.\
+Maria Nidia Quintero fue directora, coreografa, diseñadora de vestuarios, costurera, cocinera, narradora de historias, motivadora y mucho más.\
+Quienes compartieron con ella expresan lo siguiente:\
+'Una mujer integral, muy humana, expresando primero mucho amor y dedicacion  a su entorno y  formando mas que agrupoaciones artisticas, una familia, enseñando a trabajar en equipo'.\
+-Expresa Ana Victoria Sopo. Exalumna de la Negra Maria.\
+'Hasta las aves se plantaban en sus hombros, esto representaba en ella una mujer con una esencia unica y especial'.'No solo bailaba, cocinaba y cantaba enamorando a todos los que probaban su sazón y escuchando su inclreible voz. Tuvo la oportnidad de salir en television en el programa 'cocinando con segundo cabezas'.\
+-Expresa Maestro Bernardo Sarmiento."
+		},
+
+		{
+			"subtitulo": "  ",
+			"imagenes":" " ,
+			"audio": " ",
+			"texto": " "
+		},
+		{
+			"subtitulo": "  ",
+			"imagenes": " ",
+			"audio": " ",
+			"texto": " "
+		},
+		{
+			"subtitulo": "  ",
+			"imagenes": " ",
+			"audio": " ",
+			"texto": " "
+		},
 
 
- {
- 	"subtitulo": " ",
- 	"imagenes": " ",
- 	"audio": " ",
- 	"texto": " "
- },
-
-
- {
- 	"subtitulo": " ",
- 	"imagenes": " ",
- 	"audio": " ",
- 	"texto": " "
- },
-        
-
-    ]
+	]
 };

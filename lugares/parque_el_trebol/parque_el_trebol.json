@@ -1,6 +1,6 @@
 var parque_el_trebol = {
     "titulo": "Parque El Trebol",
-    "nombreDeLaCarpeta": "parque_acuatico",
+    "nombreDeLaCarpeta": "parque_el_trebol",
     "cordenadas": [230,102, 2],
     "categorias": ["Recreativo"],
     "datos": {
@@ -8,11 +8,31 @@ var parque_el_trebol = {
         "dir": "Calle 12 Carrera 1b Barro Trebol"
     },
     "contenido": [{
-            "subtitulo": "Parque el trebol",
-            "imagenes": 1,
+            "subtitulo": "Para los domingos",
+            "imagenes": 7,
             "audio": "parque_el_trebol.ogg",
-            "texto": ""
+            "texto": "Este parque se encuentra ubicado en el barrio El Trebol. Es un escenario donde trabajan las diferentes escuelas de formación deportiva como: fútbol, baloncesto y voleibol playa. Tambien se pueden realizar actividades físicas como fútbol cinco y patinaje en la cancha y pista sintética respectivamente.Tambien cuenta con un gran parque de diversiones para niños."
+            },
+
+        {
+            "subtitulo": "  ",
+            "imagenes":" " ,
+            "audio": " ",
+            "texto": " "
         },
+        {
+            "subtitulo": "  ",
+            "imagenes": " ",
+            "audio": " ",
+            "texto": " "
+        },
+        {
+            "subtitulo": "  ",
+            "imagenes": " ",
+            "audio": " ",
+            "texto": " "
+        },
+
 
     ]
 };

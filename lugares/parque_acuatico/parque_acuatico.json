@@ -8,11 +8,31 @@ var parque_acuatico = {
         "dir": " a 4-163,, Cl. 10 #41, Mosquera, Cundinamarca, Colombia"
     },
     "contenido": [{
-            "subtitulo": "Parque acúatico de Mosquera",
-            "imagenes": 7,
+            "subtitulo": "Tres Piscinas excelentes",
+            "imagenes": 8,
             "audio": "parque_acuatico.ogg",
-            "texto": "El parque acuático es una de las estructuturas nuevas en el municipio de Mosquera. Es un lugar de formación y recreación para todos los mosquetunos. Podraán disfrutar este lugar personas en condición de discapacidad, madres gestantes, adulto mayor, jóvenes y población en general. Uno de us objetivos es apoyar a la spersonas que lo requieran, con terapias que les permitan mejorar su condición física, motora y emocional. Este lugar empezó su funcionamiento el 1 de Junio del 2016, en cabeza del alcalde Emilio Casallas.  "
+            "texto": "El parque acuático es una de las estructuturas nuevas en el municipio de Mosquera. Es un lugar de formación y recreación para todos los Mosquerunos. Podrán disfrutar este lugar personas en condición de discapacidad, madres gestantes, adulto mayor, jóvenes y población en general. Uno de sus objetivos es apoyar a las personas que lo requieran, con terapias que les permitan mejorar su condición física, motora y emocional. Este lugar empezó su funcionamiento el 1 de Junio del 2016, en cabeza del alcalde Emilio Casallas."
+            },
+
+        {
+            "subtitulo": "  ",
+            "imagenes":" " ,
+            "audio": " ",
+            "texto": " "
         },
+        {
+            "subtitulo": "  ",
+            "imagenes": " ",
+            "audio": " ",
+            "texto": " "
+        },
+        {
+            "subtitulo": "  ",
+            "imagenes": " ",
+            "audio": " ",
+            "texto": " "
+        },
+
 
     ]
 };

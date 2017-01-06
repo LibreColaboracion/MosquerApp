@@ -269,9 +269,12 @@ nav ul li a {
 
 
 #cerrar {
-    display: flex;
+        display: flex;
     float: right;
-    width: 40%;
+    left: 2%;
+    position: absolute;
+    top: 9%;
+    width: 8%;
     z-index: 500;
 
 }

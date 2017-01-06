@@ -1,14 +1,38 @@
-var cementerio =
-{
-    "titulo":"Cementerio de Mosquera",
-    "nombreDeLaCarpeta":"cementerio",
-    "cordenadas":[00, 00,2],
-	"categorias":["Historico"],
-    "datos":{
-        "tel":"NO APLICA",
-        "dir":"Calle 13 vía Mosquera"},
-     "contenido":[
-                    {"subtitulo": "Cementerio De Mosquera", "imagenes":7, "audio":"cementerio.ogg", "texto":"El cementerio de Mosquera está ubicado cerca al barrio Quinta Mosquera. Un lugar donde los mosquetunos realizan sus actos espirituales, ritos de inhumación. Dentro de este se encuentra una capilla y un jardín a la entrada, que le da un aspecto campestre. Allí se encuentran restos de generaciones pasadas, familias que también han hecho parte de la historia del Municipio."},
+var cementerio = {
+	"titulo": "Cementerio de Mosquera",
+	"nombreDeLaCarpeta": "cementerio",
+	"cordenadas": [182, 87, 2],
+	"categorias": ["Historico"],
+	"datos": {
+		"tel": "NO APLICA",
+		"dir": "Calle 13 vía Mosquera"
+	},
+	"contenido": [{
+			"subtitulo": "Capilla",
+			"imagenes": 8,
+			"audio": "cementerio.ogg",
+			"texto": "El 14 de mayo de 1912 el padre Jorge Herran (capellan de la iglesia), dio principio a la construcción del cementerio. en un lote cedido por el doctor Pedro Ignacio  Uribe, a un kilometro de la poblacion y por el camino de Madrid. Es un lugar donde los MosqueRunos realizan sus actos espirituales y ritos de inhumación. Dentro de este se encuentra una capilla y un jardín a la entrada, que le da un aspecto campestre. Allí se encuentran restos de generaciones pasadas y familias que también han hecho parte de la historia del Municipio."
+		},
 
-                ]
+		{
+			"subtitulo": "  ",
+			"imagenes":" " ,
+			"audio": " ",
+			"texto": " "
+		},
+		{
+			"subtitulo": "  ",
+			"imagenes": " ",
+			"audio": " ",
+			"texto": " "
+		},
+		{
+			"subtitulo": "  ",
+			"imagenes": " ",
+			"audio": " ",
+			"texto": " "
+		},
+
+
+	]
 };
