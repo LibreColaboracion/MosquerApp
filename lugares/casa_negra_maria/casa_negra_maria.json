@@ -13,6 +13,29 @@ var casa_negra_maria = {
             "audio": "casa_negra_maria.ogg",
             "texto": ""
         },
+        {
+ 	"subtitulo": " ",
+ 	"imagenes": " ",
+ 	"audio": " ",
+ 	"texto": " "
+ },
+
+
+ {
+ 	"subtitulo": " ",
+ 	"imagenes": " ",
+ 	"audio": " ",
+ 	"texto": " "
+ },
+
+
+ {
+ 	"subtitulo": " ",
+ 	"imagenes": " ",
+ 	"audio": " ",
+ 	"texto": " "
+ },
+        
 
     ]
 };
