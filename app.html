@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Somos Mosquera</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+   
+    
+    <script type="text/javascript" src="lugares/alcaldia/alcaldia.json"></script>
+    <script type="text/javascript" src="lugares/auditorio/auditorio.json"></script>
+    <script type="text/javascript" src="lugares/biblioteca_san_juan_bosco/biblioteca_san_juan_bosco.json"></script>
+    <script type="text/javascript" src="lugares/casa_de_la_cultura/casa_de_la_cultura.json"></script>
+    <script type="text/javascript" src="lugares/casa_negra_maria/casa_negra_maria.json"></script>
+    <script type="text/javascript" src="lugares/cementerio/cementerio.json"></script>
+    <script type="text/javascript" src="lugares/club_minicar/club_minicar.json"></script>
+    <script type="text/javascript" src="lugares/colegio_la_merced/colegio_la_merced.json"></script>
+    <script type="text/javascript" src="lugares/desierto_de_Sabrinsky/desierto_de_Sabrinsky.json"></script>
+    <script type="text/javascript" src="lugares/hacienda_el_novillero/hacienda_el_novillero.json"></script>
+    <script type="text/javascript" src="lugares/humedal_guali/humedal_guali.json"></script>
+    <script type="text/javascript" src="lugares/humedal_meandro_del_say/humedal_meandro_del_say.json"></script>
+    <script type="text/javascript" src="lugares/iglesia_central/iglesia_central.json"></script>
+    <script type="text/javascript" src="lugares/laguna_la_herrera/laguna_la_herrera.json"></script>
+    <script type="text/javascript" src="lugares/parque_acuatico/parque_acuatico.json"></script>
+    <script type="text/javascript" src="lugares/parque_cultural/parque_cultural.json"></script>
+    <script type="text/javascript" src="lugares/parque_de_mascotas/parque_de_mascotas.json"></script>
+    <script type="text/javascript" src="lugares/parque_el_trebol/parque_el_trebol.json"></script>
+    <script type="text/javascript" src="lugares/parque_historico_mosquera/parque_historico_mosquera.json"></script>
+    <script type="text/javascript" src="lugares/parque_las_aguas/parque_las_aguas.json"></script>
+    <script type="text/javascript" src="lugares/piedras_de_usca/piedras_de_usca.json"></script>
+    <script type="text/javascript" src="lugares/primera_casa_cultura/primera_casa_cultura.json"></script>
+    <script type="text/javascript" src="lugares/teatro_municipal/teatro_municipal.json"></script>
+    <script type="text/javascript" src="lugares/villa_olimpica/villa_olimpica.json"></script>
+
+
+
+    <script language="JavaScript" type="text/javascript" src="js/menu.js"></script>
+    <script language="JavaScript" type="text/javascript" src="js/contenidos.js"></script>
+    <script defer type="text/javascript" src="js/puntos.js"></script>
+</head>
+<body>
+<!--  menu    -->
+<nav id="menu" class="invisible">
+        <ul>
+            <li class="titulomenu">Somos Mosquera<br><img onclick="menuc()" class="menuatras" src="img/atrasmenu.svg"/></li>
+            <li class="menuli"><a href="#"> Inicio</a></li>
+            <li class="menuli"><a href="html/creditos.html"> Créditos</a></li>
+           
+        </ul>
+</nav>
+
+        <div  class= "cabecera">
+            <img class="logo" onclick="menu('chocolate')" src="img/menu.svg">
+            <p class = "titulo">Conoce Mosquera</p>
+        </div>
+<!-- fin del menu    -->
+
+
+<!-- Ventana solo mapa-->
+<div class="pantalla">
+	<div id="marcozoom">
+		<div id = "lupa" onclick="zoom()"><img src="img/lupamas.svg"></div>
+		<div id = "lupamenos" onclick="mzoom()"><img src="img/lupamenos.svg"></div>
+		<object id= "mapaex" type="image/svg+xml" data="img/mapa.svg" ></object>
+	</div>
+</div>
+
+
+<div id="marcopresentador">
+        <p><img id="imgpresentador" src="img/personaje.svg">
+        <div id = "titulo"> <h1></h1></div>
+        Toca los puntos verdes y usa la lupa.
+        </p>
+</div>
+
+
+
+<div id="detalles">
+    <div id = "contenidocat"> </div>
+    <div id = "marcoGaleria">
+        <img id="cerrar" src="img/cerrar.svg" onclick="noVercontenido()" >  
+        <div id="botones">
+
+              <img id="iz" src="img/flechaiz.svg" onclick="atras()" >
+              <img id="der" src="img/flechader.svg" onclick="adelante()" >
+
+            </div>
+            <div id="galeria" ></div>
+            <div class="letras">
+                <div class="otros" id = "categoria1"></div>
+                <div class="otros" id = "categoria2"></div>
+                <div class="otros" id = "categoria3"></div>
+                <div class="otros" id = "categoria4"></div>
+            </div>
+</div>
+
+
+
+
+</body>
+</html>
