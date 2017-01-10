@@ -51,9 +51,7 @@ function vercontenido (argumento){
                         
                         clickiz = document.getElementById("iz");
                         clickder = document.getElementById("der");
-                        //clickiz.onclick = "atras("+argumento+")"; 
-                        
-                        
+                                               
                         clickiz.addEventListener('click',function(){atras(argumento)}); 
                         clickder.addEventListener('click',function(){adelante(argumento)});
                         
@@ -62,12 +60,6 @@ function vercontenido (argumento){
                                                                     "<li><a href=#"+ argumento.contenido[2].subtitulo + ">" +argumento.contenido[2].subtitulo+" </a></li>"+
                                                                     "<li><a href=#"+ argumento.contenido[3].subtitulo + ">" +argumento.contenido[3].subtitulo+" </a></li></ul></nav></header>");
                        
-                       //console.log(argumento.contenido[3].subtitulo);
-                       //console.log(argumento.contenido[2].subtitulo);
-                       //console.log(argumento.contenido[1].subtitulo);
-                       //console.log(argumento.contenido[0].subtitulo);
-
-
                         contenedor.innerHTML = ( "<p>"+ (argumento.titulo)+"</p>" + 
                                                  "<a name=" + argumento.contenido[0].subtitulo + ">" + argumento.contenido[0].subtitulo + "</a>" + 
                                                  "<p><audio controls  src='lugares/"+(argumento.nombreDeLaCarpeta)+"/audio"+"/"+(argumento.contenido[0].audio)+"'preload='auto' type='audio/ogg'></audio></p>"+
