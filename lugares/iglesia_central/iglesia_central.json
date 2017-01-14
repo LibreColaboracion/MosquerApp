@@ -5,7 +5,7 @@ var iglesia_central = {
     "categorias": ["Historico"],
     "datos": {
         "tel": "57 1 8276393",
-        "dir": "Cl. 2 #255, Mosquera, Cundinamarca, Colombia"
+        "dir": "Cl 2 # 2 - 55, Mosquera, Cundinamarca, Colombia"
     },
     "contenido": [{
             "subtitulo": "Monumentos religiosos",

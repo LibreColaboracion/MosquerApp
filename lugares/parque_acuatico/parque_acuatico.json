@@ -1,11 +1,11 @@
 var parque_acuatico = {
-    "titulo": "Parque Acúatico de Mosuqera",
+    "titulo": "Parque Acúatico de Mosquera",
     "nombreDeLaCarpeta": "parque_acuatico",
     "cordenadas": [213, 80, 2],
     "categorias": ["Recreativo"],
     "datos": {
         "tel": "No Aplica",
-        "dir": " a 4-163,, Cl. 10 #41, Mosquera, Cundinamarca, Colombia"
+        "dir": "  Carrera 3 con Calle 10 # 41, Mosquera, Cundinamarca, Colombia"
     },
     "contenido": [{
             "subtitulo": "Tres Piscinas excelentes",

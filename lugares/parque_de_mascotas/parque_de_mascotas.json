@@ -5,7 +5,7 @@ var parque_de_mascotas = {
     "categorias": ["Recreativo"],
     "datos": {
         "tel": "No aplica",
-        "dir": "Via principa; Carrera 3 - Villa Olimpica"
+        "dir": "Via principal; Carrera 3 - Villa Olimpica"
     },
     "contenido": [{
             "subtitulo": "Parque de mascotas de Mosquera",

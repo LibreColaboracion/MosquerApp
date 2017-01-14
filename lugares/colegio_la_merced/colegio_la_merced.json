@@ -5,7 +5,7 @@ var colegio_la_merced = {
     "categorias": ["Historico"],
     "datos": {
         "tel": "57 1 8276216",
-        "dir": "Cl. 3 Carrera 3"
+        "dir": "Cll 3 Carrera 3"
     },
     "contenido": [{
             "subtitulo": "Educacion",

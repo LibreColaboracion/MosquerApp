@@ -8,7 +8,7 @@ var primera_casa_cultura = {
         "dir": "Carrera 1 calle 2"
     },
     "contenido": [{
-            "subtitulo": "Multi usos",
+            "subtitulo": "Nace la cultura en Mosquera",
             "imagenes": 23,
             "audio": "primera_casa_cultura.ogg",
             "texto": ""

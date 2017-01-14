@@ -67,7 +67,9 @@ function vercontenido (argumento){
                                                );
                                              
                         contenedor.style.display = "inherit";
+                        contenedor.style.textAlign = "justify";
                         contenidocat.style.display = "inherit";
+
                         console.log('ok contenidos cargados');
                         console.log (argumento.nombreDeLaCarpeta);
                         console.log (argumento.contenido[0].audio);
@@ -81,6 +83,7 @@ function vercontenido (argumento){
                                                 "<p>"+ (argumento.contenido[1].texto)+"</p>"
                                                );
                         contenedor.style.display = "inherit";
+                        contenedor.style.textAlign = "justify";
                         contenidocat.style.display = "inherit";
                         console.log('ok contenidos cargados 1');
                         
@@ -92,6 +95,7 @@ function vercontenido (argumento){
                                                 "<p>"+ (argumento.contenido[2].texto)+"</p>"
                                                );
                         contenedor.style.display = "inherit";
+                        contenedor.style.textAlign = "justify";
                         contenidocat.style.display = "inherit";
                         console.log('ok contenidos cargados 2');
                     break;
@@ -103,6 +107,7 @@ function vercontenido (argumento){
                                                "<p>"+ (argumento.contenido[3].texto)+"</p>"
                                                );
                         contenedor.style.display = "inherit";
+                        contenedor.style.textAlign = "justify";
                         contenidocat.style.display = "inherit";
                         console.log('ok contenidos cargados 3');
                     break;
