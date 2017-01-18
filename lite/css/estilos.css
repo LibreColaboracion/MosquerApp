@@ -1,0 +1,344 @@
+body {
+	background-size: 100% 100%;
+    background-image: url(../img/fondo2.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+   }
+
+.cabecera {
+    width: 100%;
+    text-align: center;
+    background-color:chocolate;
+    position:fixed; 
+    left:0;
+    top:0;
+    z-index:0;
+    color: white;
+}
+
+
+.logo{
+    width:10%;
+    float: left;
+    margin:1.5%;
+}
+
+
+/* menu lateral */
+
+ .menuatras, .titulomenu, .menuli, nav, .invisible, ul,nav ul li a{
+    font-family:helvetica;
+    margin:0;
+    padding:0;
+}
+.menuatras{
+    width:30px;
+    float:right;
+    z-index:0;
+}
+.titulomenu{
+    font-weight: bold;
+    font-size: 2em;
+    display:block;
+    padding:10px;
+    border-bottom:0.3em solid rgba(255,255,255, 0.2);
+}
+.menuli {
+    font-size:1.5em;
+    padding:15px 31px;
+    border-bottom:0.2em solid rgba(255,255,255, 0.2);
+}
+nav {
+    min-width:100%;
+    width:40%;
+    height:auto;
+    position: fixed;
+    top:0;
+    left:0;
+    background:chocolate;
+    overflow:auto;
+    transition:all 0.2s;
+    z-index:1;
+}
+.invisible{
+    left:-100%;
+}
+ul {
+    color:#fff;
+    list-style:none;
+    position:relative;
+    top:0;
+    left:0;
+    
+    }
+nav ul li a {
+    color:#fff;
+    display:block;
+    text-decoration:none;
+}
+.menuli:hover {
+    background:rgba(0,0,0, 0.5);
+} 
+
+/*  Final menu lateral */
+
+/*  CSS para el marco general del mapa */
+
+.pantalla{
+    width: 98%;
+    height: auto;
+    position: absolute;
+    overflow: auto;
+    z-index: -1;
+    text-align: center;
+    margin-top: 10%;
+    /* background-color: yellow; */
+}
+
+
+#lupa{
+    width: 50px;
+    height: 50px;
+    display: inline;
+    float: left;
+    margin-left: 78%;
+    margin-top: 2%;
+    position: absolute;
+    border-style: solid;
+    border-color: indianred;
+    border-radius: 50%;
+    background-color: peru;
+    z-index: 100;
+
+
+}
+
+#lupa img {
+    width: 66%;
+    padding: 11%;
+
+}
+
+
+#lupamenos{
+    width: 50px;
+    height: 50px;
+    display: inline;
+    float: left;
+    margin-left: 78%;
+    margin-top: 25%;
+    position: absolute;
+    border-style: solid;
+    border-color: indianred;
+    border-radius: 50%;
+    background-color: peru;
+    z-index: 100;
+
+
+}
+
+
+#lupamenos img {
+    width: 66%;
+    padding: 11%;
+}
+
+#marcozoom{
+    overflow:auto;
+    text-align:center;
+    width: 100%;
+    height: 21em;
+    margin-top: 10%;
+
+
+}
+
+#mapaex{
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0;
+
+}
+
+
+
+
+#detalles{
+	
+    width: 0.5%;
+    height: 0.5%;
+    position: absolute;
+    left: 49.5%;
+    top: 49.5%;
+    z-index: 0;
+    height:100%;
+    display: none;
+
+}
+
+.otros{
+    background-color: white;
+    
+    
+}
+
+/*menu detalles categosias */
+.header {
+  background: rgba(0,0,0,0.9);
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+#contenidocat{
+    
+    height: 100%;
+    /*background-color: red;*/
+    position: absolute;
+    z-index: 99;
+    list-style-type:square;
+    text-align : center;
+}
+
+#contenidocat li {
+    margin:2px;
+	float:left;
+	width:23%;
+}
+
+#contenidocat li a {
+	display:block;
+	width:100px;
+	padding:4px 0;
+	text-decoration:none;
+	
+	color:#FFFFFF;
+	background-color:#D2691e;
+	font-size:1em;
+}
+
+#contenidocat li a:hover {
+	color:#99CC00;
+	background-color:#003366;
+}
+
+
+/*fin del menu*/
+
+
+#marcoGaleria{
+    height: 100%;
+    display: flex;
+    
+}
+
+
+#galeria{
+	float: right;
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+    height: 50%;
+    margin-top: 10%;
+    
+}
+
+#galeria img{
+	height: 90%;
+
+}
+
+
+#botones{
+    width: 100%;
+    float: left;
+    margin-top: 35%;
+    position: absolute;
+    display: none;
+    z-index: 1;
+ }
+
+#der {
+     float: right;
+    margin-left: 70%;
+}
+
+.audio {
+    width: 100%;
+    
+    
+}
+
+
+#cerrar {
+        display: flex;
+    float: right;
+    left: 2%;
+    position: absolute;
+    top: 9%;
+    width: 8%;
+    z-index: 1;
+
+}
+
+
+.letras {
+    margin-top: 54%;
+    overflow: scroll;
+    width: 100%;
+
+
+}
+
+#titulo {
+    width: 100%;
+    
+}
+
+
+#marcopresentador{
+	background-color: white;
+    border-color: brown;
+    border-radius: 13px;
+    border-style: solid;
+    bottom: 5%;
+    color: black;
+    height: auto;
+    margin-left: 0;
+    margin-top: -8%;
+    padding: 1%;
+    position: absolute;
+    width: 90%;
+    z-index: 3;
+    text-align: center;
+    
+}
+
+
+#marcopresentador img{
+	float: right;
+    width: 24%;
+    height: auto;
+    margin-top: -35%;
+    z-index: 1;
+}
+
+.credi {
+    text-align: justify;
+    
+}
+
+.credi ul {
+        color: black;
+    font-size: 0.9em;
+    list-style: outside none disc;
+    margin: 0 0 0 5%;
+    padding: 0;
+    width: 85%;
+    text-align: justify
+    
+    
+}
+
+
+
