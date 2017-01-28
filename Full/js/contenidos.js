@@ -115,7 +115,7 @@ function vercontenido (argumento){
     };
 };
 
-//no ver contenido
+//no ver contenido oculta los contenidos al dar clik en cerrar 
 
 function noVercontenido (argumento){ 
     console.log('cerrar');

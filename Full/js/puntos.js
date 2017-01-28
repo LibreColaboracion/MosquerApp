@@ -50,7 +50,7 @@ var lugares ={};
 
 
 
-
+/* esta funcion crea  los puntos trallendo datos de JSON como coordenadas, tambien se determina el tama; del punto y  el color */
 
 function hola(arg){
     var f = document.getElementById('marcopresentador');

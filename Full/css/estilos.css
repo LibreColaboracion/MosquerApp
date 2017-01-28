@@ -1,3 +1,4 @@
+/* Propiedades del fondo, error actual no muestra la imagen bacground en compilacion */
 body {
 	background-size: 100% 100%;
     background-image: url(../img/fondo2.png);
@@ -95,7 +96,7 @@ nav ul li a {
     /* background-color: yellow; */
 }
 
-
+/* lupas  */
 #lupa{
     width: 50px;
     height: 50px;
@@ -142,7 +143,7 @@ nav ul li a {
     width: 66%;
     padding: 11%;
 }
-
+/* este marco encierra en un div el mapa, es quien da el efecto de crecer dentro del div */
 #marcozoom{
     overflow:auto;
     text-align:center;
@@ -152,7 +153,7 @@ nav ul li a {
 
 
 }
-
+/* Estas son los css del mapa svg */
 #mapaex{
     width: 100%;
     margin-left: 0;
@@ -161,7 +162,7 @@ nav ul li a {
 }
 
 
-
+/* estos son los css del div detalles, osea panatalla que tiene el cntenido de cada punto, galeria sonido y texto. */
 
 #detalles{
 	
@@ -189,7 +190,7 @@ nav ul li a {
   position: fixed;
   z-index: 100;
 }
-
+/* esto controla los estilos  de los menus superiores inicio ... y categorias que se crean con anclas */
 #contenidocat{
     
     height: 100%;
@@ -232,7 +233,7 @@ nav ul li a {
     
 }
 
-
+/* esta es la galeria de imagenes */
 #galeria{
 	float: right;
     position: absolute;
@@ -248,7 +249,7 @@ nav ul li a {
 
 }
 
-
+/* estas son las flechas */
 #botones{
     width: 100%;
     float: left;
@@ -269,7 +270,7 @@ nav ul li a {
     
 }
 
-
+/* boton cerrar */
 #cerrar {
         display: flex;
     float: right;
@@ -281,7 +282,7 @@ nav ul li a {
 
 }
 
-
+/* esto son css para los parrafos en texto */
 .letras {
     margin-top: 54%;
     overflow: scroll;
@@ -295,7 +296,7 @@ nav ul li a {
     
 }
 
-
+/* ni;o y cuadro blanco */
 #marcopresentador{
 	background-color: white;
     border-color: brown;
@@ -322,7 +323,7 @@ nav ul li a {
     margin-top: -35%;
     z-index: 1;
 }
-
+/* creditos  */
 .credi {
     text-align: justify;
     
