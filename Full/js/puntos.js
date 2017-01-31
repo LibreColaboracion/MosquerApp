@@ -1,26 +1,3 @@
-/*
-var cordenadas = {
-    'laguna_la_herrera':[58,142],
-    'Humedal Meandro del say':[391,193],
-    'Desierto De Sabrinsky':[84,199],
-    'Hacienda El Novillero':[170,122],
-    'Humedal guali':[285, 104],
-    'Piedras de Usca':[85, 173],
-    'parquep':[208, 110],
-    'iglesia':[205, 108],
-    'Auditorio':[217, 88],
-    'Bibliteca_San_Juan_Bosco':[214, 90],
-    'Casa_de_la_Cultura':[208, 95],
-    'Colegio_la_Merced':[212, 103],
-    'Parque_Acuatico':[204, 80],
-    'Parque_Central':[205, 104],
-    'Parque_Cultural':[221, 88],
-    'Parque_De_Las_Aguas':[200, 79],
-    'Teatro_Municipal':[209, 108],
-    'Villa_Olimpica':[195, 112],
-    'alcaldia':[208, 106],
-};
-*/
 var lugares ={};
 
     lugares["alcaldia"]= alcaldia;
@@ -48,7 +25,13 @@ var lugares ={};
     lugares["teatro_municipal"]= teatro_municipal;
     lugares["villa_olimpica"]= villa_olimpica;
 
-
+var categoria = { // de aquí se toman los colores
+    "historico": "#673AB7",
+    "cultura": "#F50057",
+    "turismo": "#00BCD4",
+    "ecológico": "#4CAF50",
+    "recreativo": "#607D8B"
+}
 
 /* esta funcion crea  los puntos trallendo datos de JSON como coordenadas, tambien se determina el tama; del punto y  el color */
 
@@ -73,7 +56,7 @@ function puntos(arg){
     // Me adelante un poco con esta sentencia que usted no sabe manejar pero es casi un for no por eso dice foreach = para cada uno
     Object.keys(arg).forEach(function(e){
             console.log(arg[e]["cordenadas"]);
-            c.innerHTML += '<circle id="'+e+'" cx="'+arg[e]['cordenadas'][0]+'" cy="'+arg[e]["cordenadas"][1]+'" r="'+arg[e]["cordenadas"][2]+'" style="fill:#00ff00;stroke:#800000;"> </circle>';
+            c.innerHTML += '<circle id="'+e+'" cx="'+arg[e]['cordenadas'][0]+'" cy="'+arg[e]["cordenadas"][1]+'" r="'+arg[e]["cordenadas"][2]+'" fill="'+categoria[arg[e]['categorias'][0]]+'" stroke="#800000"> </circle>';
             
         });
     Object.keys(arg).forEach(function(e){
