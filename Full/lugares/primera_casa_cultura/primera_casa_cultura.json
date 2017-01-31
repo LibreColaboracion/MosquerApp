@@ -2,7 +2,7 @@ var primera_casa_cultura = {
     "titulo": "Primera casa de la cultura de Mosquera",
     "nombreDeLaCarpeta": "primera_casa_cultura",
     "cordenadas": [211, 115, 2],
-    "categorias": ["Historico" ],
+    "categorias": ["historico" ],
     "datos": {
         "tel": "No aplica",
         "dir": "Carrera 1 calle 2"

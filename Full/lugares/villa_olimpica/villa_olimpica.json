@@ -2,7 +2,7 @@ var villa_olimpica = {
     "titulo": "Villa Olímpica de Mosquera",
     "nombreDeLaCarpeta": "villa_olimpica",
     "cordenadas": [195, 112, 2],
-    "categorias": [ "Recreativo"],
+    "categorias": [ "recreativo"],
     "datos": {
         "tel": "No aplica",
         "dir": "Calle 1 Carrera 3"

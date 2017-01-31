@@ -2,7 +2,7 @@ var parque_cultural = {
     "titulo": "Parque Cultural de Mosquera",
     "nombreDeLaCarpeta": "parque_cultural",
     "cordenadas": [223, 84, 2],
-    "categorias": ["Cultura"],
+    "categorias": ["cultura"],
     "datos": {
         "tel": "No Aplica",
         "dir": "Esquina sur occidental de la Carrera 3 con Calle 10 "

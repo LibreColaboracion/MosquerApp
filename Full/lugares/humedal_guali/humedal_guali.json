@@ -2,7 +2,7 @@ var humedal_guali = {
     "titulo": "Humedal Guali",
     "nombreDeLaCarpeta": "humedal_guali",
     "cordenadas": [285, 104, 10],
-    "categorias": ["Ecologico"],
+    "categorias": ["ecologico"],
     "datos": {
          "tel": "No Aplica",
         "dir": "Vía Funza-Mosquera"

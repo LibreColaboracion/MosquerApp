@@ -2,7 +2,7 @@ var cementerio = {
 	"titulo": "Cementerio de Mosquera",
 	"nombreDeLaCarpeta": "cementerio",
 	"cordenadas": [182, 87, 2],
-	"categorias": ["Historico"],
+	"categorias": ["historico"],
 	"datos": {
 		"tel": "NO APLICA",
 		"dir": "Calle 13 vía Mosquera"

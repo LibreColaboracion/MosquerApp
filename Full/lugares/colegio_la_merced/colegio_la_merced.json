@@ -2,7 +2,7 @@ var colegio_la_merced = {
     "titulo": "Colegio La Merced de Mosquera",
     "nombreDeLaCarpeta": "colegio_la_merced",
     "cordenadas": [212, 103, 2],
-    "categorias": ["Historico"],
+    "categorias": ["historico"],
     "datos": {
         "tel": "57 1 8276216",
         "dir": "Cll 3 Carrera 3"

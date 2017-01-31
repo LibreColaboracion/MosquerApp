@@ -2,7 +2,7 @@ var alcaldia = {
 	"titulo": "Alcaldía",
 	"nombreDeLaCarpeta": "alcaldia",
 	"cordenadas": [209, 107, 2],
-	"categorias": ["Historico"],
+	"categorias": ["historico"],
 	"datos": {
 		"tel": "+57 1 8931114",
 		"dir": "Cra. 2 #2-68"

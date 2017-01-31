@@ -2,7 +2,7 @@ var piedras_de_usca = {
     "titulo": "Piedras de Usca",
     "nombreDeLaCarpeta": "piedras_de_usca",
     "cordenadas": [85, 173, 10],
-    "categorias": ["Ecologico"],
+    "categorias": ["ecologico"],
     "datos": {
         "tel": "No aplica",
         "dir": "Colinda con la Laguna de Herrera "

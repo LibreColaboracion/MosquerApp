@@ -2,7 +2,7 @@ var laguna_la_herrera = {
     "titulo": "Laguna la Herrera",
     "nombreDeLaCarpeta": "laguna_la_herrera",
     "cordenadas": [58, 142, 10],
-    "categorias": ["Ecologico"],
+    "categorias": ["ecologico"],
     "datos": {
         "tel": "No aplica",
         "dir": "Via Mondoñedo, Vereda Balsillas a 7,2 kilómetros del Municipio de Mosquera"

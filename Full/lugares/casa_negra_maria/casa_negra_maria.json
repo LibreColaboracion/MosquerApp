@@ -2,7 +2,7 @@ var casa_negra_maria = {
 	"titulo": "Casa de la negra Maria",
 	"nombreDeLaCarpeta": "casa_negra_maria",
 	"cordenadas": [214, 97, 2],
-	"categorias": ["Historico"],
+	"categorias": ["historico"],
 	"datos": {
 		"tel": "No aplica",
 		"dir": "No aplica"

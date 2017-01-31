@@ -2,7 +2,7 @@ var desierto_de_Sabrinsky = {
     "titulo": "Desierto de Sabrinsky",
     "nombreDeLaCarpeta": "desierto_de_Sabrinsky",
     "cordenadas": [84, 199, 10],
-    "categorias": ["Ecologico", "Turismo"],
+    "categorias": ["ecologico", "turismo"],
     "datos": {
         "tel": "No Aplica",
         "dir": "Via Mondoñedo"

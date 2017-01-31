@@ -2,7 +2,7 @@ var humedal_meandro_del_say = {
     "titulo": "Humedal Meandro del Say",
     "nombreDeLaCarpeta": "humedal_meandro_del_say",
     "cordenadas": [391, 193, 10],
-    "categorias": ["Ecologico"],
+    "categorias": ["ecologico"],
     "datos": {
         "tel": "No Aplica",
         "dir": "Acceso por Zona Franca, Fontibón. Carrera 113 con la variante Mosquera – Bogotá"

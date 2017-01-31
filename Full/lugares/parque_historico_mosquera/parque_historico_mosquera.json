@@ -2,7 +2,7 @@ var parque_historico_mosquera = {
     "titulo": "Parque Central de Mosquera",
     "nombreDeLaCarpeta": "parque_historico_mosquera",
     "cordenadas": [205, 104, 2],
-    "categorias": ["Historico"],
+    "categorias": ["historico"],
     "datos": {
         "tel": "No aplica",
         "dir": "Centro de Mosquera Calle 3 Carrera 3 "

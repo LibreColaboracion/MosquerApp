@@ -2,7 +2,7 @@ var parque_las_aguas = {
     "titulo": "Parque las Aguas de Mosquera",
     "nombreDeLaCarpeta": "parque_las_aguas",
     "cordenadas": [200, 79, 2],
-    "categorias": ["Recreativo"],
+    "categorias": ["recreativo"],
     "datos": {
         "tel": "No aplica",
         "dir": "Barrio el Poblado, frente al colegio Roberto Velandia"

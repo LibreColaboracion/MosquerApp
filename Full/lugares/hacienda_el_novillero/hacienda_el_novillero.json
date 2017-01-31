@@ -2,7 +2,7 @@ var hacienda_el_novillero = {
     "titulo": "Hacienda el Novillero",
     "nombreDeLaCarpeta": "hacienda_el_novillero",
     "cordenadas": [170, 122, 10],
-    "categorias": ["Ecologico"],
+    "categorias": ["ecologico"],
     "datos": {
          "tel": "No Aplica",
         "dir": "Vía La Mesa-Mosquera "
