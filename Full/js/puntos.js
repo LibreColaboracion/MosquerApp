@@ -63,8 +63,9 @@ function puntos(arg){
 
 /*-------------------------- función para ver puntos segun categorias ----------------*/
 function verpuntos(arg){
-    var cate = Object.keys(categoria);
-    var a = document.getElementById('mapaex').getSVGDocument();
+    var cate = Object.keys(categoria); // crea una array con las categorias
+    var a = document.getElementById('mapaex').getSVGDocument(); // selecciona el Dom de la imagen SVG
+        /*----------retorna el elemento que se quiere que  sea visible ----------*/
     var Clases = function(){
        if( typeof arg != 'undefined'){
            var index = cate.indexOf(arg);
@@ -73,6 +74,7 @@ function verpuntos(arg){
        }else{
            return cate
        }};
+        /*---------- Muestra o oculta el elemento que se quieran cambiar su propiedad de display ----------*/
     var OculMostr = function(arg, ocultar){
         for(var i = 0; i <= arg.length -1; i++){
             var dis = a.getElementsByClassName(arg[i]);
@@ -82,9 +84,10 @@ function verpuntos(arg){
             };
         };
     };
-    var clases = Clases(); 
+    
+    /*-------- pone en orden y funconamiento las funciones creadas anteriormente más que todo da orden a ellas ----------*/ 
     OculMostr(cate, 'none');
-    OculMostr(clases, 'block');
+    OculMostr(Clases(), 'block');
 };
 
 window.addEventListener('load', function(){
