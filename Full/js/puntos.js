@@ -38,7 +38,6 @@ var categoria = { // de aquí se toman los colores
 function hola(arg){
     var f = document.getElementById('marcopresentador');
     f.innerHTML = "<div onclick='vercontenido("+arg+");''>" + "<h3>"+ lugares[arg]['titulo'] +"</h3>"+"</div>" ;
-    //f.innerHTML += ("<p>"+lugares[arg]["datos"]["tel"])+"</p>" ;
     f.innerHTML += ("<p>"+lugares[arg]["datos"]["dir"])+"</p>";
     
     f.style.borderRadius = "10px";
@@ -55,15 +54,38 @@ function puntos(arg){
     var c = a.getElementById('layer2');
     // Me adelante un poco con esta sentencia que usted no sabe manejar pero es casi un for no por eso dice foreach = para cada uno
     Object.keys(arg).forEach(function(e){
-            console.log(arg[e]["cordenadas"]);
-            c.innerHTML += '<circle id="'+e+'" cx="'+arg[e]['cordenadas'][0]+'" cy="'+arg[e]["cordenadas"][1]+'" r="'+arg[e]["cordenadas"][2]+'" fill="'+categoria[arg[e]['categorias'][0]]+'" stroke="#800000"> </circle>';
-            
+            c.innerHTML += '<circle id="'+e+'" class="'+arg[e]['categorias'][0]+'" cx="'+arg[e]['cordenadas'][0]+'" cy="'+arg[e]["cordenadas"][1]+'" r="'+arg[e]["cordenadas"][2]+'" fill="'+categoria[arg[e]['categorias'][0]]+'" stroke="'+categoria[arg[e]['categorias'][0]]+'"> </circle>';
         });
     Object.keys(arg).forEach(function(e){
             a.getElementById(e).addEventListener('click',function(){hola(e)});
         });
 };
 
+/*-------------------------- función para ver puntos segun categorias ----------------*/
+function verpuntos(arg){
+    var cate = Object.keys(categoria);
+    var a = document.getElementById('mapaex').getSVGDocument();
+    var Clases = function(){
+       if( typeof arg != 'undefined'){
+           var index = cate.indexOf(arg);
+           
+           return cate.splice(index,1)
+       }else{
+           return cate
+       }};
+    var OculMostr = function(arg, ocultar){
+        for(var i = 0; i <= arg.length -1; i++){
+            var dis = a.getElementsByClassName(arg[i]);
+            console.log(dis.length);
+            for (var j =0; j <= dis.length -1; j++ ){
+                dis[j].setAttribute('display', ocultar);
+            };
+        };
+    };
+    var clases = Clases(); 
+    OculMostr(cate, 'none');
+    OculMostr(clases, 'block');
+};
 
 window.addEventListener('load', function(){
     puntos(lugares);

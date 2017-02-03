@@ -2,7 +2,7 @@ var club_minicar = {
     "titulo": "Club Minicar Mosquera",
     "nombreDeLaCarpeta": "club_minicar",
     "cordenadas": [227, 77, 2],
-    "categorias": ["cultura", "turismo"],
+    "categorias": ["turismo", "cultura"],
     "datos": {
         "tel": "No aplica",
         "dir": "No aplica"
