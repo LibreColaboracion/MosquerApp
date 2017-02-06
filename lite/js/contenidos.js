@@ -45,7 +45,7 @@ function vercontenido (argumento){
                 case 1:
                     var contenedor = document.getElementById('categoria1');
                         galeria = document.getElementById('galeria');
-                        galeria.innerHTML = (" <img src='http://librecolaboracion.org/mosqueraapp/lugares/"+(argumento.nombreDeLaCarpeta)+"/imagenes"+"/foto1.jpg 'width='100%' id = 'foto'>");
+                        galeria.innerHTML = (" <img src='lugares/"+(argumento.nombreDeLaCarpeta)+"/imagenes"+"/foto1.jpg 'width='100%' id = 'foto'>");
                         atras(argumento);
                         adelante(argumento);
                         
@@ -62,7 +62,7 @@ function vercontenido (argumento){
                        
                         contenedor.innerHTML = ( "<p>"+ (argumento.titulo)+"</p>" + 
                                                  "<a name=" + argumento.contenido[0].subtitulo + ">" + argumento.contenido[0].subtitulo + "</a>" + 
-                                                 "<p><audio controls  src='http://librecolaboracion.org/mosqueraapp/lugares/"+(argumento.nombreDeLaCarpeta)+"/audio"+"/"+(argumento.contenido[0].audio)+"'preload='auto' type='audio/ogg'></audio></p>"+
+                                                 "<p><audio controls  src='lugares/"+(argumento.nombreDeLaCarpeta)+"/audio"+"/"+(argumento.contenido[0].audio)+"'preload='auto' type='audio/ogg'></audio></p>"+
                                                 "<p>"+ (argumento.contenido[0].texto)+"</p>"
                                                );
                                              
@@ -79,7 +79,7 @@ function vercontenido (argumento){
                     var contenedor = document.getElementById('categoria2');
                     
                         contenedor.innerHTML = ("<a name=" + argumento.contenido[1].subtitulo + ">" + argumento.contenido[1].subtitulo + "</a>" + 
-                                                "<p><audio controls src='http://librecolaboracion.org/mosqueraapp/lugares/"+(argumento.nombreDeLaCarpeta)+"/audio"+"/"+(argumento.contenido[1].audio)+"'preload='auto' type='audio/ogg'></audio></p>"+
+                                                "<p><audio controls src='lugares/"+(argumento.nombreDeLaCarpeta)+"/audio"+"/"+(argumento.contenido[1].audio)+"'preload='auto' type='audio/ogg'></audio></p>"+
                                                 "<p>"+ (argumento.contenido[1].texto)+"</p>"
                                                );
                         contenedor.style.display = "inherit";
@@ -91,7 +91,7 @@ function vercontenido (argumento){
                 case 3:
                     var contenedor = document.getElementById('categoria3');
                         contenedor.innerHTML = ("<a name="+ (argumento.contenido[2].subtitulo) + ">" +(argumento.contenido[2].subtitulo)+" </a>" + 
-                                                "<p><audio controls  src='http://librecolaboracion.org/mosqueraapp/lugares/"+(argumento.nombreDeLaCarpeta)+"/audio"+"/"+(argumento.contenido[2].audio)+"'preload='auto' type='audio/ogg'></audio></p>"+
+                                                "<p><audio controls  src='lugares/"+(argumento.nombreDeLaCarpeta)+"/audio"+"/"+(argumento.contenido[2].audio)+"'preload='auto' type='audio/ogg'></audio></p>"+
                                                 "<p>"+ (argumento.contenido[2].texto)+"</p>"
                                                );
                         contenedor.style.display = "inherit";
@@ -103,7 +103,7 @@ function vercontenido (argumento){
                     var contenedor = document.getElementById('categoria4');
                         
                         contenedor.innerHTML = ("<a name="+ argumento.contenido[3].subtitulo + ">" +argumento.contenido[3].subtitulo+" </a>" + 
-                                               "<p><audio controls  src='http://librecolaboracion.org/mosqueraapp/lugares/"+(argumento.nombreDeLaCarpeta)+"/audio"+"/"+(argumento.contenido[3].audio)+"'preload='auto' type='audio/ogg'></audio></p>"+
+                                               "<p><audio controls  src='lugares/"+(argumento.nombreDeLaCarpeta)+"/audio"+"/"+(argumento.contenido[3].audio)+"'preload='auto' type='audio/ogg'></audio></p>"+
                                                "<p>"+ (argumento.contenido[3].texto)+"</p>"
                                                );
                         contenedor.style.display = "inherit";
@@ -115,7 +115,7 @@ function vercontenido (argumento){
     };
 };
 
-//no ver contenido
+//no ver contenido oculta los contenidos al dar clik en cerrar 
 
 function noVercontenido (argumento){ 
     console.log('cerrar');

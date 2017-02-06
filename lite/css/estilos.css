@@ -1,5 +1,6 @@
+/* Propiedades del fondo, error actual no muestra la imagen bacground en compilacion */
 body {
-	background-size: 100% 100%;
+    background-size: 100% 100%;
     background-image: url(../img/fondo2.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -35,6 +36,7 @@ body {
     width:30px;
     float:right;
     z-index:0;
+    margin-top: -13%;
 }
 .titulomenu{
     font-weight: bold;
@@ -45,7 +47,7 @@ body {
 }
 .menuli {
     font-size:1.5em;
-    padding:15px 31px;
+    padding:10px 31px;
     border-bottom:0.2em solid rgba(255,255,255, 0.2);
 }
 nav {
@@ -95,7 +97,7 @@ nav ul li a {
     /* background-color: yellow; */
 }
 
-
+/* lupas  */
 #lupa{
     width: 50px;
     height: 50px;
@@ -142,7 +144,7 @@ nav ul li a {
     width: 66%;
     padding: 11%;
 }
-
+/* este marco encierra en un div el mapa, es quien da el efecto de crecer dentro del div */
 #marcozoom{
     overflow:auto;
     text-align:center;
@@ -152,7 +154,7 @@ nav ul li a {
 
 
 }
-
+/* Estas son los css del mapa svg */
 #mapaex{
     width: 100%;
     margin-left: 0;
@@ -161,10 +163,10 @@ nav ul li a {
 }
 
 
-
+/* estos son los css del div detalles, osea panatalla que tiene el cntenido de cada punto, galeria sonido y texto. */
 
 #detalles{
-	
+    
     width: 0.5%;
     height: 0.5%;
     position: absolute;
@@ -189,7 +191,7 @@ nav ul li a {
   position: fixed;
   z-index: 100;
 }
-
+/* esto controla los estilos  de los menus superiores inicio ... y categorias que se crean con anclas */
 #contenidocat{
     
     height: 100%;
@@ -202,24 +204,24 @@ nav ul li a {
 
 #contenidocat li {
     margin:2px;
-	float:left;
-	width:23%;
+    float:left;
+    width:23%;
 }
 
 #contenidocat li a {
-	display:block;
-	width:100px;
-	padding:4px 0;
-	text-decoration:none;
-	
-	color:#FFFFFF;
-	background-color:#D2691e;
-	font-size:1em;
+    display:block;
+    width:100px;
+    padding:4px 0;
+    text-decoration:none;
+    
+    color:#FFFFFF;
+    background-color:#D2691e;
+    font-size:1em;
 }
 
 #contenidocat li a:hover {
-	color:#99CC00;
-	background-color:#003366;
+    color:#99CC00;
+    background-color:#003366;
 }
 
 
@@ -232,9 +234,9 @@ nav ul li a {
     
 }
 
-
+/* esta es la galeria de imagenes */
 #galeria{
-	float: right;
+    float: right;
     position: absolute;
     width: 100%;
     z-index: 0;
@@ -244,11 +246,11 @@ nav ul li a {
 }
 
 #galeria img{
-	height: 90%;
+    height: 90%;
 
 }
 
-
+/* estas son las flechas */
 #botones{
     width: 100%;
     float: left;
@@ -269,7 +271,7 @@ nav ul li a {
     
 }
 
-
+/* boton cerrar */
 #cerrar {
         display: flex;
     float: right;
@@ -281,7 +283,7 @@ nav ul li a {
 
 }
 
-
+/* esto son css para los parrafos en texto */
 .letras {
     margin-top: 54%;
     overflow: scroll;
@@ -295,9 +297,9 @@ nav ul li a {
     
 }
 
-
+/* ni;o y cuadro blanco */
 #marcopresentador{
-	background-color: white;
+    background-color: white;
     border-color: brown;
     border-radius: 13px;
     border-style: solid;
@@ -309,20 +311,20 @@ nav ul li a {
     padding: 1%;
     position: absolute;
     width: 90%;
-    z-index: 3;
+    z-index: 0;
     text-align: center;
     
 }
 
 
 #marcopresentador img{
-	float: right;
+    float: right;
     width: 24%;
     height: auto;
     margin-top: -35%;
     z-index: 1;
 }
-
+/* creditos  */
 .credi {
     text-align: justify;
     

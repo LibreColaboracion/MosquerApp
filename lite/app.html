@@ -5,7 +5,7 @@
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, user-scalable=no">
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
-   
+   <!--  Estos script cargan los puntos, es decir archivos json de la carpeta lugares -->    
     
     <script type="text/javascript" src="http://librecolaboracion.org/mosqueraapp/lugares/alcaldia/alcaldia.json"></script>
     <script type="text/javascript" src="http://librecolaboracion.org/mosqueraapp/lugares/auditorio/auditorio.json"></script>
@@ -43,7 +43,12 @@
 <nav id="menu" class="invisible">
         <ul>
             <li class="titulomenu">Somos Mosquera<br><img onclick="menuc()" class="menuatras" src="img/atrasmenu.svg"/></li>
-            <li class="menuli"><a href="#"> Inicio</a></li>
+            <li class="menuli" onclick="menuc();verpuntos()"><a href="#"> Todas</a></li>
+            <li class="menuli" onclick="menuc();verpuntos('ecológico')"><a href="#"> Ecología</a></li>
+            <li class="menuli" onclick="menuc();verpuntos('historico')"><a href="#"> Historia</a></li>
+            <li class="menuli" onclick="menuc();verpuntos('turismo')"><a href="#"> Turismo</a></li>
+            <li class="menuli" onclick="menuc();verpuntos('cultura')"><a href="#"> Cultura</a></li>
+            <li class="menuli" onclick="menuc();verpuntos('recreatico')"><a href="#"> Recreación</a></li>
             <li class="menuli"><a href="html/creditos.html"> Créditos</a></li>
            
         </ul>
@@ -64,7 +69,7 @@
 		<object id= "mapaex" type="image/svg+xml" data="img/mapa.svg" ></object>
 	</div>
 </div>
-
+<!--  Corresponde a el cuadro inferior donde esta el ni;o y el recuadro blanco  -->
 
 <div id="marcopresentador">
         <p><img id="imgpresentador" src="img/personaje.svg">
@@ -74,7 +79,7 @@
 </div>
 
 
-
+<!--  esta es la ventana que crece despues de selecionar un punto  -->
 <div id="detalles">
     <div id = "contenidocat"> </div>
     <div id = "marcoGaleria">
